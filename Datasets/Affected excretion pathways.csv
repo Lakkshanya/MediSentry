@@ -1,0 +1,1382 @@
+A_Drug_ID,A_Drug_Name,B_Drug_ID,B_Drug_Name,Mechanism_Category
+D0472,Diatrizoate,D1015,Metformin,Affected excretion pathways
+D1015,Metformin,D0831,Iodipamide,Affected excretion pathways
+D1015,Metformin,D0832,Iodixanol,Affected excretion pathways
+D1015,Metformin,D0833,Iohexol,Affected excretion pathways
+D1015,Metformin,D0834,Iopamidol,Affected excretion pathways
+D1015,Metformin,D0837,Iothalamic acid,Affected excretion pathways
+D1015,Metformin,D0838,Ioversol,Affected excretion pathways
+D1015,Metformin,D0839,Ioxilan,Affected excretion pathways
+D1015,Metformin,D0836,Iopromide,Affected excretion pathways
+D0022,Acyclovir,D1389,Remdesivir,Affected excretion pathways
+D0056,Amikacin,D1389,Remdesivir,Affected excretion pathways
+D0057,Amikacin (liposome),D1389,Remdesivir,Affected excretion pathways
+D0075,Amphotericin B,D1389,Remdesivir,Affected excretion pathways
+D0077,Amphotericin B (lipid complex),D1389,Remdesivir,Affected excretion pathways
+D0078,Amphotericin B (liposomal),D1389,Remdesivir,Affected excretion pathways
+D0142,Bacitracin,D1389,Remdesivir,Affected excretion pathways
+D0145,Balsalazide,D1389,Remdesivir,Affected excretion pathways
+D0252,Capreomycin,D1389,Remdesivir,Affected excretion pathways
+D0260,Carboplatin,D1389,Remdesivir,Affected excretion pathways
+D0335,Cidofovir,D1389,Remdesivir,Affected excretion pathways
+D0344,Cisplatin,D1389,Remdesivir,Affected excretion pathways
+D0383,Colistimethate,D1389,Remdesivir,Affected excretion pathways
+D0400,Cyclophosphamide,D1389,Remdesivir,Affected excretion pathways
+D0434,Deferoxamine,D1389,Remdesivir,Affected excretion pathways
+D0472,Diatrizoate,D1389,Remdesivir,Affected excretion pathways
+D0549,Edetate calcium disodium anhydrous,D1389,Remdesivir,Affected excretion pathways
+D0550,Edetate disodium anhydrous,D1389,Remdesivir,Affected excretion pathways
+D0623,Etidronic acid,D1389,Remdesivir,Affected excretion pathways
+D0629,Everolimus,D1389,Remdesivir,Affected excretion pathways
+D0694,Foscarnet,D1389,Remdesivir,Affected excretion pathways
+D0709,Gallium nitrate,D1389,Remdesivir,Affected excretion pathways
+D0710,Ganciclovir,D1389,Remdesivir,Affected excretion pathways
+D0718,Gentamicin,D1389,Remdesivir,Affected excretion pathways
+D0783,Ibandronate,D1389,Remdesivir,Affected excretion pathways
+D0790,Ifosfamide,D1389,Remdesivir,Affected excretion pathways
+D0829,Iobenguane (I-131),D1389,Remdesivir,Affected excretion pathways
+D0831,Iodipamide,D1389,Remdesivir,Affected excretion pathways
+D0832,Iodixanol,D1389,Remdesivir,Affected excretion pathways
+D0833,Iohexol,D1389,Remdesivir,Affected excretion pathways
+D0836,Iopromide,D1389,Remdesivir,Affected excretion pathways
+D0837,Iothalamic acid,D1389,Remdesivir,Affected excretion pathways
+D0838,Ioversol,D1389,Remdesivir,Affected excretion pathways
+D0839,Ioxilan,D1389,Remdesivir,Affected excretion pathways
+D0876,Kanamycin,D1389,Remdesivir,Affected excretion pathways
+D0940,Lithium carbonate,D1389,Remdesivir,Affected excretion pathways
+D1009,Mesalazine,D1389,Remdesivir,Affected excretion pathways
+D1030,Methoxyflurane,D1389,Remdesivir,Affected excretion pathways
+D1091,Moxetumomab Pasudotox,D1389,Remdesivir,Affected excretion pathways
+D1120,Neomycin,D1389,Remdesivir,Affected excretion pathways
+D1126,Netilmicin,D1389,Remdesivir,Affected excretion pathways
+D1173,Olsalazine,D1389,Remdesivir,Affected excretion pathways
+D1217,Pamidronic acid,D1389,Remdesivir,Affected excretion pathways
+D1245,Penicillamine,D1389,Remdesivir,Affected excretion pathways
+D1304,Plazomicin,D1389,Remdesivir,Affected excretion pathways
+D1310,Polymyxin B,D1389,Remdesivir,Affected excretion pathways
+D1442,Salsalate,D1389,Remdesivir,Affected excretion pathways
+D1476,Sirolimus,D1389,Remdesivir,Affected excretion pathways
+D1507,Streptomycin,D1389,Remdesivir,Affected excretion pathways
+D1508,Streptozocin,D1389,Remdesivir,Affected excretion pathways
+D1526,Tacrolimus,D1389,Remdesivir,Affected excretion pathways
+D1542,Telavancin,D1389,Remdesivir,Affected excretion pathways
+D1549,Temsirolimus,D1389,Remdesivir,Affected excretion pathways
+D1597,Tobramycin,D1389,Remdesivir,Affected excretion pathways
+D1672,Valaciclovir,D1389,Remdesivir,Affected excretion pathways
+D1676,Valganciclovir,D1389,Remdesivir,Affected excretion pathways
+D1680,Vancomycin,D1389,Remdesivir,Affected excretion pathways
+D1727,Zoledronic acid,D1389,Remdesivir,Affected excretion pathways
+D1241,Pemetrexed,D0075,Amphotericin B,Affected excretion pathways
+D1241,Pemetrexed,D0076,Amphotericin B (cholesteryl sulfate),Affected excretion pathways
+D1241,Pemetrexed,D0077,Amphotericin B (lipid complex),Affected excretion pathways
+D1241,Pemetrexed,D0078,Amphotericin B (liposomal),Affected excretion pathways
+D1241,Pemetrexed,D0145,Balsalazide,Affected excretion pathways
+D1241,Pemetrexed,D0383,Colistimethate,Affected excretion pathways
+D1241,Pemetrexed,D0432,Deferasirox,Affected excretion pathways
+D1241,Pemetrexed,D0623,Etidronic acid,Affected excretion pathways
+D1241,Pemetrexed,D0709,Gallium nitrate,Affected excretion pathways
+D1241,Pemetrexed,D0718,Gentamicin,Affected excretion pathways
+D1241,Pemetrexed,D0724,Givosiran,Affected excretion pathways
+D1241,Pemetrexed,D0805,Inotersen,Affected excretion pathways
+D1241,Pemetrexed,D0829,Iobenguane (I-131),Affected excretion pathways
+D1241,Pemetrexed,D0876,Kanamycin,Affected excretion pathways
+D1241,Pemetrexed,D0940,Lithium carbonate,Affected excretion pathways
+D1241,Pemetrexed,D1030,Methoxyflurane,Affected excretion pathways
+D1241,Pemetrexed,D1091,Moxetumomab Pasudotox,Affected excretion pathways
+D1241,Pemetrexed,D1120,Neomycin,Affected excretion pathways
+D1241,Pemetrexed,D1126,Netilmicin,Affected excretion pathways
+D1241,Pemetrexed,D1173,Olsalazine,Affected excretion pathways
+D1241,Pemetrexed,D1246,Pentamidine,Affected excretion pathways
+D1241,Pemetrexed,D1304,Plazomicin,Affected excretion pathways
+D1241,Pemetrexed,D1310,Polymyxin B,Affected excretion pathways
+D1241,Pemetrexed,D1476,Sirolimus,Affected excretion pathways
+D1241,Pemetrexed,D1507,Streptomycin,Affected excretion pathways
+D1241,Pemetrexed,D1517,Sulfasalazine,Affected excretion pathways
+D1241,Pemetrexed,D1526,Tacrolimus,Affected excretion pathways
+D1241,Pemetrexed,D1542,Telavancin,Affected excretion pathways
+D1241,Pemetrexed,D1549,Temsirolimus,Affected excretion pathways
+D1241,Pemetrexed,D1597,Tobramycin,Affected excretion pathways
+D0056,Amikacin,D1241,Pemetrexed,Affected excretion pathways
+D0057,Amikacin (liposome),D1241,Pemetrexed,Affected excretion pathways
+D0142,Bacitracin,D1241,Pemetrexed,Affected excretion pathways
+D0252,Capreomycin,D1241,Pemetrexed,Affected excretion pathways
+D0335,Cidofovir,D1241,Pemetrexed,Affected excretion pathways
+D0402,Cyclosporine,D1241,Pemetrexed,Affected excretion pathways
+D0694,Foscarnet,D1241,Pemetrexed,Affected excretion pathways
+D1009,Mesalazine,D1241,Pemetrexed,Affected excretion pathways
+D1025,Methotrexate,D1241,Pemetrexed,Affected excretion pathways
+D1217,Pamidronic acid,D1241,Pemetrexed,Affected excretion pathways
+D0344,Cisplatin,D1241,Pemetrexed,Affected excretion pathways
+D1680,Vancomycin,D1241,Pemetrexed,Affected excretion pathways
+D1193,Oxaliplatin,D0076,Amphotericin B (cholesteryl sulfate),Affected excretion pathways
+D1193,Oxaliplatin,D0077,Amphotericin B (lipid complex),Affected excretion pathways
+D1193,Oxaliplatin,D0078,Amphotericin B (liposomal),Affected excretion pathways
+D1193,Oxaliplatin,D0142,Bacitracin,Affected excretion pathways
+D1193,Oxaliplatin,D0145,Balsalazide,Affected excretion pathways
+D1193,Oxaliplatin,D0210,Bromfenac,Affected excretion pathways
+D1193,Oxaliplatin,D0383,Colistimethate,Affected excretion pathways
+D1193,Oxaliplatin,D0432,Deferasirox,Affected excretion pathways
+D1193,Oxaliplatin,D0489,Diflunisal,Affected excretion pathways
+D1193,Oxaliplatin,D0623,Etidronic acid,Affected excretion pathways
+D1193,Oxaliplatin,D0645,Fenoprofen,Affected excretion pathways
+D1193,Oxaliplatin,D0680,Flurbiprofen,Affected excretion pathways
+D1193,Oxaliplatin,D0694,Foscarnet,Affected excretion pathways
+D1193,Oxaliplatin,D0709,Gallium nitrate,Affected excretion pathways
+D1193,Oxaliplatin,D0718,Gentamicin,Affected excretion pathways
+D1193,Oxaliplatin,D0724,Givosiran,Affected excretion pathways
+D1193,Oxaliplatin,D0805,Inotersen,Affected excretion pathways
+D1193,Oxaliplatin,D0829,Iobenguane (I-131),Affected excretion pathways
+D1193,Oxaliplatin,D0876,Kanamycin,Affected excretion pathways
+D1193,Oxaliplatin,D0940,Lithium carbonate,Affected excretion pathways
+D1193,Oxaliplatin,D0964,Lutetium Lu 177 dotatate,Affected excretion pathways
+D1193,Oxaliplatin,D0988,Meclofenamic acid,Affected excretion pathways
+D1193,Oxaliplatin,D0991,Mefenamic acid,Affected excretion pathways
+D1193,Oxaliplatin,D1030,Methoxyflurane,Affected excretion pathways
+D1193,Oxaliplatin,D1091,Moxetumomab Pasudotox,Affected excretion pathways
+D1193,Oxaliplatin,D1120,Neomycin,Affected excretion pathways
+D1193,Oxaliplatin,D1126,Netilmicin,Affected excretion pathways
+D1193,Oxaliplatin,D1173,Olsalazine,Affected excretion pathways
+D1193,Oxaliplatin,D1196,Oxaprozin,Affected excretion pathways
+D1193,Oxaliplatin,D1246,Pentamidine,Affected excretion pathways
+D1193,Oxaliplatin,D1274,Phenylbutazone,Affected excretion pathways
+D1193,Oxaliplatin,D1300,Piroxicam,Affected excretion pathways
+D1193,Oxaliplatin,D1310,Polymyxin B,Affected excretion pathways
+D1193,Oxaliplatin,D1442,Salsalate,Affected excretion pathways
+D1193,Oxaliplatin,D1476,Sirolimus,Affected excretion pathways
+D1193,Oxaliplatin,D1507,Streptomycin,Affected excretion pathways
+D1193,Oxaliplatin,D1520,Sulindac,Affected excretion pathways
+D1193,Oxaliplatin,D1542,Telavancin,Affected excretion pathways
+D1193,Oxaliplatin,D1549,Temsirolimus,Affected excretion pathways
+D1193,Oxaliplatin,D1597,Tobramycin,Affected excretion pathways
+D0056,Amikacin,D1193,Oxaliplatin,Affected excretion pathways
+D0057,Amikacin (liposome),D1193,Oxaliplatin,Affected excretion pathways
+D0252,Capreomycin,D1193,Oxaliplatin,Affected excretion pathways
+D0335,Cidofovir,D1193,Oxaliplatin,Affected excretion pathways
+D1097,Nabumetone,D1193,Oxaliplatin,Affected excretion pathways
+D1217,Pamidronic acid,D1193,Oxaliplatin,Affected excretion pathways
+D1606,Tolmetin,D1193,Oxaliplatin,Affected excretion pathways
+D0298,Celecoxib,D1193,Oxaliplatin,Affected excretion pathways
+D1193,Oxaliplatin,D0995,Meloxicam,Affected excretion pathways
+D1193,Oxaliplatin,D1421,Rofecoxib,Affected excretion pathways
+D1193,Oxaliplatin,D0783,Ibandronate,Affected excretion pathways
+D1727,Zoledronic acid,D1193,Oxaliplatin,Affected excretion pathways
+D1193,Oxaliplatin,D0786,Ibuprofen,Affected excretion pathways
+D1193,Oxaliplatin,D0476,Diclofenac,Affected excretion pathways
+D0882,Ketorolac,D1193,Oxaliplatin,Affected excretion pathways
+D1009,Mesalazine,D1193,Oxaliplatin,Affected excretion pathways
+D1193,Oxaliplatin,D1109,Naproxen,Affected excretion pathways
+D1193,Oxaliplatin,D0881,Ketoprofen,Affected excretion pathways
+D1193,Oxaliplatin,D1674,Valdecoxib,Affected excretion pathways
+D0800,Indomethacin,D1193,Oxaliplatin,Affected excretion pathways
+D1193,Oxaliplatin,D1526,Tacrolimus,Affected excretion pathways
+D0402,Cyclosporine,D1193,Oxaliplatin,Affected excretion pathways
+D1193,Oxaliplatin,D1517,Sulfasalazine,Affected excretion pathways
+D1193,Oxaliplatin,D1025,Methotrexate,Affected excretion pathways
+D1193,Oxaliplatin,D0624,Etodolac,Affected excretion pathways
+D0252,Capreomycin,D0576,Entecavir,Affected excretion pathways
+D0335,Cidofovir,D0576,Entecavir,Affected excretion pathways
+D0402,Cyclosporine,D0576,Entecavir,Affected excretion pathways
+D0800,Indomethacin,D0576,Entecavir,Affected excretion pathways
+D1009,Mesalazine,D0576,Entecavir,Affected excretion pathways
+D1217,Pamidronic acid,D0576,Entecavir,Affected excretion pathways
+D1727,Zoledronic acid,D0576,Entecavir,Affected excretion pathways
+D0576,Entecavir,D0056,Amikacin,Affected excretion pathways
+D0576,Entecavir,D0057,Amikacin (liposome),Affected excretion pathways
+D0576,Entecavir,D0075,Amphotericin B,Affected excretion pathways
+D0576,Entecavir,D0076,Amphotericin B (cholesteryl sulfate),Affected excretion pathways
+D0576,Entecavir,D0077,Amphotericin B (lipid complex),Affected excretion pathways
+D0576,Entecavir,D0078,Amphotericin B (liposomal),Affected excretion pathways
+D0576,Entecavir,D0142,Bacitracin,Affected excretion pathways
+D0576,Entecavir,D0145,Balsalazide,Affected excretion pathways
+D0576,Entecavir,D0210,Bromfenac,Affected excretion pathways
+D0576,Entecavir,D0298,Celecoxib,Affected excretion pathways
+D0576,Entecavir,D0344,Cisplatin,Affected excretion pathways
+D0576,Entecavir,D0383,Colistimethate,Affected excretion pathways
+D0576,Entecavir,D0432,Deferasirox,Affected excretion pathways
+D0576,Entecavir,D0476,Diclofenac,Affected excretion pathways
+D0576,Entecavir,D0489,Diflunisal,Affected excretion pathways
+D0576,Entecavir,D0623,Etidronic acid,Affected excretion pathways
+D0576,Entecavir,D0624,Etodolac,Affected excretion pathways
+D0576,Entecavir,D0645,Fenoprofen,Affected excretion pathways
+D0576,Entecavir,D0680,Flurbiprofen,Affected excretion pathways
+D0576,Entecavir,D0694,Foscarnet,Affected excretion pathways
+D0576,Entecavir,D0709,Gallium nitrate,Affected excretion pathways
+D0576,Entecavir,D0718,Gentamicin,Affected excretion pathways
+D0576,Entecavir,D0724,Givosiran,Affected excretion pathways
+D0576,Entecavir,D0786,Ibuprofen,Affected excretion pathways
+D0576,Entecavir,D0805,Inotersen,Affected excretion pathways
+D0576,Entecavir,D0829,Iobenguane (I-131),Affected excretion pathways
+D0576,Entecavir,D0876,Kanamycin,Affected excretion pathways
+D0576,Entecavir,D0881,Ketoprofen,Affected excretion pathways
+D0576,Entecavir,D0882,Ketorolac,Affected excretion pathways
+D0576,Entecavir,D0940,Lithium carbonate,Affected excretion pathways
+D0576,Entecavir,D0964,Lutetium Lu 177 dotatate,Affected excretion pathways
+D0576,Entecavir,D0988,Meclofenamic acid,Affected excretion pathways
+D0576,Entecavir,D0991,Mefenamic acid,Affected excretion pathways
+D0576,Entecavir,D0995,Meloxicam,Affected excretion pathways
+D0576,Entecavir,D1025,Methotrexate,Affected excretion pathways
+D0576,Entecavir,D1030,Methoxyflurane,Affected excretion pathways
+D0576,Entecavir,D1091,Moxetumomab Pasudotox,Affected excretion pathways
+D0576,Entecavir,D1097,Nabumetone,Affected excretion pathways
+D0576,Entecavir,D1109,Naproxen,Affected excretion pathways
+D0576,Entecavir,D1120,Neomycin,Affected excretion pathways
+D0576,Entecavir,D1126,Netilmicin,Affected excretion pathways
+D0576,Entecavir,D1173,Olsalazine,Affected excretion pathways
+D0576,Entecavir,D1196,Oxaprozin,Affected excretion pathways
+D0576,Entecavir,D1274,Phenylbutazone,Affected excretion pathways
+D0576,Entecavir,D1300,Piroxicam,Affected excretion pathways
+D0576,Entecavir,D1304,Plazomicin,Affected excretion pathways
+D0576,Entecavir,D1310,Polymyxin B,Affected excretion pathways
+D0576,Entecavir,D1421,Rofecoxib,Affected excretion pathways
+D0576,Entecavir,D1442,Salsalate,Affected excretion pathways
+D0576,Entecavir,D1476,Sirolimus,Affected excretion pathways
+D0576,Entecavir,D1507,Streptomycin,Affected excretion pathways
+D0576,Entecavir,D1517,Sulfasalazine,Affected excretion pathways
+D0576,Entecavir,D1520,Sulindac,Affected excretion pathways
+D0576,Entecavir,D1526,Tacrolimus,Affected excretion pathways
+D0576,Entecavir,D1542,Telavancin,Affected excretion pathways
+D0576,Entecavir,D1549,Temsirolimus,Affected excretion pathways
+D0576,Entecavir,D1597,Tobramycin,Affected excretion pathways
+D0576,Entecavir,D1606,Tolmetin,Affected excretion pathways
+D0576,Entecavir,D1674,Valdecoxib,Affected excretion pathways
+D0576,Entecavir,D1680,Vancomycin,Affected excretion pathways
+D0056,Amikacin,D1543,Telbivudine,Affected excretion pathways
+D0057,Amikacin (liposome),D1543,Telbivudine,Affected excretion pathways
+D0075,Amphotericin B,D1543,Telbivudine,Affected excretion pathways
+D0076,Amphotericin B (cholesteryl sulfate),D1543,Telbivudine,Affected excretion pathways
+D0077,Amphotericin B (lipid complex),D1543,Telbivudine,Affected excretion pathways
+D0078,Amphotericin B (liposomal),D1543,Telbivudine,Affected excretion pathways
+D0142,Bacitracin,D1543,Telbivudine,Affected excretion pathways
+D0145,Balsalazide,D1543,Telbivudine,Affected excretion pathways
+D0210,Bromfenac,D1543,Telbivudine,Affected excretion pathways
+D0217,Bumetanide,D1543,Telbivudine,Affected excretion pathways
+D0252,Capreomycin,D1543,Telbivudine,Affected excretion pathways
+D0298,Celecoxib,D1543,Telbivudine,Affected excretion pathways
+D0335,Cidofovir,D1543,Telbivudine,Affected excretion pathways
+D0344,Cisplatin,D1543,Telbivudine,Affected excretion pathways
+D0383,Colistimethate,D1543,Telbivudine,Affected excretion pathways
+D0402,Cyclosporine,D1543,Telbivudine,Affected excretion pathways
+D0476,Diclofenac,D1543,Telbivudine,Affected excretion pathways
+D0489,Diflunisal,D1543,Telbivudine,Affected excretion pathways
+D0613,Etacrynic acid,D1543,Telbivudine,Affected excretion pathways
+D0624,Etodolac,D1543,Telbivudine,Affected excretion pathways
+D0645,Fenoprofen,D1543,Telbivudine,Affected excretion pathways
+D0680,Flurbiprofen,D1543,Telbivudine,Affected excretion pathways
+D0694,Foscarnet,D1543,Telbivudine,Affected excretion pathways
+D0704,Furosemide,D1543,Telbivudine,Affected excretion pathways
+D0718,Gentamicin,D1543,Telbivudine,Affected excretion pathways
+D0783,Ibandronate,D1543,Telbivudine,Affected excretion pathways
+D0786,Ibuprofen,D1543,Telbivudine,Affected excretion pathways
+D0800,Indomethacin,D1543,Telbivudine,Affected excretion pathways
+D0876,Kanamycin,D1543,Telbivudine,Affected excretion pathways
+D0881,Ketoprofen,D1543,Telbivudine,Affected excretion pathways
+D0882,Ketorolac,D1543,Telbivudine,Affected excretion pathways
+D0988,Meclofenamic acid,D1543,Telbivudine,Affected excretion pathways
+D0991,Mefenamic acid,D1543,Telbivudine,Affected excretion pathways
+D0995,Meloxicam,D1543,Telbivudine,Affected excretion pathways
+D1009,Mesalazine,D1543,Telbivudine,Affected excretion pathways
+D1025,Methotrexate,D1543,Telbivudine,Affected excretion pathways
+D1030,Methoxyflurane,D1543,Telbivudine,Affected excretion pathways
+D1097,Nabumetone,D1543,Telbivudine,Affected excretion pathways
+D1109,Naproxen,D1543,Telbivudine,Affected excretion pathways
+D1120,Neomycin,D1543,Telbivudine,Affected excretion pathways
+D1126,Netilmicin,D1543,Telbivudine,Affected excretion pathways
+D1173,Olsalazine,D1543,Telbivudine,Affected excretion pathways
+D1196,Oxaprozin,D1543,Telbivudine,Affected excretion pathways
+D1217,Pamidronic acid,D1543,Telbivudine,Affected excretion pathways
+D1246,Pentamidine,D1543,Telbivudine,Affected excretion pathways
+D1274,Phenylbutazone,D1543,Telbivudine,Affected excretion pathways
+D1300,Piroxicam,D1543,Telbivudine,Affected excretion pathways
+D1310,Polymyxin B,D1543,Telbivudine,Affected excretion pathways
+D1421,Rofecoxib,D1543,Telbivudine,Affected excretion pathways
+D1476,Sirolimus,D1543,Telbivudine,Affected excretion pathways
+D1507,Streptomycin,D1543,Telbivudine,Affected excretion pathways
+D1517,Sulfasalazine,D1543,Telbivudine,Affected excretion pathways
+D1520,Sulindac,D1543,Telbivudine,Affected excretion pathways
+D1526,Tacrolimus,D1543,Telbivudine,Affected excretion pathways
+D1597,Tobramycin,D1543,Telbivudine,Affected excretion pathways
+D1606,Tolmetin,D1543,Telbivudine,Affected excretion pathways
+D1611,Torasemide,D1543,Telbivudine,Affected excretion pathways
+D1674,Valdecoxib,D1543,Telbivudine,Affected excretion pathways
+D1680,Vancomycin,D1543,Telbivudine,Affected excretion pathways
+D1543,Telbivudine,D0432,Deferasirox,Affected excretion pathways
+D1543,Telbivudine,D0709,Gallium nitrate,Affected excretion pathways
+D1543,Telbivudine,D0724,Givosiran,Affected excretion pathways
+D1543,Telbivudine,D0805,Inotersen,Affected excretion pathways
+D1543,Telbivudine,D0829,Iobenguane (I-131),Affected excretion pathways
+D1543,Telbivudine,D0940,Lithium carbonate,Affected excretion pathways
+D1543,Telbivudine,D0964,Lutetium Lu 177 dotatate,Affected excretion pathways
+D1543,Telbivudine,D1091,Moxetumomab Pasudotox,Affected excretion pathways
+D1543,Telbivudine,D1304,Plazomicin,Affected excretion pathways
+D1543,Telbivudine,D1442,Salsalate,Affected excretion pathways
+D1543,Telbivudine,D1542,Telavancin,Affected excretion pathways
+D1543,Telbivudine,D1549,Temsirolimus,Affected excretion pathways
+D0056,Amikacin,D0668,Flucytosine,Affected excretion pathways
+D0057,Amikacin (liposome),D0668,Flucytosine,Affected excretion pathways
+D0142,Bacitracin,D0668,Flucytosine,Affected excretion pathways
+D0145,Balsalazide,D0668,Flucytosine,Affected excretion pathways
+D0210,Bromfenac,D0668,Flucytosine,Affected excretion pathways
+D0252,Capreomycin,D0668,Flucytosine,Affected excretion pathways
+D0298,Celecoxib,D0668,Flucytosine,Affected excretion pathways
+D0335,Cidofovir,D0668,Flucytosine,Affected excretion pathways
+D0344,Cisplatin,D0668,Flucytosine,Affected excretion pathways
+D0402,Cyclosporine,D0668,Flucytosine,Affected excretion pathways
+D0476,Diclofenac,D0668,Flucytosine,Affected excretion pathways
+D0489,Diflunisal,D0668,Flucytosine,Affected excretion pathways
+D0623,Etidronic acid,D0668,Flucytosine,Affected excretion pathways
+D0624,Etodolac,D0668,Flucytosine,Affected excretion pathways
+D0645,Fenoprofen,D0668,Flucytosine,Affected excretion pathways
+D0680,Flurbiprofen,D0668,Flucytosine,Affected excretion pathways
+D0694,Foscarnet,D0668,Flucytosine,Affected excretion pathways
+D0718,Gentamicin,D0668,Flucytosine,Affected excretion pathways
+D0783,Ibandronate,D0668,Flucytosine,Affected excretion pathways
+D0786,Ibuprofen,D0668,Flucytosine,Affected excretion pathways
+D0800,Indomethacin,D0668,Flucytosine,Affected excretion pathways
+D0881,Ketoprofen,D0668,Flucytosine,Affected excretion pathways
+D0882,Ketorolac,D0668,Flucytosine,Affected excretion pathways
+D0988,Meclofenamic acid,D0668,Flucytosine,Affected excretion pathways
+D0991,Mefenamic acid,D0668,Flucytosine,Affected excretion pathways
+D0995,Meloxicam,D0668,Flucytosine,Affected excretion pathways
+D1009,Mesalazine,D0668,Flucytosine,Affected excretion pathways
+D1025,Methotrexate,D0668,Flucytosine,Affected excretion pathways
+D1030,Methoxyflurane,D0668,Flucytosine,Affected excretion pathways
+D1097,Nabumetone,D0668,Flucytosine,Affected excretion pathways
+D1109,Naproxen,D0668,Flucytosine,Affected excretion pathways
+D1120,Neomycin,D0668,Flucytosine,Affected excretion pathways
+D1126,Netilmicin,D0668,Flucytosine,Affected excretion pathways
+D1193,Oxaliplatin,D0668,Flucytosine,Affected excretion pathways
+D1196,Oxaprozin,D0668,Flucytosine,Affected excretion pathways
+D1217,Pamidronic acid,D0668,Flucytosine,Affected excretion pathways
+D1246,Pentamidine,D0668,Flucytosine,Affected excretion pathways
+D1274,Phenylbutazone,D0668,Flucytosine,Affected excretion pathways
+D1300,Piroxicam,D0668,Flucytosine,Affected excretion pathways
+D1310,Polymyxin B,D0668,Flucytosine,Affected excretion pathways
+D1421,Rofecoxib,D0668,Flucytosine,Affected excretion pathways
+D1476,Sirolimus,D0668,Flucytosine,Affected excretion pathways
+D1507,Streptomycin,D0668,Flucytosine,Affected excretion pathways
+D1517,Sulfasalazine,D0668,Flucytosine,Affected excretion pathways
+D1520,Sulindac,D0668,Flucytosine,Affected excretion pathways
+D1526,Tacrolimus,D0668,Flucytosine,Affected excretion pathways
+D1597,Tobramycin,D0668,Flucytosine,Affected excretion pathways
+D1606,Tolmetin,D0668,Flucytosine,Affected excretion pathways
+D1674,Valdecoxib,D0668,Flucytosine,Affected excretion pathways
+D1680,Vancomycin,D0668,Flucytosine,Affected excretion pathways
+D1727,Zoledronic acid,D0668,Flucytosine,Affected excretion pathways
+D0668,Flucytosine,D0383,Colistimethate,Affected excretion pathways
+D0668,Flucytosine,D0432,Deferasirox,Affected excretion pathways
+D0668,Flucytosine,D0709,Gallium nitrate,Affected excretion pathways
+D0668,Flucytosine,D0724,Givosiran,Affected excretion pathways
+D0668,Flucytosine,D0805,Inotersen,Affected excretion pathways
+D0668,Flucytosine,D0829,Iobenguane (I-131),Affected excretion pathways
+D0668,Flucytosine,D0876,Kanamycin,Affected excretion pathways
+D0668,Flucytosine,D0940,Lithium carbonate,Affected excretion pathways
+D0668,Flucytosine,D0964,Lutetium Lu 177 dotatate,Affected excretion pathways
+D0668,Flucytosine,D1091,Moxetumomab Pasudotox,Affected excretion pathways
+D0668,Flucytosine,D1173,Olsalazine,Affected excretion pathways
+D0668,Flucytosine,D1304,Plazomicin,Affected excretion pathways
+D0668,Flucytosine,D1442,Salsalate,Affected excretion pathways
+D0668,Flucytosine,D1542,Telavancin,Affected excretion pathways
+D0668,Flucytosine,D1549,Temsirolimus,Affected excretion pathways
+D0476,Diclofenac,D1241,Pemetrexed,Affected excretion pathways
+D0645,Fenoprofen,D1241,Pemetrexed,Affected excretion pathways
+D0800,Indomethacin,D1241,Pemetrexed,Affected excretion pathways
+D0882,Ketorolac,D1241,Pemetrexed,Affected excretion pathways
+D1097,Nabumetone,D1241,Pemetrexed,Affected excretion pathways
+D1300,Piroxicam,D1241,Pemetrexed,Affected excretion pathways
+D1520,Sulindac,D1241,Pemetrexed,Affected excretion pathways
+D1606,Tolmetin,D1241,Pemetrexed,Affected excretion pathways
+D1674,Valdecoxib,D1241,Pemetrexed,Affected excretion pathways
+D1241,Pemetrexed,D0210,Bromfenac,Affected excretion pathways
+D1241,Pemetrexed,D0331,Choline salicylate,Affected excretion pathways
+D1241,Pemetrexed,D0489,Diflunisal,Affected excretion pathways
+D1241,Pemetrexed,D0624,Etodolac,Affected excretion pathways
+D1241,Pemetrexed,D0680,Flurbiprofen,Affected excretion pathways
+D1241,Pemetrexed,D0881,Ketoprofen,Affected excretion pathways
+D1241,Pemetrexed,D0988,Meclofenamic acid,Affected excretion pathways
+D1241,Pemetrexed,D0991,Mefenamic acid,Affected excretion pathways
+D1241,Pemetrexed,D0995,Meloxicam,Affected excretion pathways
+D1241,Pemetrexed,D1196,Oxaprozin,Affected excretion pathways
+D1241,Pemetrexed,D1272,Phenyl salicylate,Affected excretion pathways
+D1241,Pemetrexed,D1274,Phenylbutazone,Affected excretion pathways
+D1241,Pemetrexed,D1439,Salicylic acid (sodium),Affected excretion pathways
+D1241,Pemetrexed,D1442,Salsalate,Affected excretion pathways
+D0298,Celecoxib,D1241,Pemetrexed,Affected excretion pathways
+D1241,Pemetrexed,D1109,Naproxen,Affected excretion pathways
+D1241,Pemetrexed,D0017,Acetylsalicylic acid,Affected excretion pathways
+D1631,Triamterene,D0337,Cimetidine,Affected excretion pathways
+D0513,Dofetilide,D0058,Amiloride,Affected excretion pathways
+D0513,Dofetilide,D0058,Amiloride,Affected excretion pathways
+D0513,Dofetilide,D1631,Triamterene,Affected excretion pathways
+D0513,Dofetilide,D1631,Triamterene,Affected excretion pathways
+D0513,Dofetilide,D1015,Metformin,Affected excretion pathways
+D0513,Dofetilide,D1015,Metformin,Affected excretion pathways
+D0217,Bumetanide,D1165,Ofloxacin,Affected excretion pathways
+D1672,Valaciclovir,D1341,Probenecid,Affected excretion pathways
+D0635,Famciclovir,D1341,Probenecid,Affected excretion pathways
+D0419,Dapsone,D1341,Probenecid,Affected excretion pathways
+D0636,Famotidine,D1341,Probenecid,Affected excretion pathways
+D1343,Procainamide,D1165,Ofloxacin,Affected excretion pathways
+D1381,Ranitidine,D1343,Procainamide,Affected excretion pathways
+D1382,Ranitidine (bismuth citrate),D1343,Procainamide,Affected excretion pathways
+D0337,Cimetidine,D1343,Procainamide,Affected excretion pathways
+D0271,Cefaclor,D1341,Probenecid,Affected excretion pathways
+D0273,Cefalotin,D1341,Probenecid,Affected excretion pathways
+D0277,Cefdinir,D1341,Probenecid,Affected excretion pathways
+D0281,Cefixime,D1341,Probenecid,Affected excretion pathways
+D0282,Cefmetazole,D1341,Probenecid,Affected excretion pathways
+D0285,Cefotaxime,D1341,Probenecid,Affected excretion pathways
+D0301,Cephalexin,D1341,Probenecid,Affected excretion pathways
+D0949,Loracarbef,D1341,Probenecid,Affected excretion pathways
+D1341,Probenecid,D0272,Cefadroxil,Affected excretion pathways
+D1341,Probenecid,D0274,Cefamandole,Affected excretion pathways
+D1341,Probenecid,D0275,Cefapirin,Affected excretion pathways
+D1341,Probenecid,D0276,Cefazolin,Affected excretion pathways
+D1341,Probenecid,D0279,Cefepime,Affected excretion pathways
+D1341,Probenecid,D0283,Cefonicid,Affected excretion pathways
+D1341,Probenecid,D0284,Cefoperazone,Affected excretion pathways
+D1341,Probenecid,D0286,Cefotetan,Affected excretion pathways
+D1341,Probenecid,D0287,Cefoxitin,Affected excretion pathways
+D1341,Probenecid,D0288,Cefpodoxime,Affected excretion pathways
+D1341,Probenecid,D0289,Cefprozil,Affected excretion pathways
+D1341,Probenecid,D0290,Cefradine,Affected excretion pathways
+D1341,Probenecid,D0291,Ceftaroline fosamil,Affected excretion pathways
+D1341,Probenecid,D0293,Ceftibuten,Affected excretion pathways
+D1341,Probenecid,D0294,Ceftizoxime,Affected excretion pathways
+D1341,Probenecid,D0297,Cefuroxime,Affected excretion pathways
+D1341,Probenecid,D0131,Avibactam,Affected excretion pathways
+D0596,Ertapenem,D1341,Probenecid,Affected excretion pathways
+D1341,Probenecid,D0794,Imipenem,Affected excretion pathways
+D1341,Probenecid,D0519,Doripenem,Affected excretion pathways
+D0079,Ampicillin,D1025,Methotrexate,Affected excretion pathways
+D0480,Dicloxacillin,D1025,Methotrexate,Affected excretion pathways
+D1025,Methotrexate,D0141,Bacampicillin,Affected excretion pathways
+D1025,Methotrexate,D0167,Benzylpenicillin,Affected excretion pathways
+D1025,Methotrexate,D0168,Benzylpenicillin (potassium),Affected excretion pathways
+D1025,Methotrexate,D0169,Benzylpenicillin (sodium),Affected excretion pathways
+D1025,Methotrexate,D0257,Carbenicillin,Affected excretion pathways
+D1025,Methotrexate,D0369,Cloxacillin,Affected excretion pathways
+D1025,Methotrexate,D1044,Meticillin,Affected excretion pathways
+D1025,Methotrexate,D1055,Mezlocillin,Affected excretion pathways
+D1025,Methotrexate,D1192,Oxacillin,Affected excretion pathways
+D1025,Methotrexate,D1580,Ticarcillin,Affected excretion pathways
+D1025,Methotrexate,D0073,Amoxicillin,Affected excretion pathways
+D1296,Piperacillin,D1025,Methotrexate,Affected excretion pathways
+D1268,Phenoxymethylpenicillin,D1025,Methotrexate,Affected excretion pathways
+D0079,Ampicillin,D1341,Probenecid,Affected excretion pathways
+D0257,Carbenicillin,D1341,Probenecid,Affected excretion pathways
+D0480,Dicloxacillin,D1341,Probenecid,Affected excretion pathways
+D1055,Mezlocillin,D1341,Probenecid,Affected excretion pathways
+D1099,Nafcillin,D1341,Probenecid,Affected excretion pathways
+D1192,Oxacillin,D1341,Probenecid,Affected excretion pathways
+D1268,Phenoxymethylpenicillin,D1341,Probenecid,Affected excretion pathways
+D1296,Piperacillin,D1341,Probenecid,Affected excretion pathways
+D1341,Probenecid,D0073,Amoxicillin,Affected excretion pathways
+D1341,Probenecid,D0141,Bacampicillin,Affected excretion pathways
+D1341,Probenecid,D0167,Benzylpenicillin,Affected excretion pathways
+D1341,Probenecid,D0168,Benzylpenicillin (potassium),Affected excretion pathways
+D1341,Probenecid,D0169,Benzylpenicillin (sodium),Affected excretion pathways
+D1341,Probenecid,D0369,Cloxacillin,Affected excretion pathways
+D1341,Probenecid,D1044,Meticillin,Affected excretion pathways
+D1341,Probenecid,D1580,Ticarcillin,Affected excretion pathways
+D1008,Meropenem,D1341,Probenecid,Affected excretion pathways
+D1399,Rifabutin,D0706,Gadoxetic acid,Affected excretion pathways
+D1400,Rifampicin,D0706,Gadoxetic acid,Affected excretion pathways
+D1401,Rifapentine,D0706,Gadoxetic acid,Affected excretion pathways
+D1102,Nalidixic acid,D1341,Probenecid,Affected excretion pathways
+D1768,Creatine,D0337,Cimetidine,Affected excretion pathways
+D1768,Creatine,D1341,Probenecid,Affected excretion pathways
+D1768,Creatine,D1645,Trimethoprim,Affected excretion pathways
+D1768,Creatine,D0576,Entecavir,Affected excretion pathways
+D0576,Entecavir,D1898,Tazobactam,Affected excretion pathways
+D1851,Oseltamivir,D0576,Entecavir,Affected excretion pathways
+D1768,Creatine,D1241,Pemetrexed,Affected excretion pathways
+D1851,Oseltamivir,D1241,Pemetrexed,Affected excretion pathways
+D1851,Oseltamivir,D1025,Methotrexate,Affected excretion pathways
+D1851,Oseltamivir,D1341,Probenecid,Affected excretion pathways
+D0892,Lansoprazole,D1025,Methotrexate,Affected excretion pathways
+D1025,Methotrexate,D0017,Acetylsalicylic acid,Affected excretion pathways
+D1025,Methotrexate,D0187,Bismuth subsalicylate,Affected excretion pathways
+D1025,Methotrexate,D0331,Choline salicylate,Affected excretion pathways
+D1025,Methotrexate,D0458,Dexlansoprazole,Affected excretion pathways
+D1025,Methotrexate,D0489,Diflunisal,Affected excretion pathways
+D1025,Methotrexate,D0603,Esomeprazole,Affected excretion pathways
+D1025,Methotrexate,D1341,Probenecid,Affected excretion pathways
+D1025,Methotrexate,D1373,Rabeprazole,Affected excretion pathways
+D1025,Methotrexate,D1439,Salicylic acid (sodium),Affected excretion pathways
+D1025,Methotrexate,D1442,Salsalate,Affected excretion pathways
+D1179,Omeprazole,D1025,Methotrexate,Affected excretion pathways
+D1222,Pantoprazole,D1025,Methotrexate,Affected excretion pathways
+D1095,Mycophenolic acid,D1341,Probenecid,Affected excretion pathways
+D0040,Allopurinol,D0576,Entecavir,Affected excretion pathways
+D0065,Aminosalicylic acid,D0576,Entecavir,Affected excretion pathways
+D0079,Ampicillin,D0576,Entecavir,Affected excretion pathways
+D0140,Aztreonam,D0576,Entecavir,Affected excretion pathways
+D0282,Cefmetazole,D0576,Entecavir,Affected excretion pathways
+D0596,Ertapenem,D0576,Entecavir,Affected excretion pathways
+D0635,Famciclovir,D0576,Entecavir,Affected excretion pathways
+D1015,Metformin,D0576,Entecavir,Affected excretion pathways
+D1061,Midodrine,D0576,Entecavir,Affected excretion pathways
+D1092,Moxifloxacin,D0576,Entecavir,Affected excretion pathways
+D1268,Phenoxymethylpenicillin,D0576,Entecavir,Affected excretion pathways
+D1296,Piperacillin,D0576,Entecavir,Affected excretion pathways
+D1631,Triamterene,D0576,Entecavir,Affected excretion pathways
+D0576,Entecavir,D0022,Acyclovir,Affected excretion pathways
+D0576,Entecavir,D0073,Amoxicillin,Affected excretion pathways
+D0576,Entecavir,D0141,Bacampicillin,Affected excretion pathways
+D0576,Entecavir,D0167,Benzylpenicillin,Affected excretion pathways
+D0576,Entecavir,D0168,Benzylpenicillin (potassium),Affected excretion pathways
+D0576,Entecavir,D0169,Benzylpenicillin (sodium),Affected excretion pathways
+D0576,Entecavir,D0257,Carbenicillin,Affected excretion pathways
+D0576,Entecavir,D0271,Cefaclor,Affected excretion pathways
+D0576,Entecavir,D0272,Cefadroxil,Affected excretion pathways
+D0576,Entecavir,D0273,Cefalotin,Affected excretion pathways
+D0576,Entecavir,D0274,Cefamandole,Affected excretion pathways
+D0576,Entecavir,D0275,Cefapirin,Affected excretion pathways
+D0576,Entecavir,D0276,Cefazolin,Affected excretion pathways
+D0576,Entecavir,D0277,Cefdinir,Affected excretion pathways
+D0576,Entecavir,D0278,Cefditoren,Affected excretion pathways
+D0576,Entecavir,D0281,Cefixime,Affected excretion pathways
+D0576,Entecavir,D0283,Cefonicid,Affected excretion pathways
+D0576,Entecavir,D0284,Cefoperazone,Affected excretion pathways
+D0576,Entecavir,D0285,Cefotaxime,Affected excretion pathways
+D0576,Entecavir,D0287,Cefoxitin,Affected excretion pathways
+D0576,Entecavir,D0288,Cefpodoxime,Affected excretion pathways
+D0576,Entecavir,D0289,Cefprozil,Affected excretion pathways
+D0576,Entecavir,D0290,Cefradine,Affected excretion pathways
+D0576,Entecavir,D0294,Ceftizoxime,Affected excretion pathways
+D0576,Entecavir,D0297,Cefuroxime,Affected excretion pathways
+D0576,Entecavir,D0301,Cephalexin,Affected excretion pathways
+D0576,Entecavir,D0337,Cimetidine,Affected excretion pathways
+D0576,Entecavir,D0340,Cinoxacin,Affected excretion pathways
+D0576,Entecavir,D0341,Ciprofloxacin,Affected excretion pathways
+D0576,Entecavir,D0369,Cloxacillin,Affected excretion pathways
+D0576,Entecavir,D0438,Delafloxacin,Affected excretion pathways
+D0576,Entecavir,D0480,Dicloxacillin,Affected excretion pathways
+D0576,Entecavir,D0519,Doripenem,Affected excretion pathways
+D0576,Entecavir,D0544,Dyphylline,Affected excretion pathways
+D0576,Entecavir,D0573,Enoxacin,Affected excretion pathways
+D0576,Entecavir,D0636,Famotidine,Affected excretion pathways
+D0576,Entecavir,D0664,Flecainide,Affected excretion pathways
+D0576,Entecavir,D0710,Ganciclovir,Affected excretion pathways
+D0576,Entecavir,D0712,Gatifloxacin,Affected excretion pathways
+D0576,Entecavir,D0716,Gemifloxacin,Affected excretion pathways
+D0576,Entecavir,D0794,Imipenem,Affected excretion pathways
+D0576,Entecavir,D0919,Levofloxacin,Affected excretion pathways
+D0576,Entecavir,D0943,Lomefloxacin,Affected excretion pathways
+D0576,Entecavir,D0949,Loracarbef,Affected excretion pathways
+D0576,Entecavir,D1008,Meropenem,Affected excretion pathways
+D0576,Entecavir,D1044,Meticillin,Affected excretion pathways
+D0576,Entecavir,D1055,Mezlocillin,Affected excretion pathways
+D0576,Entecavir,D1094,Mycophenolate mofetil,Affected excretion pathways
+D0576,Entecavir,D1095,Mycophenolic acid,Affected excretion pathways
+D0576,Entecavir,D1099,Nafcillin,Affected excretion pathways
+D0576,Entecavir,D1102,Nalidixic acid,Affected excretion pathways
+D0576,Entecavir,D1155,Norfloxacin,Affected excretion pathways
+D0576,Entecavir,D1165,Ofloxacin,Affected excretion pathways
+D0576,Entecavir,D1192,Oxacillin,Affected excretion pathways
+D0576,Entecavir,D1241,Pemetrexed,Affected excretion pathways
+D0576,Entecavir,D1323,Pralatrexate,Affected excretion pathways
+D0576,Entecavir,D1341,Probenecid,Affected excretion pathways
+D0576,Entecavir,D1343,Procainamide,Affected excretion pathways
+D0576,Entecavir,D1371,Quinidine,Affected excretion pathways
+D0576,Entecavir,D1381,Ranitidine,Affected excretion pathways
+D0576,Entecavir,D1382,Ranitidine (bismuth citrate),Affected excretion pathways
+D0576,Entecavir,D1580,Ticarcillin,Affected excretion pathways
+D0576,Entecavir,D1672,Valaciclovir,Affected excretion pathways
+D0576,Entecavir,D1676,Valganciclovir,Affected excretion pathways
+D0573,Enoxacin,D1025,Methotrexate,Affected excretion pathways
+D0740,Grepafloxacin,D1025,Methotrexate,Affected excretion pathways
+D1025,Methotrexate,D0340,Cinoxacin,Affected excretion pathways
+D1025,Methotrexate,D0438,Delafloxacin,Affected excretion pathways
+D1025,Methotrexate,D0716,Gemifloxacin,Affected excretion pathways
+D1025,Methotrexate,D0919,Levofloxacin,Affected excretion pathways
+D1025,Methotrexate,D0943,Lomefloxacin,Affected excretion pathways
+D1025,Methotrexate,D1102,Nalidixic acid,Affected excretion pathways
+D1025,Methotrexate,D1499,Sparfloxacin,Affected excretion pathways
+D1025,Methotrexate,D1657,Trovafloxacin,Affected excretion pathways
+D0341,Ciprofloxacin,D1025,Methotrexate,Affected excretion pathways
+D1092,Moxifloxacin,D1025,Methotrexate,Affected excretion pathways
+D1025,Methotrexate,D1165,Ofloxacin,Affected excretion pathways
+D1025,Methotrexate,D1155,Norfloxacin,Affected excretion pathways
+D0065,Aminosalicylic acid,D1241,Pemetrexed,Affected excretion pathways
+D0079,Ampicillin,D1241,Pemetrexed,Affected excretion pathways
+D0140,Aztreonam,D1241,Pemetrexed,Affected excretion pathways
+D0257,Carbenicillin,D1241,Pemetrexed,Affected excretion pathways
+D0273,Cefalotin,D1241,Pemetrexed,Affected excretion pathways
+D0277,Cefdinir,D1241,Pemetrexed,Affected excretion pathways
+D0282,Cefmetazole,D1241,Pemetrexed,Affected excretion pathways
+D0285,Cefotaxime,D1241,Pemetrexed,Affected excretion pathways
+D0301,Cephalexin,D1241,Pemetrexed,Affected excretion pathways
+D0337,Cimetidine,D1241,Pemetrexed,Affected excretion pathways
+D0573,Enoxacin,D1241,Pemetrexed,Affected excretion pathways
+D0596,Ertapenem,D1241,Pemetrexed,Affected excretion pathways
+D0635,Famciclovir,D1241,Pemetrexed,Affected excretion pathways
+D0949,Loracarbef,D1241,Pemetrexed,Affected excretion pathways
+D1061,Midodrine,D1241,Pemetrexed,Affected excretion pathways
+D1092,Moxifloxacin,D1241,Pemetrexed,Affected excretion pathways
+D1099,Nafcillin,D1241,Pemetrexed,Affected excretion pathways
+D1268,Phenoxymethylpenicillin,D1241,Pemetrexed,Affected excretion pathways
+D1631,Triamterene,D1241,Pemetrexed,Affected excretion pathways
+D1672,Valaciclovir,D1241,Pemetrexed,Affected excretion pathways
+D1720,Zidovudine,D1241,Pemetrexed,Affected excretion pathways
+D1241,Pemetrexed,D0022,Acyclovir,Affected excretion pathways
+D1241,Pemetrexed,D0073,Amoxicillin,Affected excretion pathways
+D1241,Pemetrexed,D0141,Bacampicillin,Affected excretion pathways
+D1241,Pemetrexed,D0168,Benzylpenicillin (potassium),Affected excretion pathways
+D1241,Pemetrexed,D0169,Benzylpenicillin (sodium),Affected excretion pathways
+D1241,Pemetrexed,D0271,Cefaclor,Affected excretion pathways
+D1241,Pemetrexed,D0272,Cefadroxil,Affected excretion pathways
+D1241,Pemetrexed,D0274,Cefamandole,Affected excretion pathways
+D1241,Pemetrexed,D0275,Cefapirin,Affected excretion pathways
+D1241,Pemetrexed,D0278,Cefditoren,Affected excretion pathways
+D1241,Pemetrexed,D0281,Cefixime,Affected excretion pathways
+D1241,Pemetrexed,D0283,Cefonicid,Affected excretion pathways
+D1241,Pemetrexed,D0284,Cefoperazone,Affected excretion pathways
+D1241,Pemetrexed,D0287,Cefoxitin,Affected excretion pathways
+D1241,Pemetrexed,D0288,Cefpodoxime,Affected excretion pathways
+D1241,Pemetrexed,D0289,Cefprozil,Affected excretion pathways
+D1241,Pemetrexed,D0290,Cefradine,Affected excretion pathways
+D1241,Pemetrexed,D0294,Ceftizoxime,Affected excretion pathways
+D1241,Pemetrexed,D0297,Cefuroxime,Affected excretion pathways
+D1241,Pemetrexed,D0340,Cinoxacin,Affected excretion pathways
+D1241,Pemetrexed,D0369,Cloxacillin,Affected excretion pathways
+D1241,Pemetrexed,D0438,Delafloxacin,Affected excretion pathways
+D1241,Pemetrexed,D0519,Doripenem,Affected excretion pathways
+D1241,Pemetrexed,D0544,Dyphylline,Affected excretion pathways
+D1241,Pemetrexed,D0712,Gatifloxacin,Affected excretion pathways
+D1241,Pemetrexed,D0794,Imipenem,Affected excretion pathways
+D1241,Pemetrexed,D0919,Levofloxacin,Affected excretion pathways
+D1241,Pemetrexed,D0943,Lomefloxacin,Affected excretion pathways
+D1241,Pemetrexed,D1008,Meropenem,Affected excretion pathways
+D1241,Pemetrexed,D1044,Meticillin,Affected excretion pathways
+D1241,Pemetrexed,D1055,Mezlocillin,Affected excretion pathways
+D1241,Pemetrexed,D1094,Mycophenolate mofetil,Affected excretion pathways
+D1241,Pemetrexed,D1095,Mycophenolic acid,Affected excretion pathways
+D1241,Pemetrexed,D1155,Norfloxacin,Affected excretion pathways
+D1241,Pemetrexed,D1192,Oxacillin,Affected excretion pathways
+D1241,Pemetrexed,D1323,Pralatrexate,Affected excretion pathways
+D1241,Pemetrexed,D1341,Probenecid,Affected excretion pathways
+D1241,Pemetrexed,D1343,Procainamide,Affected excretion pathways
+D1241,Pemetrexed,D1371,Quinidine,Affected excretion pathways
+D1241,Pemetrexed,D1580,Ticarcillin,Affected excretion pathways
+D1241,Pemetrexed,D1715,Zalcitabine,Affected excretion pathways
+D0341,Ciprofloxacin,D1241,Pemetrexed,Affected excretion pathways
+D1241,Pemetrexed,D1381,Ranitidine,Affected excretion pathways
+D1241,Pemetrexed,D1382,Ranitidine (bismuth citrate),Affected excretion pathways
+D1015,Metformin,D1241,Pemetrexed,Affected excretion pathways
+D0040,Allopurinol,D1241,Pemetrexed,Affected excretion pathways
+D1241,Pemetrexed,D0664,Flecainide,Affected excretion pathways
+D1241,Pemetrexed,D1165,Ofloxacin,Affected excretion pathways
+D1241,Pemetrexed,D0636,Famotidine,Affected excretion pathways
+D1296,Piperacillin,D1241,Pemetrexed,Affected excretion pathways
+D0489,Diflunisal,D1323,Pralatrexate,Affected excretion pathways
+D0645,Fenoprofen,D1323,Pralatrexate,Affected excretion pathways
+D0786,Ibuprofen,D1323,Pralatrexate,Affected excretion pathways
+D0881,Ketoprofen,D1323,Pralatrexate,Affected excretion pathways
+D0988,Meclofenamic acid,D1323,Pralatrexate,Affected excretion pathways
+D0995,Meloxicam,D1323,Pralatrexate,Affected excretion pathways
+D1109,Naproxen,D1323,Pralatrexate,Affected excretion pathways
+D1015,Metformin,D0471,Diamorphine,Affected excretion pathways
+D1089,Morphine,D1015,Metformin,Affected excretion pathways
+D1341,Probenecid,D0912,Levetiracetam,Affected excretion pathways
+D1341,Probenecid,D0438,Delafloxacin,Affected excretion pathways
+D1341,Probenecid,D0712,Gatifloxacin,Affected excretion pathways
+D1341,Probenecid,D0716,Gemifloxacin,Affected excretion pathways
+D1341,Probenecid,D0919,Levofloxacin,Affected excretion pathways
+D1341,Probenecid,D1155,Norfloxacin,Affected excretion pathways
+D1341,Probenecid,D1499,Sparfloxacin,Affected excretion pathways
+D0340,Cinoxacin,D1341,Probenecid,Affected excretion pathways
+D0573,Enoxacin,D1341,Probenecid,Affected excretion pathways
+D0740,Grepafloxacin,D1341,Probenecid,Affected excretion pathways
+D0943,Lomefloxacin,D1341,Probenecid,Affected excretion pathways
+D1092,Moxifloxacin,D1341,Probenecid,Affected excretion pathways
+D1657,Trovafloxacin,D1341,Probenecid,Affected excretion pathways
+D0341,Ciprofloxacin,D1341,Probenecid,Affected excretion pathways
+D1341,Probenecid,D1165,Ofloxacin,Affected excretion pathways
+D1720,Zidovudine,D1341,Probenecid,Affected excretion pathways
+D0360,Clofibrate,D1341,Probenecid,Affected excretion pathways
+D1341,Probenecid,D1273,Phenylacetic acid,Affected excretion pathways
+D0156,Benazepril,D1341,Probenecid,Affected excretion pathways
+D0695,Fosinopril,D1341,Probenecid,Affected excretion pathways
+D1082,Moexipril,D1341,Probenecid,Affected excretion pathways
+D1256,Perindopril,D1341,Probenecid,Affected excretion pathways
+D1618,Trandolapril,D1341,Probenecid,Affected excretion pathways
+D1341,Probenecid,D0254,Captopril,Affected excretion pathways
+D0938,Lisinopril,D1341,Probenecid,Affected excretion pathways
+D1379,Ramipril,D1341,Probenecid,Affected excretion pathways
+D0567,Enalapril,D1341,Probenecid,Affected excretion pathways
+D1369,Quinapril,D1341,Probenecid,Affected excretion pathways
+D1715,Zalcitabine,D1341,Probenecid,Affected excretion pathways
+D1015,Metformin,D1343,Procainamide,Affected excretion pathways
+D0491,Digoxin,D0695,Fosinopril,Affected excretion pathways
+D0491,Digoxin,D1256,Perindopril,Affected excretion pathways
+D0491,Digoxin,D0567,Enalapril,Affected excretion pathways
+D0491,Digoxin,D0938,Lisinopril,Affected excretion pathways
+D0491,Digoxin,D1369,Quinapril,Affected excretion pathways
+D0491,Digoxin,D1082,Moexipril,Affected excretion pathways
+D0491,Digoxin,D1618,Trandolapril,Affected excretion pathways
+D0491,Digoxin,D0254,Captopril,Affected excretion pathways
+D0491,Digoxin,D1501,Spironolactone,Affected excretion pathways
+D0483,Didanosine,D0710,Ganciclovir,Affected excretion pathways
+D0483,Didanosine,D1676,Valganciclovir,Affected excretion pathways
+D1645,Trimethoprim,D0710,Ganciclovir,Affected excretion pathways
+D1645,Trimethoprim,D1676,Valganciclovir,Affected excretion pathways
+D0710,Ganciclovir,D1341,Probenecid,Affected excretion pathways
+D1341,Probenecid,D1676,Valganciclovir,Affected excretion pathways
+D0217,Bumetanide,D0943,Lomefloxacin,Affected excretion pathways
+D0217,Bumetanide,D1155,Norfloxacin,Affected excretion pathways
+D0613,Etacrynic acid,D0943,Lomefloxacin,Affected excretion pathways
+D0613,Etacrynic acid,D1155,Norfloxacin,Affected excretion pathways
+D0613,Etacrynic acid,D1165,Ofloxacin,Affected excretion pathways
+D0704,Furosemide,D0943,Lomefloxacin,Affected excretion pathways
+D1611,Torasemide,D0573,Enoxacin,Affected excretion pathways
+D1611,Torasemide,D0943,Lomefloxacin,Affected excretion pathways
+D1611,Torasemide,D1155,Norfloxacin,Affected excretion pathways
+D0341,Ciprofloxacin,D0613,Etacrynic acid,Affected excretion pathways
+D0573,Enoxacin,D0217,Bumetanide,Affected excretion pathways
+D0573,Enoxacin,D0613,Etacrynic acid,Affected excretion pathways
+D0573,Enoxacin,D0704,Furosemide,Affected excretion pathways
+D1611,Torasemide,D1165,Ofloxacin,Affected excretion pathways
+D0341,Ciprofloxacin,D0217,Bumetanide,Affected excretion pathways
+D0341,Ciprofloxacin,D0704,Furosemide,Affected excretion pathways
+D0704,Furosemide,D1165,Ofloxacin,Affected excretion pathways
+D0704,Furosemide,D1155,Norfloxacin,Affected excretion pathways
+D1611,Torasemide,D0341,Ciprofloxacin,Affected excretion pathways
+D1656,Trospium,D0022,Acyclovir,Affected excretion pathways
+D1656,Trospium,D0335,Cidofovir,Affected excretion pathways
+D1656,Trospium,D0337,Cimetidine,Affected excretion pathways
+D1656,Trospium,D0491,Digoxin,Affected excretion pathways
+D1656,Trospium,D0664,Flecainide,Affected excretion pathways
+D1656,Trospium,D0710,Ganciclovir,Affected excretion pathways
+D1656,Trospium,D1061,Midodrine,Affected excretion pathways
+D1656,Trospium,D1219,Pancuronium,Affected excretion pathways
+D1656,Trospium,D1343,Procainamide,Affected excretion pathways
+D1656,Trospium,D1371,Quinidine,Affected excretion pathways
+D1656,Trospium,D1381,Ranitidine,Affected excretion pathways
+D1656,Trospium,D1382,Ranitidine (bismuth citrate),Affected excretion pathways
+D1656,Trospium,D1631,Triamterene,Affected excretion pathways
+D1656,Trospium,D1672,Valaciclovir,Affected excretion pathways
+D1656,Trospium,D1676,Valganciclovir,Affected excretion pathways
+D1656,Trospium,D1680,Vancomycin,Affected excretion pathways
+D1061,Midodrine,D0337,Cimetidine,Affected excretion pathways
+D1061,Midodrine,D0664,Flecainide,Affected excretion pathways
+D1061,Midodrine,D1015,Metformin,Affected excretion pathways
+D1061,Midodrine,D1343,Procainamide,Affected excretion pathways
+D1061,Midodrine,D1371,Quinidine,Affected excretion pathways
+D1061,Midodrine,D1631,Triamterene,Affected excretion pathways
+D1061,Midodrine,D1381,Ranitidine,Affected excretion pathways
+D1061,Midodrine,D1382,Ranitidine (bismuth citrate),Affected excretion pathways
+D0335,Cidofovir,D0998,Memantine,Affected excretion pathways
+D0337,Cimetidine,D0998,Memantine,Affected excretion pathways
+D0710,Ganciclovir,D0998,Memantine,Affected excretion pathways
+D1061,Midodrine,D0998,Memantine,Affected excretion pathways
+D1133,Nicotine,D0998,Memantine,Affected excretion pathways
+D1343,Procainamide,D0998,Memantine,Affected excretion pathways
+D1631,Triamterene,D0998,Memantine,Affected excretion pathways
+D1672,Valaciclovir,D0998,Memantine,Affected excretion pathways
+D0998,Memantine,D1676,Valganciclovir,Affected excretion pathways
+D1381,Ranitidine,D0998,Memantine,Affected excretion pathways
+D0998,Memantine,D0664,Flecainide,Affected excretion pathways
+D1015,Metformin,D0998,Memantine,Affected excretion pathways
+D0771,Hydrochlorothiazide,D0998,Memantine,Affected excretion pathways
+D0022,Acyclovir,D0998,Memantine,Affected excretion pathways
+D1371,Quinidine,D0998,Memantine,Affected excretion pathways
+D1015,Metformin,D1631,Triamterene,Affected excretion pathways
+D1645,Trimethoprim,D1343,Procainamide,Affected excretion pathways
+D0491,Digoxin,D1645,Trimethoprim,Affected excretion pathways
+D1645,Trimethoprim,D1715,Zalcitabine,Affected excretion pathways
+D1015,Metformin,D1680,Vancomycin,Affected excretion pathways
+D1020,Methenamine,D0967,Magaldrate,Affected excretion pathways
+D1020,Methenamine,D0968,Magnesium carbonate,Affected excretion pathways
+D1020,Methenamine,D0973,Magnesium hydroxide,Affected excretion pathways
+D1020,Methenamine,D1319,Potassium citrate,Affected excretion pathways
+D1020,Methenamine,D1478,Sodium acetate,Affected excretion pathways
+D1020,Methenamine,D1483,Sodium citrate,Affected excretion pathways
+D1048,Metolazone,D1020,Methenamine,Affected excretion pathways
+D0012,Acetazolamide,D1020,Methenamine,Affected excretion pathways
+D0049,Aluminum hydroxide,D1020,Methenamine,Affected excretion pathways
+D0058,Amiloride,D1020,Methenamine,Affected excretion pathways
+D0158,Bendroflumethiazide,D1020,Methenamine,Affected excretion pathways
+D0166,Benzthiazide,D1020,Methenamine,Affected excretion pathways
+D0236,Calcium carbonate,D1020,Methenamine,Affected excretion pathways
+D0321,Chlorothiazide,D1020,Methenamine,Affected excretion pathways
+D0326,Chlorthalidone,D1020,Methenamine,Affected excretion pathways
+D0479,Diclofenamide,D1020,Methenamine,Affected excretion pathways
+D0771,Hydrochlorothiazide,D1020,Methenamine,Affected excretion pathways
+D0775,Hydroflumethiazide,D1020,Methenamine,Affected excretion pathways
+D0798,Indapamide,D1020,Methenamine,Affected excretion pathways
+D0886,Lactic acid,D1020,Methenamine,Affected excretion pathways
+D0974,Magnesium oxide,D1020,Methenamine,Affected excretion pathways
+D1018,Methazolamide,D1020,Methenamine,Affected excretion pathways
+D1311,Polythiazide,D1020,Methenamine,Affected excretion pathways
+D1480,Sodium bicarbonate,D1020,Methenamine,Affected excretion pathways
+D1633,Trichlormethiazide,D1020,Methenamine,Affected excretion pathways
+D1654,Tromethamine,D1020,Methenamine,Affected excretion pathways
+D0012,Acetazolamide,D0940,Lithium carbonate,Affected excretion pathways
+D0068,Amitriptyline,D0012,Acetazolamide,Affected excretion pathways
+D0072,Amoxapine,D0012,Acetazolamide,Affected excretion pathways
+D0795,Imipramine,D0012,Acetazolamide,Affected excretion pathways
+D1158,Nortriptyline,D0012,Acetazolamide,Affected excretion pathways
+D1361,Protriptyline,D0012,Acetazolamide,Affected excretion pathways
+D1647,Trimipramine,D0012,Acetazolamide,Affected excretion pathways
+D0012,Acetazolamide,D0361,Clomipramine,Affected excretion pathways
+D0012,Acetazolamide,D0446,Desipramine,Affected excretion pathways
+D0012,Acetazolamide,D0525,Doxepin,Affected excretion pathways
+D0012,Acetazolamide,D0526,Doxepin (topical),Affected excretion pathways
+D0579,Ephedrine,D0070,Ammonium chloride,Affected excretion pathways
+D0579,Ephedrine,D1086,Monopotassium phosphate,Affected excretion pathways
+D0579,Ephedrine,D1486,"Sodium phosphate, monobasic",Affected excretion pathways
+D0580,Ephedrine (nasal),D0070,Ammonium chloride,Affected excretion pathways
+D0580,Ephedrine (nasal),D1486,"Sodium phosphate, monobasic",Affected excretion pathways
+D1363,Pseudoephedrine,D0070,Ammonium chloride,Affected excretion pathways
+D1363,Pseudoephedrine,D1086,Monopotassium phosphate,Affected excretion pathways
+D1363,Pseudoephedrine,D1486,"Sodium phosphate, monobasic",Affected excretion pathways
+D0111,Ascorbic acid,D0579,Ephedrine,Affected excretion pathways
+D0111,Ascorbic acid,D0580,Ephedrine (nasal),Affected excretion pathways
+D0111,Ascorbic acid,D1363,Pseudoephedrine,Affected excretion pathways
+D1022,Methionine,D0579,Ephedrine,Affected excretion pathways
+D1022,Methionine,D1363,Pseudoephedrine,Affected excretion pathways
+D1054,Mexiletine,D0070,Ammonium chloride,Affected excretion pathways
+D1054,Mexiletine,D1086,Monopotassium phosphate,Affected excretion pathways
+D1054,Mexiletine,D1486,"Sodium phosphate, monobasic",Affected excretion pathways
+D0111,Ascorbic acid,D1054,Mexiletine,Affected excretion pathways
+D1022,Methionine,D1054,Mexiletine,Affected excretion pathways
+D0664,Flecainide,D0070,Ammonium chloride,Affected excretion pathways
+D0664,Flecainide,D1086,Monopotassium phosphate,Affected excretion pathways
+D0664,Flecainide,D1486,"Sodium phosphate, monobasic",Affected excretion pathways
+D0111,Ascorbic acid,D0664,Flecainide,Affected excretion pathways
+D1022,Methionine,D0664,Flecainide,Affected excretion pathways
+D0664,Flecainide,D0886,Lactic acid,Affected excretion pathways
+D0664,Flecainide,D1319,Potassium citrate,Affected excretion pathways
+D0664,Flecainide,D1478,Sodium acetate,Affected excretion pathways
+D0664,Flecainide,D1483,Sodium citrate,Affected excretion pathways
+D0664,Flecainide,D1654,Tromethamine,Affected excretion pathways
+D0664,Flecainide,D1480,Sodium bicarbonate,Affected excretion pathways
+D1054,Mexiletine,D1319,Potassium citrate,Affected excretion pathways
+D1054,Mexiletine,D1480,Sodium bicarbonate,Affected excretion pathways
+D1054,Mexiletine,D1483,Sodium citrate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D0886,Lactic acid,Affected excretion pathways
+D0017,Acetylsalicylic acid,D1319,Potassium citrate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D1478,Sodium acetate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D1483,Sodium citrate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D1654,Tromethamine,Affected excretion pathways
+D1439,Salicylic acid (sodium),D0886,Lactic acid,Affected excretion pathways
+D1439,Salicylic acid (sodium),D1319,Potassium citrate,Affected excretion pathways
+D1439,Salicylic acid (sodium),D1478,Sodium acetate,Affected excretion pathways
+D1439,Salicylic acid (sodium),D1480,Sodium bicarbonate,Affected excretion pathways
+D1439,Salicylic acid (sodium),D1654,Tromethamine,Affected excretion pathways
+D1442,Salsalate,D0886,Lactic acid,Affected excretion pathways
+D1442,Salsalate,D1319,Potassium citrate,Affected excretion pathways
+D1442,Salsalate,D1478,Sodium acetate,Affected excretion pathways
+D1442,Salsalate,D1483,Sodium citrate,Affected excretion pathways
+D1442,Salsalate,D1654,Tromethamine,Affected excretion pathways
+D0886,Lactic acid,D0331,Choline salicylate,Affected excretion pathways
+D1319,Potassium citrate,D0331,Choline salicylate,Affected excretion pathways
+D1478,Sodium acetate,D0331,Choline salicylate,Affected excretion pathways
+D1480,Sodium bicarbonate,D0331,Choline salicylate,Affected excretion pathways
+D1480,Sodium bicarbonate,D1442,Salsalate,Affected excretion pathways
+D1483,Sodium citrate,D0331,Choline salicylate,Affected excretion pathways
+D1654,Tromethamine,D0331,Choline salicylate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D1480,Sodium bicarbonate,Affected excretion pathways
+D0074,Amphetamine,D0886,Lactic acid,Affected excretion pathways
+D0074,Amphetamine,D1319,Potassium citrate,Affected excretion pathways
+D0074,Amphetamine,D1478,Sodium acetate,Affected excretion pathways
+D0074,Amphetamine,D1480,Sodium bicarbonate,Affected excretion pathways
+D0074,Amphetamine,D1483,Sodium citrate,Affected excretion pathways
+D0074,Amphetamine,D1654,Tromethamine,Affected excretion pathways
+D0165,Benzphetamine,D0886,Lactic acid,Affected excretion pathways
+D0165,Benzphetamine,D1319,Potassium citrate,Affected excretion pathways
+D0165,Benzphetamine,D1478,Sodium acetate,Affected excretion pathways
+D0165,Benzphetamine,D1480,Sodium bicarbonate,Affected excretion pathways
+D0165,Benzphetamine,D1483,Sodium citrate,Affected excretion pathways
+D0165,Benzphetamine,D1654,Tromethamine,Affected excretion pathways
+D0465,Dextroamphetamine,D0886,Lactic acid,Affected excretion pathways
+D0465,Dextroamphetamine,D1319,Potassium citrate,Affected excretion pathways
+D0465,Dextroamphetamine,D1478,Sodium acetate,Affected excretion pathways
+D0465,Dextroamphetamine,D1483,Sodium citrate,Affected excretion pathways
+D0465,Dextroamphetamine,D1654,Tromethamine,Affected excretion pathways
+D0937,Lisdexamfetamine,D0886,Lactic acid,Affected excretion pathways
+D0937,Lisdexamfetamine,D1319,Potassium citrate,Affected excretion pathways
+D0937,Lisdexamfetamine,D1478,Sodium acetate,Affected excretion pathways
+D0937,Lisdexamfetamine,D1483,Sodium citrate,Affected excretion pathways
+D0937,Lisdexamfetamine,D1654,Tromethamine,Affected excretion pathways
+D1012,Metamfetamine,D0886,Lactic acid,Affected excretion pathways
+D1012,Metamfetamine,D1319,Potassium citrate,Affected excretion pathways
+D1012,Metamfetamine,D1478,Sodium acetate,Affected excretion pathways
+D1012,Metamfetamine,D1483,Sodium citrate,Affected excretion pathways
+D1012,Metamfetamine,D1654,Tromethamine,Affected excretion pathways
+D1480,Sodium bicarbonate,D0465,Dextroamphetamine,Affected excretion pathways
+D1480,Sodium bicarbonate,D1012,Metamfetamine,Affected excretion pathways
+D0983,Mecamylamine,D0886,Lactic acid,Affected excretion pathways
+D0983,Mecamylamine,D1319,Potassium citrate,Affected excretion pathways
+D0983,Mecamylamine,D1478,Sodium acetate,Affected excretion pathways
+D0983,Mecamylamine,D1480,Sodium bicarbonate,Affected excretion pathways
+D0983,Mecamylamine,D1483,Sodium citrate,Affected excretion pathways
+D0983,Mecamylamine,D1654,Tromethamine,Affected excretion pathways
+D1025,Methotrexate,D0886,Lactic acid,Affected excretion pathways
+D1025,Methotrexate,D1316,Potassium acetate,Affected excretion pathways
+D1025,Methotrexate,D1319,Potassium citrate,Affected excretion pathways
+D1025,Methotrexate,D1478,Sodium acetate,Affected excretion pathways
+D1025,Methotrexate,D1483,Sodium citrate,Affected excretion pathways
+D1025,Methotrexate,D1654,Tromethamine,Affected excretion pathways
+D1025,Methotrexate,D1480,Sodium bicarbonate,Affected excretion pathways
+D0013,Acetohexamide,D0886,Lactic acid,Affected excretion pathways
+D0013,Acetohexamide,D1319,Potassium citrate,Affected excretion pathways
+D0013,Acetohexamide,D1478,Sodium acetate,Affected excretion pathways
+D0013,Acetohexamide,D1483,Sodium citrate,Affected excretion pathways
+D0013,Acetohexamide,D1654,Tromethamine,Affected excretion pathways
+D0325,Chlorpropamide,D0886,Lactic acid,Affected excretion pathways
+D0325,Chlorpropamide,D1319,Potassium citrate,Affected excretion pathways
+D0325,Chlorpropamide,D1478,Sodium acetate,Affected excretion pathways
+D0325,Chlorpropamide,D1483,Sodium citrate,Affected excretion pathways
+D0325,Chlorpropamide,D1654,Tromethamine,Affected excretion pathways
+D0728,Glipizide,D0886,Lactic acid,Affected excretion pathways
+D0728,Glipizide,D1319,Potassium citrate,Affected excretion pathways
+D0728,Glipizide,D1478,Sodium acetate,Affected excretion pathways
+D0728,Glipizide,D1483,Sodium citrate,Affected excretion pathways
+D0728,Glipizide,D1654,Tromethamine,Affected excretion pathways
+D0730,Glyburide,D0886,Lactic acid,Affected excretion pathways
+D0730,Glyburide,D1319,Potassium citrate,Affected excretion pathways
+D0730,Glyburide,D1478,Sodium acetate,Affected excretion pathways
+D0730,Glyburide,D1483,Sodium citrate,Affected excretion pathways
+D0730,Glyburide,D1654,Tromethamine,Affected excretion pathways
+D1601,Tolazamide,D0886,Lactic acid,Affected excretion pathways
+D1601,Tolazamide,D1319,Potassium citrate,Affected excretion pathways
+D1601,Tolazamide,D1478,Sodium acetate,Affected excretion pathways
+D1601,Tolazamide,D1483,Sodium citrate,Affected excretion pathways
+D1601,Tolazamide,D1654,Tromethamine,Affected excretion pathways
+D1603,Tolbutamide,D0886,Lactic acid,Affected excretion pathways
+D1603,Tolbutamide,D1319,Potassium citrate,Affected excretion pathways
+D1603,Tolbutamide,D1478,Sodium acetate,Affected excretion pathways
+D1603,Tolbutamide,D1483,Sodium citrate,Affected excretion pathways
+D1603,Tolbutamide,D1654,Tromethamine,Affected excretion pathways
+D0579,Ephedrine,D0886,Lactic acid,Affected excretion pathways
+D0579,Ephedrine,D1319,Potassium citrate,Affected excretion pathways
+D0579,Ephedrine,D1478,Sodium acetate,Affected excretion pathways
+D0579,Ephedrine,D1480,Sodium bicarbonate,Affected excretion pathways
+D0579,Ephedrine,D1483,Sodium citrate,Affected excretion pathways
+D0579,Ephedrine,D1654,Tromethamine,Affected excretion pathways
+D0580,Ephedrine (nasal),D0886,Lactic acid,Affected excretion pathways
+D0580,Ephedrine (nasal),D1319,Potassium citrate,Affected excretion pathways
+D0580,Ephedrine (nasal),D1478,Sodium acetate,Affected excretion pathways
+D0580,Ephedrine (nasal),D1480,Sodium bicarbonate,Affected excretion pathways
+D0580,Ephedrine (nasal),D1483,Sodium citrate,Affected excretion pathways
+D0580,Ephedrine (nasal),D1654,Tromethamine,Affected excretion pathways
+D1363,Pseudoephedrine,D0886,Lactic acid,Affected excretion pathways
+D1363,Pseudoephedrine,D1319,Potassium citrate,Affected excretion pathways
+D1363,Pseudoephedrine,D1478,Sodium acetate,Affected excretion pathways
+D1363,Pseudoephedrine,D1480,Sodium bicarbonate,Affected excretion pathways
+D1363,Pseudoephedrine,D1483,Sodium citrate,Affected excretion pathways
+D1363,Pseudoephedrine,D1654,Tromethamine,Affected excretion pathways
+D0441,Demeclocycline,D0886,Lactic acid,Affected excretion pathways
+D0441,Demeclocycline,D1319,Potassium citrate,Affected excretion pathways
+D0441,Demeclocycline,D1478,Sodium acetate,Affected excretion pathways
+D0441,Demeclocycline,D1480,Sodium bicarbonate,Affected excretion pathways
+D0441,Demeclocycline,D1483,Sodium citrate,Affected excretion pathways
+D0441,Demeclocycline,D1654,Tromethamine,Affected excretion pathways
+D0530,Doxycycline,D0886,Lactic acid,Affected excretion pathways
+D0530,Doxycycline,D1319,Potassium citrate,Affected excretion pathways
+D0530,Doxycycline,D1478,Sodium acetate,Affected excretion pathways
+D0530,Doxycycline,D1654,Tromethamine,Affected excretion pathways
+D1070,Minocycline,D0886,Lactic acid,Affected excretion pathways
+D1070,Minocycline,D1319,Potassium citrate,Affected excretion pathways
+D1070,Minocycline,D1478,Sodium acetate,Affected excretion pathways
+D1070,Minocycline,D1480,Sodium bicarbonate,Affected excretion pathways
+D1070,Minocycline,D1483,Sodium citrate,Affected excretion pathways
+D1070,Minocycline,D1654,Tromethamine,Affected excretion pathways
+D1209,Oxytetracycline,D0886,Lactic acid,Affected excretion pathways
+D1209,Oxytetracycline,D1319,Potassium citrate,Affected excretion pathways
+D1209,Oxytetracycline,D1478,Sodium acetate,Affected excretion pathways
+D1209,Oxytetracycline,D1480,Sodium bicarbonate,Affected excretion pathways
+D1209,Oxytetracycline,D1483,Sodium citrate,Affected excretion pathways
+D1209,Oxytetracycline,D1654,Tromethamine,Affected excretion pathways
+D1564,Tetracycline,D0886,Lactic acid,Affected excretion pathways
+D1564,Tetracycline,D1319,Potassium citrate,Affected excretion pathways
+D1564,Tetracycline,D1478,Sodium acetate,Affected excretion pathways
+D1564,Tetracycline,D1480,Sodium bicarbonate,Affected excretion pathways
+D1564,Tetracycline,D1483,Sodium citrate,Affected excretion pathways
+D1564,Tetracycline,D1654,Tromethamine,Affected excretion pathways
+D0530,Doxycycline,D1480,Sodium bicarbonate,Affected excretion pathways
+D0341,Ciprofloxacin,D1480,Sodium bicarbonate,Affected excretion pathways
+D0340,Cinoxacin,D1760,Citric acid,Affected excretion pathways
+D0341,Ciprofloxacin,D1760,Citric acid,Affected excretion pathways
+D0573,Enoxacin,D1760,Citric acid,Affected excretion pathways
+D0712,Gatifloxacin,D1760,Citric acid,Affected excretion pathways
+D0716,Gemifloxacin,D1760,Citric acid,Affected excretion pathways
+D0740,Grepafloxacin,D1760,Citric acid,Affected excretion pathways
+D0919,Levofloxacin,D1760,Citric acid,Affected excretion pathways
+D0943,Lomefloxacin,D1760,Citric acid,Affected excretion pathways
+D1092,Moxifloxacin,D1760,Citric acid,Affected excretion pathways
+D1102,Nalidixic acid,D1760,Citric acid,Affected excretion pathways
+D1155,Norfloxacin,D1760,Citric acid,Affected excretion pathways
+D1165,Ofloxacin,D1760,Citric acid,Affected excretion pathways
+D1499,Sparfloxacin,D1760,Citric acid,Affected excretion pathways
+D1657,Trovafloxacin,D1760,Citric acid,Affected excretion pathways
+D0068,Amitriptyline,D0070,Ammonium chloride,Affected excretion pathways
+D0072,Amoxapine,D0070,Ammonium chloride,Affected excretion pathways
+D0361,Clomipramine,D0070,Ammonium chloride,Affected excretion pathways
+D0446,Desipramine,D0070,Ammonium chloride,Affected excretion pathways
+D0525,Doxepin,D0070,Ammonium chloride,Affected excretion pathways
+D0526,Doxepin (topical),D0070,Ammonium chloride,Affected excretion pathways
+D0795,Imipramine,D0070,Ammonium chloride,Affected excretion pathways
+D1158,Nortriptyline,D0070,Ammonium chloride,Affected excretion pathways
+D1361,Protriptyline,D0070,Ammonium chloride,Affected excretion pathways
+D1647,Trimipramine,D0070,Ammonium chloride,Affected excretion pathways
+D0049,Aluminum hydroxide,D0331,Choline salicylate,Affected excretion pathways
+D0483,Didanosine,D0331,Choline salicylate,Affected excretion pathways
+D0483,Didanosine,D1272,Phenyl salicylate,Affected excretion pathways
+D0483,Didanosine,D1439,Salicylic acid (sodium),Affected excretion pathways
+D0483,Didanosine,D1442,Salsalate,Affected excretion pathways
+D0967,Magaldrate,D0331,Choline salicylate,Affected excretion pathways
+D0968,Magnesium carbonate,D0331,Choline salicylate,Affected excretion pathways
+D0968,Magnesium carbonate,D1272,Phenyl salicylate,Affected excretion pathways
+D0973,Magnesium hydroxide,D0331,Choline salicylate,Affected excretion pathways
+D0974,Magnesium oxide,D0331,Choline salicylate,Affected excretion pathways
+D0974,Magnesium oxide,D1442,Salsalate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D0049,Aluminum hydroxide,Affected excretion pathways
+D0017,Acetylsalicylic acid,D0236,Calcium carbonate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D0967,Magaldrate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D0968,Magnesium carbonate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D0973,Magnesium hydroxide,Affected excretion pathways
+D0017,Acetylsalicylic acid,D0974,Magnesium oxide,Affected excretion pathways
+D1439,Salicylic acid (sodium),D0049,Aluminum hydroxide,Affected excretion pathways
+D1439,Salicylic acid (sodium),D0236,Calcium carbonate,Affected excretion pathways
+D1439,Salicylic acid (sodium),D0968,Magnesium carbonate,Affected excretion pathways
+D1439,Salicylic acid (sodium),D0973,Magnesium hydroxide,Affected excretion pathways
+D1439,Salicylic acid (sodium),D0974,Magnesium oxide,Affected excretion pathways
+D1442,Salsalate,D0049,Aluminum hydroxide,Affected excretion pathways
+D1442,Salsalate,D0236,Calcium carbonate,Affected excretion pathways
+D1442,Salsalate,D0967,Magaldrate,Affected excretion pathways
+D1442,Salsalate,D0968,Magnesium carbonate,Affected excretion pathways
+D1442,Salsalate,D0973,Magnesium hydroxide,Affected excretion pathways
+D0483,Didanosine,D0017,Acetylsalicylic acid,Affected excretion pathways
+D0012,Acetazolamide,D1371,Quinidine,Affected excretion pathways
+D1018,Methazolamide,D1371,Quinidine,Affected excretion pathways
+D1371,Quinidine,D0049,Aluminum hydroxide,Affected excretion pathways
+D1371,Quinidine,D0236,Calcium carbonate,Affected excretion pathways
+D1371,Quinidine,D0479,Diclofenamide,Affected excretion pathways
+D1371,Quinidine,D0886,Lactic acid,Affected excretion pathways
+D1371,Quinidine,D0967,Magaldrate,Affected excretion pathways
+D1371,Quinidine,D0968,Magnesium carbonate,Affected excretion pathways
+D1371,Quinidine,D0973,Magnesium hydroxide,Affected excretion pathways
+D1371,Quinidine,D0974,Magnesium oxide,Affected excretion pathways
+D1371,Quinidine,D1319,Potassium citrate,Affected excretion pathways
+D1371,Quinidine,D1478,Sodium acetate,Affected excretion pathways
+D1371,Quinidine,D1483,Sodium citrate,Affected excretion pathways
+D1371,Quinidine,D1654,Tromethamine,Affected excretion pathways
+D1371,Quinidine,D1480,Sodium bicarbonate,Affected excretion pathways
+D0012,Acetazolamide,D0998,Memantine,Affected excretion pathways
+D1018,Methazolamide,D0998,Memantine,Affected excretion pathways
+D0998,Memantine,D0479,Diclofenamide,Affected excretion pathways
+D0998,Memantine,D0886,Lactic acid,Affected excretion pathways
+D0998,Memantine,D1319,Potassium citrate,Affected excretion pathways
+D0998,Memantine,D1478,Sodium acetate,Affected excretion pathways
+D0998,Memantine,D1480,Sodium bicarbonate,Affected excretion pathways
+D0998,Memantine,D1483,Sodium citrate,Affected excretion pathways
+D0998,Memantine,D1654,Tromethamine,Affected excretion pathways
+D1017,Methadone,D0070,Ammonium chloride,Affected excretion pathways
+D1017,Methadone,D1086,Monopotassium phosphate,Affected excretion pathways
+D1017,Methadone,D1486,"Sodium phosphate, monobasic",Affected excretion pathways
+D0074,Amphetamine,D0070,Ammonium chloride,Affected excretion pathways
+D0074,Amphetamine,D1020,Methenamine,Affected excretion pathways
+D0074,Amphetamine,D1086,Monopotassium phosphate,Affected excretion pathways
+D0165,Benzphetamine,D0070,Ammonium chloride,Affected excretion pathways
+D0165,Benzphetamine,D1020,Methenamine,Affected excretion pathways
+D0165,Benzphetamine,D1086,Monopotassium phosphate,Affected excretion pathways
+D0465,Dextroamphetamine,D0070,Ammonium chloride,Affected excretion pathways
+D0465,Dextroamphetamine,D1020,Methenamine,Affected excretion pathways
+D0465,Dextroamphetamine,D1086,Monopotassium phosphate,Affected excretion pathways
+D0937,Lisdexamfetamine,D0070,Ammonium chloride,Affected excretion pathways
+D0937,Lisdexamfetamine,D1020,Methenamine,Affected excretion pathways
+D0937,Lisdexamfetamine,D1086,Monopotassium phosphate,Affected excretion pathways
+D1012,Metamfetamine,D0070,Ammonium chloride,Affected excretion pathways
+D1012,Metamfetamine,D1020,Methenamine,Affected excretion pathways
+D1012,Metamfetamine,D1086,Monopotassium phosphate,Affected excretion pathways
+D0886,Lactic acid,D0940,Lithium carbonate,Affected excretion pathways
+D1319,Potassium citrate,D0940,Lithium carbonate,Affected excretion pathways
+D1478,Sodium acetate,D0940,Lithium carbonate,Affected excretion pathways
+D1480,Sodium bicarbonate,D0940,Lithium carbonate,Affected excretion pathways
+D1483,Sodium citrate,D0940,Lithium carbonate,Affected excretion pathways
+D1654,Tromethamine,D0940,Lithium carbonate,Affected excretion pathways
+D0340,Cinoxacin,D1319,Potassium citrate,Affected excretion pathways
+D0340,Cinoxacin,D1483,Sodium citrate,Affected excretion pathways
+D0341,Ciprofloxacin,D1319,Potassium citrate,Affected excretion pathways
+D0341,Ciprofloxacin,D1483,Sodium citrate,Affected excretion pathways
+D0573,Enoxacin,D1319,Potassium citrate,Affected excretion pathways
+D0573,Enoxacin,D1483,Sodium citrate,Affected excretion pathways
+D0712,Gatifloxacin,D1319,Potassium citrate,Affected excretion pathways
+D0712,Gatifloxacin,D1480,Sodium bicarbonate,Affected excretion pathways
+D0712,Gatifloxacin,D1483,Sodium citrate,Affected excretion pathways
+D0716,Gemifloxacin,D1319,Potassium citrate,Affected excretion pathways
+D0740,Grepafloxacin,D1319,Potassium citrate,Affected excretion pathways
+D0740,Grepafloxacin,D1483,Sodium citrate,Affected excretion pathways
+D0919,Levofloxacin,D1319,Potassium citrate,Affected excretion pathways
+D0919,Levofloxacin,D1480,Sodium bicarbonate,Affected excretion pathways
+D0919,Levofloxacin,D1483,Sodium citrate,Affected excretion pathways
+D0943,Lomefloxacin,D1319,Potassium citrate,Affected excretion pathways
+D0943,Lomefloxacin,D1483,Sodium citrate,Affected excretion pathways
+D1092,Moxifloxacin,D1319,Potassium citrate,Affected excretion pathways
+D1092,Moxifloxacin,D1483,Sodium citrate,Affected excretion pathways
+D1102,Nalidixic acid,D1319,Potassium citrate,Affected excretion pathways
+D1102,Nalidixic acid,D1480,Sodium bicarbonate,Affected excretion pathways
+D1102,Nalidixic acid,D1483,Sodium citrate,Affected excretion pathways
+D1155,Norfloxacin,D1319,Potassium citrate,Affected excretion pathways
+D1155,Norfloxacin,D1483,Sodium citrate,Affected excretion pathways
+D1165,Ofloxacin,D1319,Potassium citrate,Affected excretion pathways
+D1165,Ofloxacin,D1483,Sodium citrate,Affected excretion pathways
+D1657,Trovafloxacin,D1319,Potassium citrate,Affected excretion pathways
+D1657,Trovafloxacin,D1483,Sodium citrate,Affected excretion pathways
+D1092,Moxifloxacin,D1480,Sodium bicarbonate,Affected excretion pathways
+D1165,Ofloxacin,D1480,Sodium bicarbonate,Affected excretion pathways
+D1155,Norfloxacin,D1480,Sodium bicarbonate,Affected excretion pathways
+D0491,Digoxin,D1372,Quinine,Affected excretion pathways
+D1517,Sulfasalazine,D1265,Phenobarbital,Affected excretion pathways
+D1441,Salmon calcitonin,D0940,Lithium carbonate,Affected excretion pathways
+D0040,Allopurinol,D1341,Probenecid,Affected excretion pathways
+D0508,Disopyramide,D0617,Ethanol,Affected excretion pathways
+D0627,Etoposide,D0528,Doxorubicin,Affected excretion pathways
+D0627,Etoposide,D0529,Doxorubicin (liposomal),Affected excretion pathways
+D0489,Diflunisal,D0619,Ethinylestradiol,Affected excretion pathways
+D0489,Diflunisal,D1011,Mestranol,Affected excretion pathways
+D0934,Liothyronine,D0490,Digitoxin,Affected excretion pathways
+D0490,Digitoxin,D0935,Liotrix,Affected excretion pathways
+D0490,Digitoxin,D1577,"Thyroid, porcine",Affected excretion pathways
+D0491,Digoxin,D0935,Liotrix,Affected excretion pathways
+D0491,Digoxin,D1577,"Thyroid, porcine",Affected excretion pathways
+D0491,Digoxin,D0925,Levothyroxine,Affected excretion pathways
+D0934,Liothyronine,D0491,Digoxin,Affected excretion pathways
+D1680,Vancomycin,D0517,Dopamine,Affected excretion pathways
+D1680,Vancomycin,D0510,Dobutamine,Affected excretion pathways
+D0217,Bumetanide,D0274,Cefamandole,Affected excretion pathways
+D0217,Bumetanide,D0275,Cefapirin,Affected excretion pathways
+D0217,Bumetanide,D0278,Cefditoren,Affected excretion pathways
+D0217,Bumetanide,D0283,Cefonicid,Affected excretion pathways
+D0217,Bumetanide,D0284,Cefoperazone,Affected excretion pathways
+D0217,Bumetanide,D0286,Cefotetan,Affected excretion pathways
+D0217,Bumetanide,D0287,Cefoxitin,Affected excretion pathways
+D0217,Bumetanide,D0288,Cefpodoxime,Affected excretion pathways
+D0217,Bumetanide,D0289,Cefprozil,Affected excretion pathways
+D0217,Bumetanide,D0290,Cefradine,Affected excretion pathways
+D0217,Bumetanide,D0291,Ceftaroline fosamil,Affected excretion pathways
+D0217,Bumetanide,D0293,Ceftibuten,Affected excretion pathways
+D0217,Bumetanide,D0294,Ceftizoxime,Affected excretion pathways
+D0217,Bumetanide,D0295,Ceftolozane,Affected excretion pathways
+D0613,Etacrynic acid,D0272,Cefadroxil,Affected excretion pathways
+D0613,Etacrynic acid,D0274,Cefamandole,Affected excretion pathways
+D0613,Etacrynic acid,D0275,Cefapirin,Affected excretion pathways
+D0613,Etacrynic acid,D0278,Cefditoren,Affected excretion pathways
+D0613,Etacrynic acid,D0279,Cefepime,Affected excretion pathways
+D0613,Etacrynic acid,D0283,Cefonicid,Affected excretion pathways
+D0613,Etacrynic acid,D0284,Cefoperazone,Affected excretion pathways
+D0613,Etacrynic acid,D0286,Cefotetan,Affected excretion pathways
+D0613,Etacrynic acid,D0287,Cefoxitin,Affected excretion pathways
+D0613,Etacrynic acid,D0288,Cefpodoxime,Affected excretion pathways
+D0613,Etacrynic acid,D0289,Cefprozil,Affected excretion pathways
+D0613,Etacrynic acid,D0290,Cefradine,Affected excretion pathways
+D0613,Etacrynic acid,D0291,Ceftaroline fosamil,Affected excretion pathways
+D0613,Etacrynic acid,D0293,Ceftibuten,Affected excretion pathways
+D0613,Etacrynic acid,D0294,Ceftizoxime,Affected excretion pathways
+D0613,Etacrynic acid,D0295,Ceftolozane,Affected excretion pathways
+D0613,Etacrynic acid,D0296,Ceftriaxone,Affected excretion pathways
+D0613,Etacrynic acid,D0297,Cefuroxime,Affected excretion pathways
+D0704,Furosemide,D0274,Cefamandole,Affected excretion pathways
+D0704,Furosemide,D0275,Cefapirin,Affected excretion pathways
+D0704,Furosemide,D0278,Cefditoren,Affected excretion pathways
+D0704,Furosemide,D0283,Cefonicid,Affected excretion pathways
+D0704,Furosemide,D0284,Cefoperazone,Affected excretion pathways
+D0704,Furosemide,D0286,Cefotetan,Affected excretion pathways
+D0704,Furosemide,D0290,Cefradine,Affected excretion pathways
+D0704,Furosemide,D0291,Ceftaroline fosamil,Affected excretion pathways
+D0704,Furosemide,D0293,Ceftibuten,Affected excretion pathways
+D0704,Furosemide,D0294,Ceftizoxime,Affected excretion pathways
+D0704,Furosemide,D0295,Ceftolozane,Affected excretion pathways
+D0949,Loracarbef,D0217,Bumetanide,Affected excretion pathways
+D0949,Loracarbef,D0613,Etacrynic acid,Affected excretion pathways
+D0949,Loracarbef,D0704,Furosemide,Affected excretion pathways
+D1611,Torasemide,D0271,Cefaclor,Affected excretion pathways
+D1611,Torasemide,D0272,Cefadroxil,Affected excretion pathways
+D1611,Torasemide,D0273,Cefalotin,Affected excretion pathways
+D1611,Torasemide,D0274,Cefamandole,Affected excretion pathways
+D1611,Torasemide,D0275,Cefapirin,Affected excretion pathways
+D1611,Torasemide,D0276,Cefazolin,Affected excretion pathways
+D1611,Torasemide,D0277,Cefdinir,Affected excretion pathways
+D1611,Torasemide,D0278,Cefditoren,Affected excretion pathways
+D1611,Torasemide,D0281,Cefixime,Affected excretion pathways
+D1611,Torasemide,D0282,Cefmetazole,Affected excretion pathways
+D1611,Torasemide,D0283,Cefonicid,Affected excretion pathways
+D1611,Torasemide,D0284,Cefoperazone,Affected excretion pathways
+D1611,Torasemide,D0285,Cefotaxime,Affected excretion pathways
+D1611,Torasemide,D0286,Cefotetan,Affected excretion pathways
+D1611,Torasemide,D0287,Cefoxitin,Affected excretion pathways
+D1611,Torasemide,D0288,Cefpodoxime,Affected excretion pathways
+D1611,Torasemide,D0289,Cefprozil,Affected excretion pathways
+D1611,Torasemide,D0290,Cefradine,Affected excretion pathways
+D1611,Torasemide,D0291,Ceftaroline fosamil,Affected excretion pathways
+D1611,Torasemide,D0292,Ceftazidime,Affected excretion pathways
+D1611,Torasemide,D0293,Ceftibuten,Affected excretion pathways
+D1611,Torasemide,D0294,Ceftizoxime,Affected excretion pathways
+D1611,Torasemide,D0295,Ceftolozane,Affected excretion pathways
+D1611,Torasemide,D0949,Loracarbef,Affected excretion pathways
+D0704,Furosemide,D0276,Cefazolin,Affected excretion pathways
+D0704,Furosemide,D0297,Cefuroxime,Affected excretion pathways
+D0704,Furosemide,D0272,Cefadroxil,Affected excretion pathways
+D0217,Bumetanide,D0272,Cefadroxil,Affected excretion pathways
+D0704,Furosemide,D0289,Cefprozil,Affected excretion pathways
+D0704,Furosemide,D0279,Cefepime,Affected excretion pathways
+D1611,Torasemide,D0297,Cefuroxime,Affected excretion pathways
+D1611,Torasemide,D0296,Ceftriaxone,Affected excretion pathways
+D0704,Furosemide,D0296,Ceftriaxone,Affected excretion pathways
+D0217,Bumetanide,D0296,Ceftriaxone,Affected excretion pathways
+D0704,Furosemide,D0287,Cefoxitin,Affected excretion pathways
+D0704,Furosemide,D0271,Cefaclor,Affected excretion pathways
+D0217,Bumetanide,D0276,Cefazolin,Affected excretion pathways
+D0217,Bumetanide,D0279,Cefepime,Affected excretion pathways
+D1611,Torasemide,D0279,Cefepime,Affected excretion pathways
+D1611,Torasemide,D0301,Cephalexin,Affected excretion pathways
+D0217,Bumetanide,D0297,Cefuroxime,Affected excretion pathways
+D1816,Imiglucerase,D1847,Miglustat,Affected excretion pathways
+D0933,Linezolid,D1400,Rifampicin,Affected excretion pathways
+D0597,Erythromycin,D1714,Zafirlukast,Affected excretion pathways
+D0172,Betamethasone,D0858,Isoniazid,Affected excretion pathways
+D0671,Fludrocortisone,D0858,Isoniazid,Affected excretion pathways
+D0858,Isoniazid,D0436,Deflazacort,Affected excretion pathways
+D1332,Prednisolone,D0858,Isoniazid,Affected excretion pathways
+D1334,Prednisone,D0858,Isoniazid,Affected excretion pathways
+D0858,Isoniazid,D0453,Dexamethasone,Affected excretion pathways
+D0858,Isoniazid,D1041,Methylprednisolone,Affected excretion pathways
+D0773,Hydrocortisone,D0858,Isoniazid,Affected excretion pathways
+D1628,Triamcinolone,D0858,Isoniazid,Affected excretion pathways
+D1630,Triamcinolone (ophthalmic),D0858,Isoniazid,Affected excretion pathways
+D1668,Urea,D0940,Lithium carbonate,Affected excretion pathways
+D0325,Chlorpropamide,D1274,Phenylbutazone,Affected excretion pathways
+D0325,Chlorpropamide,D1518,Sulfinpyrazone,Affected excretion pathways
+D0727,Glimepiride,D1274,Phenylbutazone,Affected excretion pathways
+D0727,Glimepiride,D1518,Sulfinpyrazone,Affected excretion pathways
+D0728,Glipizide,D1518,Sulfinpyrazone,Affected excretion pathways
+D0730,Glyburide,D1518,Sulfinpyrazone,Affected excretion pathways
+D1601,Tolazamide,D1518,Sulfinpyrazone,Affected excretion pathways
+D1603,Tolbutamide,D1518,Sulfinpyrazone,Affected excretion pathways
+D1274,Phenylbutazone,D0728,Glipizide,Affected excretion pathways
+D1274,Phenylbutazone,D0730,Glyburide,Affected excretion pathways
+D1274,Phenylbutazone,D1601,Tolazamide,Affected excretion pathways
+D1274,Phenylbutazone,D1603,Tolbutamide,Affected excretion pathways
+D1379,Ramipril,D0491,Digoxin,Affected excretion pathways
+D0544,Dyphylline,D1341,Probenecid,Affected excretion pathways
+D1245,Penicillamine,D1341,Probenecid,Affected excretion pathways
+D0058,Amiloride,D0940,Lithium carbonate,Affected excretion pathways
+D0337,Cimetidine,D0210,Bromfenac,Affected excretion pathways
+D0491,Digoxin,D1134,Nifedipine,Affected excretion pathways
+D0491,Digoxin,D1141,Nisoldipine,Affected excretion pathways
+D1570,Theophylline,D1025,Methotrexate,Affected excretion pathways
+D1501,Spironolactone,D0940,Lithium carbonate,Affected excretion pathways
+D1631,Triamterene,D0940,Lithium carbonate,Affected excretion pathways
+D0667,Fluconazole,D0771,Hydrochlorothiazide,Affected excretion pathways
+D1645,Trimethoprim,D1293,Pindolol,Affected excretion pathways
+D1341,Probenecid,D0732,Glycerol phenylbutyrate,Affected excretion pathways
+D1341,Probenecid,D1275,Phenylbutyric acid,Affected excretion pathways
+D0040,Allopurinol,D0325,Chlorpropamide,Affected excretion pathways
+D1015,Metformin,D0058,Amiloride,Affected excretion pathways
+D1555,Terfenadine,D1721,Zileuton,Affected excretion pathways
+D0138,Azilsartan medoxomil,D0940,Lithium carbonate,Affected excretion pathways
+D0156,Benazepril,D0940,Lithium carbonate,Affected excretion pathways
+D0158,Bendroflumethiazide,D0940,Lithium carbonate,Affected excretion pathways
+D0166,Benzthiazide,D0940,Lithium carbonate,Affected excretion pathways
+D0210,Bromfenac,D0940,Lithium carbonate,Affected excretion pathways
+D0217,Bumetanide,D0940,Lithium carbonate,Affected excretion pathways
+D0254,Captopril,D0940,Lithium carbonate,Affected excretion pathways
+D0298,Celecoxib,D0940,Lithium carbonate,Affected excretion pathways
+D0321,Chlorothiazide,D0940,Lithium carbonate,Affected excretion pathways
+D0326,Chlorthalidone,D0940,Lithium carbonate,Affected excretion pathways
+D0478,Diclofenac (topical),D0940,Lithium carbonate,Affected excretion pathways
+D0476,Diclofenac,D0940,Lithium carbonate,Affected excretion pathways
+D0489,Diflunisal,D0940,Lithium carbonate,Affected excretion pathways
+D0587,Eprosartan,D0940,Lithium carbonate,Affected excretion pathways
+D0613,Etacrynic acid,D0940,Lithium carbonate,Affected excretion pathways
+D0624,Etodolac,D0940,Lithium carbonate,Affected excretion pathways
+D0645,Fenoprofen,D0940,Lithium carbonate,Affected excretion pathways
+D0680,Flurbiprofen,D0940,Lithium carbonate,Affected excretion pathways
+D0695,Fosinopril,D0940,Lithium carbonate,Affected excretion pathways
+D0704,Furosemide,D0940,Lithium carbonate,Affected excretion pathways
+D0771,Hydrochlorothiazide,D0940,Lithium carbonate,Affected excretion pathways
+D0775,Hydroflumethiazide,D0940,Lithium carbonate,Affected excretion pathways
+D0786,Ibuprofen,D0940,Lithium carbonate,Affected excretion pathways
+D0798,Indapamide,D0940,Lithium carbonate,Affected excretion pathways
+D0800,Indomethacin,D0940,Lithium carbonate,Affected excretion pathways
+D0844,Irbesartan,D0940,Lithium carbonate,Affected excretion pathways
+D0882,Ketorolac,D0940,Lithium carbonate,Affected excretion pathways
+D0938,Lisinopril,D0940,Lithium carbonate,Affected excretion pathways
+D0954,Losartan,D0940,Lithium carbonate,Affected excretion pathways
+D0988,Meclofenamic acid,D0940,Lithium carbonate,Affected excretion pathways
+D0991,Mefenamic acid,D0940,Lithium carbonate,Affected excretion pathways
+D0995,Meloxicam,D0940,Lithium carbonate,Affected excretion pathways
+D1048,Metolazone,D0940,Lithium carbonate,Affected excretion pathways
+D1082,Moexipril,D0940,Lithium carbonate,Affected excretion pathways
+D1097,Nabumetone,D0940,Lithium carbonate,Affected excretion pathways
+D1109,Naproxen,D0940,Lithium carbonate,Affected excretion pathways
+D1170,Olmesartan,D0940,Lithium carbonate,Affected excretion pathways
+D1196,Oxaprozin,D0940,Lithium carbonate,Affected excretion pathways
+D1256,Perindopril,D0940,Lithium carbonate,Affected excretion pathways
+D1274,Phenylbutazone,D0940,Lithium carbonate,Affected excretion pathways
+D1300,Piroxicam,D0940,Lithium carbonate,Affected excretion pathways
+D1311,Polythiazide,D0940,Lithium carbonate,Affected excretion pathways
+D1369,Quinapril,D0940,Lithium carbonate,Affected excretion pathways
+D1379,Ramipril,D0940,Lithium carbonate,Affected excretion pathways
+D1421,Rofecoxib,D0940,Lithium carbonate,Affected excretion pathways
+D1545,Telmisartan,D0940,Lithium carbonate,Affected excretion pathways
+D1606,Tolmetin,D0940,Lithium carbonate,Affected excretion pathways
+D1611,Torasemide,D0940,Lithium carbonate,Affected excretion pathways
+D1618,Trandolapril,D0940,Lithium carbonate,Affected excretion pathways
+D1633,Trichlormethiazide,D0940,Lithium carbonate,Affected excretion pathways
+D1674,Valdecoxib,D0940,Lithium carbonate,Affected excretion pathways
+D1679,Valsartan,D0940,Lithium carbonate,Affected excretion pathways
+D0017,Acetylsalicylic acid,D1323,Pralatrexate,Affected excretion pathways
+D0624,Etodolac,D1323,Pralatrexate,Affected excretion pathways
+D0680,Flurbiprofen,D1323,Pralatrexate,Affected excretion pathways
+D0800,Indomethacin,D1323,Pralatrexate,Affected excretion pathways
+D0882,Ketorolac,D1323,Pralatrexate,Affected excretion pathways
+D0991,Mefenamic acid,D1323,Pralatrexate,Affected excretion pathways
+D1097,Nabumetone,D1323,Pralatrexate,Affected excretion pathways
+D1196,Oxaprozin,D1323,Pralatrexate,Affected excretion pathways
+D1439,Salicylic acid (sodium),D1323,Pralatrexate,Affected excretion pathways
+D1442,Salsalate,D1323,Pralatrexate,Affected excretion pathways
+D1520,Sulindac,D1323,Pralatrexate,Affected excretion pathways
+D1606,Tolmetin,D1323,Pralatrexate,Affected excretion pathways
+D1323,Pralatrexate,D0331,Choline salicylate,Affected excretion pathways
+D0402,Cyclosporine,D0741,Griseofulvin,Affected excretion pathways
+D1130,Nicardipine,D1684,Vecuronium,Affected excretion pathways
+D0491,Digoxin,D0187,Bismuth subsalicylate,Affected excretion pathways
+D0491,Digoxin,D0210,Bromfenac,Affected excretion pathways
+D0491,Digoxin,D0331,Choline salicylate,Affected excretion pathways
+D0491,Digoxin,D0489,Diflunisal,Affected excretion pathways
+D0491,Digoxin,D0645,Fenoprofen,Affected excretion pathways
+D0491,Digoxin,D0680,Flurbiprofen,Affected excretion pathways
+D0491,Digoxin,D0988,Meclofenamic acid,Affected excretion pathways
+D0491,Digoxin,D0991,Mefenamic acid,Affected excretion pathways
+D0491,Digoxin,D1272,Phenyl salicylate,Affected excretion pathways
+D0491,Digoxin,D1439,Salicylic acid (sodium),Affected excretion pathways
+D0491,Digoxin,D1442,Salsalate,Affected excretion pathways
+D0491,Digoxin,D1606,Tolmetin,Affected excretion pathways
+D0491,Digoxin,D1109,Naproxen,Affected excretion pathways
+D0491,Digoxin,D0476,Diclofenac,Affected excretion pathways
+D0491,Digoxin,D1520,Sulindac,Affected excretion pathways
+D0491,Digoxin,D1097,Nabumetone,Affected excretion pathways
+D0491,Digoxin,D0881,Ketoprofen,Affected excretion pathways
+D0491,Digoxin,D0624,Etodolac,Affected excretion pathways
+D0491,Digoxin,D1196,Oxaprozin,Affected excretion pathways
+D0491,Digoxin,D0882,Ketorolac,Affected excretion pathways
+D0491,Digoxin,D0017,Acetylsalicylic acid,Affected excretion pathways
+D0800,Indomethacin,D0491,Digoxin,Affected excretion pathways
+D0491,Digoxin,D1300,Piroxicam,Affected excretion pathways
+D0491,Digoxin,D0786,Ibuprofen,Affected excretion pathways
+D0450,Desogestrel,D1110,Naratriptan,Affected excretion pathways
+D1154,Norethisterone,D1110,Naratriptan,Affected excretion pathways
+D1110,Naratriptan,D0485,Dienogest,Affected excretion pathways
+D1110,Naratriptan,D0619,Ethinylestradiol,Affected excretion pathways
+D1110,Naratriptan,D1156,Norgestimate,Affected excretion pathways
+D1110,Naratriptan,D1157,Norgestrel,Affected excretion pathways
+D0922,Levonorgestrel,D1110,Naratriptan,Affected excretion pathways
+D1021,Methimazole,D0490,Digitoxin,Affected excretion pathways
+D1359,Propylthiouracil,D0490,Digitoxin,Affected excretion pathways
+D0491,Digoxin,D1359,Propylthiouracil,Affected excretion pathways
+D0491,Digoxin,D1021,Methimazole,Affected excretion pathways
+D1631,Triamterene,D0491,Digoxin,Affected excretion pathways

@@ -1,0 +1,1111 @@
+A_Drug_ID,A_Drug_Name,B_Drug_ID,B_Drug_Name,Mechanism_Category
+D1652,Troglitazone,D1711,Warfarin,Affected organization distribution
+D0481,Dicoumarol,D1513,Sulfadiazine,Affected organization distribution
+D0481,Dicoumarol,D1516,Sulfamethoxazole,Affected organization distribution
+D0481,Dicoumarol,D1517,Sulfasalazine,Affected organization distribution
+D1513,Sulfadiazine,D0087,Anisindione,Affected organization distribution
+D1513,Sulfadiazine,D1711,Warfarin,Affected organization distribution
+D1515,Sulfamethizole,D1711,Warfarin,Affected organization distribution
+D1516,Sulfamethoxazole,D0087,Anisindione,Affected organization distribution
+D1517,Sulfasalazine,D0087,Anisindione,Affected organization distribution
+D1519,Sulfisoxazole,D1711,Warfarin,Affected organization distribution
+D1711,Warfarin,D1514,Sulfadoxine,Affected organization distribution
+D1711,Warfarin,D1516,Sulfamethoxazole,Affected organization distribution
+D1711,Warfarin,D1517,Sulfasalazine,Affected organization distribution
+D1283,Phenytoin,D1518,Sulfinpyrazone,Affected organization distribution
+D0481,Dicoumarol,D0676,Fluoxetine,Affected organization distribution
+D0676,Fluoxetine,D0087,Anisindione,Affected organization distribution
+D0676,Fluoxetine,D1711,Warfarin,Affected organization distribution
+D1677,Valproic acid,D0697,Fosphenytoin,Affected organization distribution
+D1283,Phenytoin,D1677,Valproic acid,Affected organization distribution
+D0255,Carbamazepine,D0935,Liotrix,Affected organization distribution
+D0255,Carbamazepine,D1577,"Thyroid, porcine",Affected organization distribution
+D1283,Phenytoin,D0934,Liothyronine,Affected organization distribution
+D1283,Phenytoin,D0935,Liotrix,Affected organization distribution
+D1283,Phenytoin,D1577,"Thyroid, porcine",Affected organization distribution
+D1283,Phenytoin,D0925,Levothyroxine,Affected organization distribution
+D0934,Liothyronine,D0255,Carbamazepine,Affected organization distribution
+D0925,Levothyroxine,D0255,Carbamazepine,Affected organization distribution
+D1025,Methotrexate,D0441,Demeclocycline,Affected organization distribution
+D1025,Methotrexate,D1209,Oxytetracycline,Affected organization distribution
+D0530,Doxycycline,D1025,Methotrexate,Affected organization distribution
+D1025,Methotrexate,D1564,Tetracycline,Affected organization distribution
+D1025,Methotrexate,D1070,Minocycline,Affected organization distribution
+D1690,Verapamil,D0354,Clindamycin,Affected organization distribution
+D1690,Verapamil,D0296,Ceftriaxone,Affected organization distribution
+D1283,Phenytoin,D0296,Ceftriaxone,Affected organization distribution
+D1711,Warfarin,D0311,Chloral hydrate,Affected organization distribution
+D0360,Clofibrate,D0704,Furosemide,Affected organization distribution
+D0360,Clofibrate,D0621,Ethotoin,Affected organization distribution
+D0360,Clofibrate,D0697,Fosphenytoin,Affected organization distribution
+D1003,Mephenytoin,D0360,Clofibrate,Affected organization distribution
+D1283,Phenytoin,D0360,Clofibrate,Affected organization distribution
+D0066,Amiodarone,D0490,Digitoxin,Affected organization distribution
+D0491,Digoxin,D0066,Amiodarone,Affected organization distribution
+D0013,Acetohexamide,D1142,Nitazoxanide,Affected organization distribution
+D0481,Dicoumarol,D1142,Nitazoxanide,Affected organization distribution
+D0727,Glimepiride,D1142,Nitazoxanide,Affected organization distribution
+D0927,Lidocaine,D1142,Nitazoxanide,Affected organization distribution
+D0951,Lorazepam,D1142,Nitazoxanide,Affected organization distribution
+D1142,Nitazoxanide,D0325,Chlorpropamide,Affected organization distribution
+D1142,Nitazoxanide,D0365,Clorazepic acid,Affected organization distribution
+D1142,Nitazoxanide,D0473,Diazepam,Affected organization distribution
+D1142,Nitazoxanide,D0604,Estazolam,Affected organization distribution
+D1142,Nitazoxanide,D0679,Flurazepam,Affected organization distribution
+D1142,Nitazoxanide,D0728,Glipizide,Affected organization distribution
+D1142,Nitazoxanide,D0730,Glyburide,Affected organization distribution
+D1142,Nitazoxanide,D1025,Methotrexate,Affected organization distribution
+D1142,Nitazoxanide,D1060,Midazolam,Affected organization distribution
+D1142,Nitazoxanide,D1197,Oxazepam,Affected organization distribution
+D1142,Nitazoxanide,D1367,Quazepam,Affected organization distribution
+D1142,Nitazoxanide,D1601,Tolazamide,Affected organization distribution
+D1142,Nitazoxanide,D1603,Tolbutamide,Affected organization distribution
+D1142,Nitazoxanide,D1711,Warfarin,Affected organization distribution
+D1283,Phenytoin,D1142,Nitazoxanide,Affected organization distribution
+D1547,Temazepam,D1142,Nitazoxanide,Affected organization distribution
+D1677,Valproic acid,D1142,Nitazoxanide,Affected organization distribution
+D1677,Valproic acid,D1413,Risperidone,Affected organization distribution
+D0481,Dicoumarol,D0595,Erlotinib,Affected organization distribution
+D0595,Erlotinib,D0087,Anisindione,Affected organization distribution
+D0595,Erlotinib,D1711,Warfarin,Affected organization distribution
+D1711,Warfarin,D0613,Etacrynic acid,Affected organization distribution
+D0087,Anisindione,D0643,Fenofibric acid,Affected organization distribution
+D0087,Anisindione,D0715,Gemfibrozil,Affected organization distribution
+D0360,Clofibrate,D1711,Warfarin,Affected organization distribution
+D0481,Dicoumarol,D0642,Fenofibrate,Affected organization distribution
+D0481,Dicoumarol,D0643,Fenofibric acid,Affected organization distribution
+D0481,Dicoumarol,D0715,Gemfibrozil,Affected organization distribution
+D0642,Fenofibrate,D0087,Anisindione,Affected organization distribution
+D1711,Warfarin,D0643,Fenofibric acid,Affected organization distribution
+D1711,Warfarin,D0642,Fenofibrate,Affected organization distribution
+D1711,Warfarin,D0715,Gemfibrozil,Affected organization distribution
+D1677,Valproic acid,D0786,Ibuprofen,Affected organization distribution
+D0087,Anisindione,D0180,Bicalutamide,Affected organization distribution
+D0481,Dicoumarol,D0180,Bicalutamide,Affected organization distribution
+D1711,Warfarin,D0180,Bicalutamide,Affected organization distribution
+D0621,Ethotoin,D1095,Mycophenolic acid,Affected organization distribution
+D1003,Mephenytoin,D1094,Mycophenolate mofetil,Affected organization distribution
+D1003,Mephenytoin,D1095,Mycophenolic acid,Affected organization distribution
+D1094,Mycophenolate mofetil,D0621,Ethotoin,Affected organization distribution
+D1094,Mycophenolate mofetil,D0697,Fosphenytoin,Affected organization distribution
+D1095,Mycophenolic acid,D0697,Fosphenytoin,Affected organization distribution
+D1283,Phenytoin,D1094,Mycophenolate mofetil,Affected organization distribution
+D1283,Phenytoin,D1095,Mycophenolic acid,Affected organization distribution
+D1094,Mycophenolate mofetil,D0064,Aminophylline,Affected organization distribution
+D1094,Mycophenolate mofetil,D1201,Oxtriphylline,Affected organization distribution
+D1095,Mycophenolic acid,D0064,Aminophylline,Affected organization distribution
+D1095,Mycophenolic acid,D1201,Oxtriphylline,Affected organization distribution
+D1570,Theophylline,D1094,Mycophenolate mofetil,Affected organization distribution
+D1570,Theophylline,D1095,Mycophenolic acid,Affected organization distribution
+D1283,Phenytoin,D0187,Bismuth subsalicylate,Affected organization distribution
+D1283,Phenytoin,D0331,Choline salicylate,Affected organization distribution
+D1283,Phenytoin,D1439,Salicylic acid (sodium),Affected organization distribution
+D1283,Phenytoin,D1442,Salsalate,Affected organization distribution
+D1283,Phenytoin,D0017,Acetylsalicylic acid,Affected organization distribution
+D1698,Vincristine,D1690,Verapamil,Affected organization distribution
+D0491,Digoxin,D0753,Heparin,Affected organization distribution
+D0013,Acetohexamide,D0349,Clarithromycin,Affected organization distribution
+D1601,Tolazamide,D0349,Clarithromycin,Affected organization distribution
+D1603,Tolbutamide,D0349,Clarithromycin,Affected organization distribution
+D0728,Glipizide,D0349,Clarithromycin,Affected organization distribution
+D0730,Glyburide,D0349,Clarithromycin,Affected organization distribution
+D0727,Glimepiride,D0349,Clarithromycin,Affected organization distribution
+D1283,Phenytoin,D1099,Nafcillin,Affected organization distribution
+D1283,Phenytoin,D0786,Ibuprofen,Affected organization distribution
+D0218,Bupivacaine,D0446,Desipramine,Affected organization distribution
+D0916,Levobupivacaine,D0446,Desipramine,Affected organization distribution
+D1001,Meperidine,D0110,Articaine,Affected organization distribution
+D1001,Meperidine,D0916,Levobupivacaine,Affected organization distribution
+D0218,Bupivacaine,D1001,Meperidine,Affected organization distribution
+D1283,Phenytoin,D0218,Bupivacaine,Affected organization distribution
+D0218,Bupivacaine,D1371,Quinidine,Affected organization distribution
+D1371,Quinidine,D0916,Levobupivacaine,Affected organization distribution
+D1197,Oxazepam,D0489,Diflunisal,Affected organization distribution
+D0795,Imipramine,D0187,Bismuth subsalicylate,Affected organization distribution
+D0795,Imipramine,D0331,Choline salicylate,Affected organization distribution
+D0795,Imipramine,D0489,Diflunisal,Affected organization distribution
+D0795,Imipramine,D1439,Salicylic acid (sodium),Affected organization distribution
+D0795,Imipramine,D1442,Salsalate,Affected organization distribution
+D0795,Imipramine,D0017,Acetylsalicylic acid,Affected organization distribution
+D0489,Diflunisal,D1341,Probenecid,Affected organization distribution
+D1376,Raloxifene,D0474,Diazoxide,Affected organization distribution
+D0927,Lidocaine,D1376,Raloxifene,Affected organization distribution
+D1376,Raloxifene,D0473,Diazepam,Affected organization distribution
+D0704,Furosemide,D0311,Chloral hydrate,Affected organization distribution
+D1427,Ropinirole,D1711,Warfarin,Affected organization distribution
+D0017,Acetylsalicylic acid,D0697,Fosphenytoin,Affected organization distribution
+D1677,Valproic acid,D0187,Bismuth subsalicylate,Affected organization distribution
+D1677,Valproic acid,D0331,Choline salicylate,Affected organization distribution
+D1677,Valproic acid,D0489,Diflunisal,Affected organization distribution
+D1677,Valproic acid,D1272,Phenyl salicylate,Affected organization distribution
+D1677,Valproic acid,D1439,Salicylic acid (sodium),Affected organization distribution
+D1677,Valproic acid,D1442,Salsalate,Affected organization distribution
+D0481,Dicoumarol,D1473,Simvastatin,Affected organization distribution
+D1473,Simvastatin,D0087,Anisindione,Affected organization distribution
+D1473,Simvastatin,D1711,Warfarin,Affected organization distribution
+D0264,Carmustine,D1244,Penbutolol,Affected organization distribution
+D0986,Mechlorethamine,D1244,Penbutolol,Affected organization distribution
+D1283,Phenytoin,D1516,Sulfamethoxazole,Affected organization distribution
+D1025,Methotrexate,D1514,Sulfadoxine,Affected organization distribution
+D1025,Methotrexate,D1515,Sulfamethizole,Affected organization distribution
+D1025,Methotrexate,D1516,Sulfamethoxazole,Affected organization distribution
+D1519,Sulfisoxazole,D1025,Methotrexate,Affected organization distribution
+D1513,Sulfadiazine,D1025,Methotrexate,Affected organization distribution
+D0260,Carboplatin,D0087,Anisindione,Affected organization distribution
+D0481,Dicoumarol,D0260,Carboplatin,Affected organization distribution
+D0481,Dicoumarol,D0627,Etoposide,Affected organization distribution
+D0627,Etoposide,D0087,Anisindione,Affected organization distribution
+D1711,Warfarin,D0627,Etoposide,Affected organization distribution
+D1711,Warfarin,D0260,Carboplatin,Affected organization distribution
+D0012,Acetazolamide,D0187,Bismuth subsalicylate,Affected organization distribution
+D0012,Acetazolamide,D0331,Choline salicylate,Affected organization distribution
+D0012,Acetazolamide,D1439,Salicylic acid (sodium),Affected organization distribution
+D0012,Acetazolamide,D1442,Salsalate,Affected organization distribution
+D0017,Acetylsalicylic acid,D0479,Diclofenamide,Affected organization distribution
+D0207,Brinzolamide (ophthalmic),D0187,Bismuth subsalicylate,Affected organization distribution
+D0207,Brinzolamide (ophthalmic),D0331,Choline salicylate,Affected organization distribution
+D0207,Brinzolamide (ophthalmic),D1272,Phenyl salicylate,Affected organization distribution
+D0207,Brinzolamide (ophthalmic),D1442,Salsalate,Affected organization distribution
+D0479,Diclofenamide,D0187,Bismuth subsalicylate,Affected organization distribution
+D0479,Diclofenamide,D0331,Choline salicylate,Affected organization distribution
+D0479,Diclofenamide,D1442,Salsalate,Affected organization distribution
+D0489,Diflunisal,D0207,Brinzolamide (ophthalmic),Affected organization distribution
+D0489,Diflunisal,D0521,Dorzolamide (ophthalmic),Affected organization distribution
+D0521,Dorzolamide (ophthalmic),D0017,Acetylsalicylic acid,Affected organization distribution
+D0521,Dorzolamide (ophthalmic),D0187,Bismuth subsalicylate,Affected organization distribution
+D0521,Dorzolamide (ophthalmic),D0331,Choline salicylate,Affected organization distribution
+D0521,Dorzolamide (ophthalmic),D1272,Phenyl salicylate,Affected organization distribution
+D0521,Dorzolamide (ophthalmic),D1439,Salicylic acid (sodium),Affected organization distribution
+D0521,Dorzolamide (ophthalmic),D1442,Salsalate,Affected organization distribution
+D1018,Methazolamide,D0017,Acetylsalicylic acid,Affected organization distribution
+D1018,Methazolamide,D0187,Bismuth subsalicylate,Affected organization distribution
+D1018,Methazolamide,D0331,Choline salicylate,Affected organization distribution
+D1018,Methazolamide,D1439,Salicylic acid (sodium),Affected organization distribution
+D1018,Methazolamide,D1442,Salsalate,Affected organization distribution
+D1439,Salicylic acid (sodium),D0207,Brinzolamide (ophthalmic),Affected organization distribution
+D1439,Salicylic acid (sodium),D0479,Diclofenamide,Affected organization distribution
+D0017,Acetylsalicylic acid,D0207,Brinzolamide (ophthalmic),Affected organization distribution
+D0012,Acetazolamide,D0017,Acetylsalicylic acid,Affected organization distribution
+D0404,Cytarabine,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0647,Ferric carboxymaltose,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0649,Ferrous fumarate,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0650,Ferrous gluconate,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0651,Ferrous sulfate anhydrous,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0652,Ferumoxides,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0653,Ferumoxsil,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0654,Ferumoxytol,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0675,Fluorouracil,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0708,Gallium chloride Ga-67,D0648,Ferric derisomaltose,Affected organization distribution
+D0848,Iron Dextran,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0849,Iron protein succinylate,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0850,Iron sucrose,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0847,Iron,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1025,Methotrexate,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1484,Sodium ferric gluconate complex,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1566,Tetraferric tricitrate decahydrate,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0013,Acetohexamide,D0313,Chloramphenicol,Affected organization distribution
+D0313,Chloramphenicol,D0325,Chlorpropamide,Affected organization distribution
+D0313,Chloramphenicol,D0728,Glipizide,Affected organization distribution
+D0313,Chloramphenicol,D0730,Glyburide,Affected organization distribution
+D0313,Chloramphenicol,D1601,Tolazamide,Affected organization distribution
+D0313,Chloramphenicol,D1603,Tolbutamide,Affected organization distribution
+D0727,Glimepiride,D0313,Chloramphenicol,Affected organization distribution
+D0727,Glimepiride,D1103,Nalmefene,Affected organization distribution
+D0727,Glimepiride,D1711,Warfarin,Affected organization distribution
+D0370,Clozapine,D0490,Digitoxin,Affected organization distribution
+D0370,Clozapine,D0087,Anisindione,Affected organization distribution
+D0481,Dicoumarol,D0370,Clozapine,Affected organization distribution
+D0370,Clozapine,D1711,Warfarin,Affected organization distribution
+D1677,Valproic acid,D1578,Tiagabine,Affected organization distribution
+D1677,Valproic acid,D0621,Ethotoin,Affected organization distribution
+D1677,Valproic acid,D1003,Mephenytoin,Affected organization distribution
+D0481,Dicoumarol,D1677,Valproic acid,Affected organization distribution
+D1677,Valproic acid,D0087,Anisindione,Affected organization distribution
+D1677,Valproic acid,D1711,Warfarin,Affected organization distribution
+D0325,Chlorpropamide,D0087,Anisindione,Affected organization distribution
+D0481,Dicoumarol,D0325,Chlorpropamide,Affected organization distribution
+D0481,Dicoumarol,D1603,Tolbutamide,Affected organization distribution
+D0730,Glyburide,D0087,Anisindione,Affected organization distribution
+D1603,Tolbutamide,D0087,Anisindione,Affected organization distribution
+D1711,Warfarin,D0728,Glipizide,Affected organization distribution
+D1711,Warfarin,D1603,Tolbutamide,Affected organization distribution
+D0325,Chlorpropamide,D1711,Warfarin,Affected organization distribution
+D1711,Warfarin,D0730,Glyburide,Affected organization distribution
+D0356,Clobazam,D0491,Digoxin,Affected organization distribution
+D0491,Digoxin,D0365,Clorazepic acid,Affected organization distribution
+D0491,Digoxin,D0748,Halazepam,Affected organization distribution
+D0491,Digoxin,D1367,Quazepam,Affected organization distribution
+D0491,Digoxin,D1391,Remimazolam,Affected organization distribution
+D0951,Lorazepam,D0491,Digoxin,Affected organization distribution
+D0491,Digoxin,D0473,Diazepam,Affected organization distribution
+D0491,Digoxin,D0317,Chlordiazepoxide,Affected organization distribution
+D0491,Digoxin,D1632,Triazolam,Affected organization distribution
+D0491,Digoxin,D0362,Clonazepam,Affected organization distribution
+D1547,Temazepam,D0491,Digoxin,Affected organization distribution
+D0491,Digoxin,D1197,Oxazepam,Affected organization distribution
+D0491,Digoxin,D1060,Midazolam,Affected organization distribution
+D0491,Digoxin,D0679,Flurazepam,Affected organization distribution
+D0491,Digoxin,D0045,Alprazolam,Affected organization distribution
+D0491,Digoxin,D0604,Estazolam,Affected organization distribution
+D1677,Valproic acid,D0356,Clobazam,Affected organization distribution
+D1677,Valproic acid,D0365,Clorazepic acid,Affected organization distribution
+D1677,Valproic acid,D0748,Halazepam,Affected organization distribution
+D1677,Valproic acid,D1391,Remimazolam,Affected organization distribution
+D0951,Lorazepam,D1677,Valproic acid,Affected organization distribution
+D1547,Temazepam,D1677,Valproic acid,Affected organization distribution
+D1677,Valproic acid,D0473,Diazepam,Affected organization distribution
+D1677,Valproic acid,D1197,Oxazepam,Affected organization distribution
+D1677,Valproic acid,D0679,Flurazepam,Affected organization distribution
+D1677,Valproic acid,D0045,Alprazolam,Affected organization distribution
+D1677,Valproic acid,D1060,Midazolam,Affected organization distribution
+D1677,Valproic acid,D0317,Chlordiazepoxide,Affected organization distribution
+D1677,Valproic acid,D1632,Triazolam,Affected organization distribution
+D1677,Valproic acid,D1367,Quazepam,Affected organization distribution
+D1677,Valproic acid,D0604,Estazolam,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D0269,Castor oil,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D0701,Frangula purshiana bark,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D0809,Insulin degludec,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D0887,Lactitol,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D0970,Magnesium citrate,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D1034,Methylcellulose,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D1059,Microcrystalline cellulose,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D1069,Mineral oil,Affected organization distribution
+D0670,Fludeoxyglucose (18F),D1303,Plantago seed,Affected organization distribution
+D0184,Bisacodyl,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0468,"Dextrose, unspecified form",D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0517,Dopamine,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0659,Filgrastim,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0731,Glycerin,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0807,Insulin aspart (aspart protamine),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0808,Insulin aspart (aspart),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0810,Insulin detemir,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0811,Insulin glargine,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0812,Insulin glulisine,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0813,Insulin human,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0814,"Insulin human (inhalation, rapid acting)",D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0815,Insulin human (isophane),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0816,Insulin human (regular),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0817,Insulin human (zinc extended),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0818,Insulin human (zinc),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0819,Insulin lispro,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0820,Insulin lispro (protamine),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0888,Lactulose,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0973,Magnesium hydroxide,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0975,Magnesium sulfate,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D1235,Pegfilgrastim,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D1266,Phenolphthalein,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D1287,Picosulfuric acid,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D1308,Polyethylene glycol (3350 with electrolytes),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D1309,Polyethylene glycol (3350),D0670,Fludeoxyglucose (18F),Affected organization distribution
+D1446,Sargramostim,D0670,Fludeoxyglucose (18F),Affected organization distribution
+D0925,Levothyroxine,D0830,Iodide I-131,Affected organization distribution
+D0934,Liothyronine,D0830,Iodide I-131,Affected organization distribution
+D0506,Dipyridamole,D0669,Fludarabine,Affected organization distribution
+D0491,Digoxin,D0924,Levosalbutamol,Affected organization distribution
+D0491,Digoxin,D1438,Salbutamol,Affected organization distribution
+D0068,Amitriptyline,D0829,Iobenguane (I-131),Affected organization distribution
+D0072,Amoxapine,D0829,Iobenguane (I-131),Affected organization distribution
+D0074,Amphetamine,D0829,Iobenguane (I-131),Affected organization distribution
+D0165,Benzphetamine,D0829,Iobenguane (I-131),Affected organization distribution
+D0200,Bretylium,D0829,Iobenguane (I-131),Affected organization distribution
+D0220,Bupropion,D0829,Iobenguane (I-131),Affected organization distribution
+D0266,Carteolol (ophthalmic),D0829,Iobenguane (I-131),Affected organization distribution
+D0265,Carteolol,D0829,Iobenguane (I-131),Affected organization distribution
+D0267,Carvedilol,D0829,Iobenguane (I-131),Affected organization distribution
+D0361,Clomipramine,D0829,Iobenguane (I-131),Affected organization distribution
+D0378,Cocaine (topical),D0829,Iobenguane (I-131),Affected organization distribution
+D0444,Deserpidine,D0829,Iobenguane (I-131),Affected organization distribution
+D0446,Desipramine,D0829,Iobenguane (I-131),Affected organization distribution
+D0451,Desvenlafaxine,D0829,Iobenguane (I-131),Affected organization distribution
+D0457,Dexfenfluramine,D0829,Iobenguane (I-131),Affected organization distribution
+D0465,Dextroamphetamine,D0829,Iobenguane (I-131),Affected organization distribution
+D0486,Diethylpropion,D0829,Iobenguane (I-131),Affected organization distribution
+D0517,Dopamine,D0829,Iobenguane (I-131),Affected organization distribution
+D0523,Doxapram,D0829,Iobenguane (I-131),Affected organization distribution
+D0526,Doxepin (topical),D0829,Iobenguane (I-131),Affected organization distribution
+D0525,Doxepin,D0829,Iobenguane (I-131),Affected organization distribution
+D0539,Duloxetine,D0829,Iobenguane (I-131),Affected organization distribution
+D0580,Ephedrine (nasal),D0829,Iobenguane (I-131),Affected organization distribution
+D0579,Ephedrine,D0829,Iobenguane (I-131),Affected organization distribution
+D0593,Ergotamine,D0829,Iobenguane (I-131),Affected organization distribution
+D0641,Fenfluramine,D0829,Iobenguane (I-131),Affected organization distribution
+D0743,Guanadrel,D0829,Iobenguane (I-131),Affected organization distribution
+D0744,Guanethidine,D0829,Iobenguane (I-131),Affected organization distribution
+D0795,Imipramine,D0829,Iobenguane (I-131),Affected organization distribution
+D0829,Iobenguane (I-131),D0920,Levomilnacipran,Affected organization distribution
+D0829,Iobenguane (I-131),D1036,Methylene blue,Affected organization distribution
+D0829,Iobenguane (I-131),D1107,Naphazoline (nasal),Affected organization distribution
+D0829,Iobenguane (I-131),D1108,Naphazoline (ophthalmic),Affected organization distribution
+D0829,Iobenguane (I-131),D1211,Ozanimod,Affected organization distribution
+D0829,Iobenguane (I-131),D1358,Propylhexedrine (nasal),Affected organization distribution
+D0829,Iobenguane (I-131),D1567,Tetryzoline (nasal),Affected organization distribution
+D0829,Iobenguane (I-131),D1568,Tetryzoline (ophthalmic),Affected organization distribution
+D0853,Isocarboxazid,D0829,Iobenguane (I-131),Affected organization distribution
+D0884,Labetalol,D0829,Iobenguane (I-131),Affected organization distribution
+D0933,Linezolid,D0829,Iobenguane (I-131),Affected organization distribution
+D0937,Lisdexamfetamine,D0829,Iobenguane (I-131),Affected organization distribution
+D0979,Maprotiline,D0829,Iobenguane (I-131),Affected organization distribution
+D0981,Mazindol,D0829,Iobenguane (I-131),Affected organization distribution
+D1002,Mephentermine,D0829,Iobenguane (I-131),Affected organization distribution
+D1012,Metamfetamine,D0829,Iobenguane (I-131),Affected organization distribution
+D1013,Metaraminol,D0829,Iobenguane (I-131),Affected organization distribution
+D1039,Methylphenidate,D0829,Iobenguane (I-131),Affected organization distribution
+D1061,Midodrine,D0829,Iobenguane (I-131),Affected organization distribution
+D1066,Milnacipran,D0829,Iobenguane (I-131),Affected organization distribution
+D1158,Nortriptyline,D0829,Iobenguane (I-131),Affected organization distribution
+D1204,Oxymetazoline (nasal),D0829,Iobenguane (I-131),Affected organization distribution
+D1205,Oxymetazoline (ophthalmic),D0829,Iobenguane (I-131),Affected organization distribution
+D1244,Penbutolol,D0829,Iobenguane (I-131),Affected organization distribution
+D1262,Phendimetrazine,D0829,Iobenguane (I-131),Affected organization distribution
+D1263,Phenelzine,D0829,Iobenguane (I-131),Affected organization distribution
+D1270,Phentermine,D0829,Iobenguane (I-131),Affected organization distribution
+D1277,Phenylephrine (nasal),D0829,Iobenguane (I-131),Affected organization distribution
+D1278,Phenylephrine (ophthalmic),D0829,Iobenguane (I-131),Affected organization distribution
+D1280,Phenylephrine (topical),D0829,Iobenguane (I-131),Affected organization distribution
+D1276,Phenylephrine,D0829,Iobenguane (I-131),Affected organization distribution
+D1281,Phenylpropanolamine,D0829,Iobenguane (I-131),Affected organization distribution
+D1293,Pindolol,D0829,Iobenguane (I-131),Affected organization distribution
+D1345,Procarbazine,D0829,Iobenguane (I-131),Affected organization distribution
+D1357,Propranolol,D0829,Iobenguane (I-131),Affected organization distribution
+D1361,Protriptyline,D0829,Iobenguane (I-131),Affected organization distribution
+D1363,Pseudoephedrine,D0829,Iobenguane (I-131),Affected organization distribution
+D1385,Rasagiline,D0829,Iobenguane (I-131),Affected organization distribution
+D1393,Reserpine,D0829,Iobenguane (I-131),Affected organization distribution
+D1437,Safinamide,D0829,Iobenguane (I-131),Affected organization distribution
+D1455,Selegiline,D0829,Iobenguane (I-131),Affected organization distribution
+D1498,Sotalol,D0829,Iobenguane (I-131),Affected organization distribution
+D1502,St. John's Wort,D0829,Iobenguane (I-131),Affected organization distribution
+D1535,Tapentadol,D0829,Iobenguane (I-131),Affected organization distribution
+D1586,Timolol (ophthalmic),D0829,Iobenguane (I-131),Affected organization distribution
+D1585,Timolol,D0829,Iobenguane (I-131),Affected organization distribution
+D1616,Tramadol,D0829,Iobenguane (I-131),Affected organization distribution
+D1620,Tranylcypromine,D0829,Iobenguane (I-131),Affected organization distribution
+D1647,Trimipramine,D0829,Iobenguane (I-131),Affected organization distribution
+D1689,Venlafaxine,D0829,Iobenguane (I-131),Affected organization distribution
+D1712,Xylometazoline (nasal),D0829,Iobenguane (I-131),Affected organization distribution
+D1713,Yohimbine,D0829,Iobenguane (I-131),Affected organization distribution
+D0400,Cyclophosphamide,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1690,Verapamil,D0528,Doxorubicin,Affected organization distribution
+D1690,Verapamil,D0529,Doxorubicin (liposomal),Affected organization distribution
+D0326,Chlorthalidone,D0012,Acetazolamide,Affected organization distribution
+D0326,Chlorthalidone,D0479,Diclofenamide,Affected organization distribution
+D0326,Chlorthalidone,D1018,Methazolamide,Affected organization distribution
+D0891,Lanreotide,D0391,Copper oxodotreotide Cu-64,Affected organization distribution
+D1163,Octreotide,D0391,Copper oxodotreotide Cu-64,Affected organization distribution
+D1230,Pasireotide,D0391,Copper oxodotreotide Cu-64,Affected organization distribution
+D0623,Etidronic acid,D1443,Samarium (153Sm) lexidronam,Affected organization distribution
+D0891,Lanreotide,D0964,Lutetium Lu 177 dotatate,Affected organization distribution
+D1163,Octreotide,D0964,Lutetium Lu 177 dotatate,Affected organization distribution
+D1230,Pasireotide,D0964,Lutetium Lu 177 dotatate,Affected organization distribution
+D0895,Laronidase,D0320,Chloroquine,Affected organization distribution
+D0895,Laronidase,D1344,Procaine,Affected organization distribution
+D0172,Betamethasone,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0215,Budesonide,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0436,Deflazacort,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0453,Dexamethasone,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0773,Hydrocortisone,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1041,Methylprednisolone,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1332,Prednisolone,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1334,Prednisone,D0708,Gallium chloride Ga-67,Affected organization distribution
+D1628,Triamcinolone,D0708,Gallium chloride Ga-67,Affected organization distribution
+D0235,Calcium acetate,D1509,Strontium chloride Sr-89,Affected organization distribution
+D0236,Calcium carbonate,D1509,Strontium chloride Sr-89,Affected organization distribution
+D0237,Calcium chloride,D1509,Strontium chloride Sr-89,Affected organization distribution
+D1509,Strontium chloride Sr-89,D0238,Calcium citrate,Affected organization distribution
+D1509,Strontium chloride Sr-89,D0239,Calcium glubionate anhydrous,Affected organization distribution
+D1509,Strontium chloride Sr-89,D0241,Calcium gluconate,Affected organization distribution
+D1509,Strontium chloride Sr-89,D0243,Calcium lactate,Affected organization distribution
+D1509,Strontium chloride Sr-89,D0244,Calcium Phosphate,Affected organization distribution
+D0891,Lanreotide,D1819,Indium In-111 pentetreotide,Affected organization distribution
+D1163,Octreotide,D1819,Indium In-111 pentetreotide,Affected organization distribution
+D0012,Acetazolamide,D1818,Indium In-111 pentetate,Affected organization distribution
+D0479,Diclofenamide,D1818,Indium In-111 pentetate,Affected organization distribution
+D1018,Methazolamide,D1818,Indium In-111 pentetate,Affected organization distribution
+D0030,Aldesleukin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0056,Amikacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0057,Amikacin (liposome),D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0065,Aminosalicylic acid,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0073,Amoxicillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0079,Ampicillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0139,Azithromycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0140,Aztreonam,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0141,Bacampicillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0142,Bacitracin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0148,Beclomethasone dipropionate,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0167,Benzylpenicillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0168,Benzylpenicillin (potassium),D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0169,Benzylpenicillin (sodium),D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0172,Betamethasone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0215,Budesonide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0252,Capreomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0257,Carbenicillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0271,Cefaclor,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0272,Cefadroxil,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0273,Cefalotin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0274,Cefamandole,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0275,Cefapirin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0276,Cefazolin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0277,Cefdinir,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0278,Cefditoren,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0279,Cefepime,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0281,Cefixime,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0282,Cefmetazole,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0283,Cefonicid,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0284,Cefoperazone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0285,Cefotaxime,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0286,Cefotetan,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0287,Cefoxitin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0288,Cefpodoxime,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0289,Cefprozil,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0290,Cefradine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0291,Ceftaroline fosamil,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0292,Ceftazidime,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0293,Ceftibuten,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0294,Ceftizoxime,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0295,Ceftolozane,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0296,Ceftriaxone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0297,Cefuroxime,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0301,Cephalexin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0313,Chloramphenicol,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0333,Ciclesonide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0340,Cinoxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0341,Ciprofloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0349,Clarithromycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0354,Clindamycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0358,Clofazimine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0369,Cloxacillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0383,Colistimethate,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0392,Corticotropin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0401,Cycloserine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0413,Dalfopristin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0419,Dapsone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0421,Daptomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0441,Demeclocycline,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0453,Dexamethasone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0480,Dicloxacillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0519,Doripenem,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0530,Doxycycline,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0573,Enoxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0596,Ertapenem,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0597,Erythromycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0616,Ethambutol,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1731,Ethionamide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0671,Fludrocortisone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0672,Flunisolide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0712,Gatifloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0718,Gentamicin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0740,Grepafloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0773,Hydrocortisone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0858,Isoniazid,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0876,Kanamycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0919,Levofloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0927,Lidocaine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0931,Lincomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0933,Linezolid,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0943,Lomefloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0949,Loracarbef,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1008,Meropenem,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1020,Methenamine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1041,Methylprednisolone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1044,Meticillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1051,Metronidazole,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1055,Mezlocillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1070,Minocycline,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1092,Moxifloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1099,Nafcillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1102,Nalidixic acid,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1120,Neomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1126,Netilmicin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1145,Nitrofurantoin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1155,Norfloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1159,Novobiocin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1165,Ofloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1192,Oxacillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1209,Oxytetracycline,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1228,Paromomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1268,Phenoxymethylpenicillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1296,Piperacillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1310,Polymyxin B,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1332,Prednisolone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1334,Prednisone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1343,Procainamide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1364,Pyrazinamide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1399,Rifabutin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1400,Rifampicin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1401,Rifapentine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1499,Sparfloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1500,Spectinomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1507,Streptomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1513,Sulfadiazine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1514,Sulfadoxine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1515,Sulfamethizole,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1516,Sulfamethoxazole,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1517,Sulfasalazine,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1519,Sulfisoxazole,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1544,Telithromycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1563,Tetracosactide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1564,Tetracycline,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1569,Thalidomide,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1580,Ticarcillin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1582,Tigecycline,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1587,Tinidazole,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1597,Tobramycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1628,Triamcinolone,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1645,Trimethoprim,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1657,Trovafloxacin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D1680,Vancomycin,D1817,Indium In-111 oxyquinoline,Affected organization distribution
+D0010,Acebutolol,D1906,Thallous Chloride,Affected organization distribution
+D0025,Adenosine,D1906,Thallous Chloride,Affected organization distribution
+D0083,Amyl Nitrite,D1906,Thallous Chloride,Affected organization distribution
+D0117,Atenolol,D1906,Thallous Chloride,Affected organization distribution
+D0173,Betaxolol,D1906,Thallous Chloride,Affected organization distribution
+D0188,Bisoprolol,D1906,Thallous Chloride,Affected organization distribution
+D0265,Carteolol,D1906,Thallous Chloride,Affected organization distribution
+D0267,Carvedilol,D1906,Thallous Chloride,Affected organization distribution
+D0453,Dexamethasone,D1906,Thallous Chloride,Affected organization distribution
+D0490,Digitoxin,D1906,Thallous Chloride,Affected organization distribution
+D0491,Digoxin,D1906,Thallous Chloride,Affected organization distribution
+D0506,Dipyridamole,D1906,Thallous Chloride,Affected organization distribution
+D0510,Dobutamine,D1906,Thallous Chloride,Affected organization distribution
+D0528,Doxorubicin,D1906,Thallous Chloride,Affected organization distribution
+D0529,Doxorubicin (liposomal),D1906,Thallous Chloride,Affected organization distribution
+D0602,Esmolol,D1906,Thallous Chloride,Affected organization distribution
+D0704,Furosemide,D1906,Thallous Chloride,Affected organization distribution
+D0859,Isoprenaline,D1906,Thallous Chloride,Affected organization distribution
+D0861,Isosorbide dinitrate,D1906,Thallous Chloride,Affected organization distribution
+D0862,Isosorbide mononitrate,D1906,Thallous Chloride,Affected organization distribution
+D0884,Labetalol,D1906,Thallous Chloride,Affected organization distribution
+D0927,Lidocaine,D1906,Thallous Chloride,Affected organization distribution
+D1049,Metoprolol,D1906,Thallous Chloride,Affected organization distribution
+D1098,Nadolol,D1906,Thallous Chloride,Affected organization distribution
+D1114,Nebivolol,D1906,Thallous Chloride,Affected organization distribution
+D1146,Nitroglycerin,D1906,Thallous Chloride,Affected organization distribution
+D1244,Penbutolol,D1906,Thallous Chloride,Affected organization distribution
+D1283,Phenytoin,D1906,Thallous Chloride,Affected organization distribution
+D1293,Pindolol,D1906,Thallous Chloride,Affected organization distribution
+D1343,Procainamide,D1906,Thallous Chloride,Affected organization distribution
+D1357,Propranolol,D1906,Thallous Chloride,Affected organization distribution
+D1480,Sodium bicarbonate,D1906,Thallous Chloride,Affected organization distribution
+D1498,Sotalol,D1906,Thallous Chloride,Affected organization distribution
+D1570,Theophylline,D1906,Thallous Chloride,Affected organization distribution
+D1585,Timolol,D1906,Thallous Chloride,Affected organization distribution
+D1683,Vasopressin,D1906,Thallous Chloride,Affected organization distribution
+D0037,Alimemazine,D1821,Iobenguane (I-123),Affected organization distribution
+D0068,Amitriptyline,D1821,Iobenguane (I-123),Affected organization distribution
+D0072,Amoxapine,D1821,Iobenguane (I-123),Affected organization distribution
+D0074,Amphetamine,D1821,Iobenguane (I-123),Affected organization distribution
+D0165,Benzphetamine,D1821,Iobenguane (I-123),Affected organization distribution
+D0200,Bretylium,D1821,Iobenguane (I-123),Affected organization distribution
+D0220,Bupropion,D1821,Iobenguane (I-123),Affected organization distribution
+D0324,Chlorpromazine,D1821,Iobenguane (I-123),Affected organization distribution
+D0345,Citalopram,D1821,Iobenguane (I-123),Affected organization distribution
+D0361,Clomipramine,D1821,Iobenguane (I-123),Affected organization distribution
+D0378,Cocaine (topical),D1821,Iobenguane (I-123),Affected organization distribution
+D0444,Deserpidine,D1821,Iobenguane (I-123),Affected organization distribution
+D0446,Desipramine,D1821,Iobenguane (I-123),Affected organization distribution
+D0451,Desvenlafaxine,D1821,Iobenguane (I-123),Affected organization distribution
+D0457,Dexfenfluramine,D1821,Iobenguane (I-123),Affected organization distribution
+D0465,Dextroamphetamine,D1821,Iobenguane (I-123),Affected organization distribution
+D0486,Diethylpropion,D1821,Iobenguane (I-123),Affected organization distribution
+D0517,Dopamine,D1821,Iobenguane (I-123),Affected organization distribution
+D0523,Doxapram,D1821,Iobenguane (I-123),Affected organization distribution
+D0525,Doxepin,D1821,Iobenguane (I-123),Affected organization distribution
+D0526,Doxepin (topical),D1821,Iobenguane (I-123),Affected organization distribution
+D0539,Duloxetine,D1821,Iobenguane (I-123),Affected organization distribution
+D0579,Ephedrine,D1821,Iobenguane (I-123),Affected organization distribution
+D0593,Ergotamine,D1821,Iobenguane (I-123),Affected organization distribution
+D0599,Escitalopram,D1821,Iobenguane (I-123),Affected organization distribution
+D0641,Fenfluramine,D1821,Iobenguane (I-123),Affected organization distribution
+D0676,Fluoxetine,D1821,Iobenguane (I-123),Affected organization distribution
+D0678,Fluphenazine,D1821,Iobenguane (I-123),Affected organization distribution
+D0687,Fluvoxamine,D1821,Iobenguane (I-123),Affected organization distribution
+D0743,Guanadrel,D1821,Iobenguane (I-123),Affected organization distribution
+D0744,Guanethidine,D1821,Iobenguane (I-123),Affected organization distribution
+D0795,Imipramine,D1821,Iobenguane (I-123),Affected organization distribution
+D1821,Iobenguane (I-123),D0857,Isometheptene,Affected organization distribution
+D1821,Iobenguane (I-123),D0920,Levomilnacipran,Affected organization distribution
+D1821,Iobenguane (I-123),D1708,Vortioxetine,Affected organization distribution
+D0884,Labetalol,D1821,Iobenguane (I-123),Affected organization distribution
+D0937,Lisdexamfetamine,D1821,Iobenguane (I-123),Affected organization distribution
+D0957,Loxapine,D1821,Iobenguane (I-123),Affected organization distribution
+D0979,Maprotiline,D1821,Iobenguane (I-123),Affected organization distribution
+D0981,Mazindol,D1821,Iobenguane (I-123),Affected organization distribution
+D1002,Mephentermine,D1821,Iobenguane (I-123),Affected organization distribution
+D1010,Mesoridazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1012,Metamfetamine,D1821,Iobenguane (I-123),Affected organization distribution
+D1013,Metaraminol,D1821,Iobenguane (I-123),Affected organization distribution
+D1019,Methdilazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1026,Methotrimeprazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1039,Methylphenidate,D1821,Iobenguane (I-123),Affected organization distribution
+D1066,Milnacipran,D1821,Iobenguane (I-123),Affected organization distribution
+D1075,Mirtazapine,D1821,Iobenguane (I-123),Affected organization distribution
+D1117,Nefazodone,D1821,Iobenguane (I-123),Affected organization distribution
+D1158,Nortriptyline,D1821,Iobenguane (I-123),Affected organization distribution
+D1229,Paroxetine,D1821,Iobenguane (I-123),Affected organization distribution
+D1257,Perphenazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1262,Phendimetrazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1270,Phentermine,D1821,Iobenguane (I-123),Affected organization distribution
+D1276,Phenylephrine,D1821,Iobenguane (I-123),Affected organization distribution
+D1281,Phenylpropanolamine,D1821,Iobenguane (I-123),Affected organization distribution
+D1346,Prochlorperazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1351,Promazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1352,Promethazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1355,Propiomazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1361,Protriptyline,D1821,Iobenguane (I-123),Affected organization distribution
+D1363,Pseudoephedrine,D1821,Iobenguane (I-123),Affected organization distribution
+D1393,Reserpine,D1821,Iobenguane (I-123),Affected organization distribution
+D1461,Sertraline,D1821,Iobenguane (I-123),Affected organization distribution
+D1464,Sibutramine,D1821,Iobenguane (I-123),Affected organization distribution
+D1502,St. John's Wort,D1821,Iobenguane (I-123),Affected organization distribution
+D1535,Tapentadol,D1821,Iobenguane (I-123),Affected organization distribution
+D1572,Thiethylperazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1574,Thioridazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1624,Trazodone,D1821,Iobenguane (I-123),Affected organization distribution
+D1637,Trifluoperazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1638,Triflupromazine,D1821,Iobenguane (I-123),Affected organization distribution
+D1647,Trimipramine,D1821,Iobenguane (I-123),Affected organization distribution
+D1689,Venlafaxine,D1821,Iobenguane (I-123),Affected organization distribution
+D1696,Vilazodone,D1821,Iobenguane (I-123),Affected organization distribution
+D0017,Acetylsalicylic acid,D1822,Iodide I-123,Affected organization distribution
+D0028,Albendazole,D1822,Iodide I-123,Affected organization distribution
+D0037,Alimemazine,D1822,Iodide I-123,Affected organization distribution
+D0045,Alprazolam,D1822,Iodide I-123,Affected organization distribution
+D0066,Amiodarone,D1822,Iodide I-123,Affected organization distribution
+D0073,Amoxicillin,D1822,Iodide I-123,Affected organization distribution
+D0079,Ampicillin,D1822,Iodide I-123,Affected organization distribution
+D0087,Anisindione,D1822,Iodide I-123,Affected organization distribution
+D0096,Apixaban,D1822,Iodide I-123,Affected organization distribution
+D0102,Ardeparin,D1822,Iodide I-123,Affected organization distribution
+D0104,Argatroban,D1822,Iodide I-123,Affected organization distribution
+D0108,Artemether,D1822,Iodide I-123,Affected organization distribution
+D0115,Astemizole,D1822,Iodide I-123,Affected organization distribution
+D0121,Atovaquone,D1822,Iodide I-123,Affected organization distribution
+D0135,Azatadine,D1822,Iodide I-123,Affected organization distribution
+D0141,Bacampicillin,D1822,Iodide I-123,Affected organization distribution
+D0167,Benzylpenicillin,D1822,Iodide I-123,Affected organization distribution
+D0168,Benzylpenicillin (potassium),D1822,Iodide I-123,Affected organization distribution
+D0169,Benzylpenicillin (sodium),D1822,Iodide I-123,Affected organization distribution
+D0172,Betamethasone,D1822,Iodide I-123,Affected organization distribution
+D0189,Bivalirudin,D1822,Iodide I-123,Affected organization distribution
+D0214,Brompheniramine,D1822,Iodide I-123,Affected organization distribution
+D0215,Budesonide,D1822,Iodide I-123,Affected organization distribution
+D0257,Carbenicillin,D1822,Iodide I-123,Affected organization distribution
+D0259,Carbinoxamine,D1822,Iodide I-123,Affected organization distribution
+D0305,Cetirizine,D1822,Iodide I-123,Affected organization distribution
+D0316,Chlorcyclizine,D1822,Iodide I-123,Affected organization distribution
+D0317,Chlordiazepoxide,D1822,Iodide I-123,Affected organization distribution
+D0320,Chloroquine,D1822,Iodide I-123,Affected organization distribution
+D0323,Chlorpheniramine,D1822,Iodide I-123,Affected organization distribution
+D0351,Clemastine,D1822,Iodide I-123,Affected organization distribution
+D0356,Clobazam,D1822,Iodide I-123,Affected organization distribution
+D0362,Clonazepam,D1822,Iodide I-123,Affected organization distribution
+D0365,Clorazepic acid,D1822,Iodide I-123,Affected organization distribution
+D0369,Cloxacillin,D1822,Iodide I-123,Affected organization distribution
+D0403,Cyproheptadine,D1822,Iodide I-123,Affected organization distribution
+D0414,Dalteparin,D1822,Iodide I-123,Affected organization distribution
+D0415,Danaparoid,D1822,Iodide I-123,Affected organization distribution
+D0419,Dapsone,D1822,Iodide I-123,Affected organization distribution
+D0448,Desloratadine,D1822,Iodide I-123,Affected organization distribution
+D0453,Dexamethasone,D1822,Iodide I-123,Affected organization distribution
+D0456,Dexbrompheniramine,D1822,Iodide I-123,Affected organization distribution
+D0473,Diazepam,D1822,Iodide I-123,Affected organization distribution
+D0480,Dicloxacillin,D1822,Iodide I-123,Affected organization distribution
+D0481,Dicoumarol,D1822,Iodide I-123,Affected organization distribution
+D0489,Diflunisal,D1822,Iodide I-123,Affected organization distribution
+D0502,Diphenhydramine,D1822,Iodide I-123,Affected organization distribution
+D0537,Drotrecogin alfa,D1822,Iodide I-123,Affected organization distribution
+D0551,Edoxaban,D1822,Iodide I-123,Affected organization distribution
+D0574,Enoxaparin,D1822,Iodide I-123,Affected organization distribution
+D0604,Estazolam,D1822,Iodide I-123,Affected organization distribution
+D0656,Fexofenadine,D1822,Iodide I-123,Affected organization distribution
+D0671,Fludrocortisone,D1822,Iodide I-123,Affected organization distribution
+D0679,Flurazepam,D1822,Iodide I-123,Affected organization distribution
+D0690,Fondaparinux,D1822,Iodide I-123,Affected organization distribution
+D0748,Halazepam,D1822,Iodide I-123,Affected organization distribution
+D0749,Halofantrine,D1822,Iodide I-123,Affected organization distribution
+D0753,Heparin,D1822,Iodide I-123,Affected organization distribution
+D0773,Hydrocortisone,D1822,Iodide I-123,Affected organization distribution
+D0777,Hydroxocobalamin,D1822,Iodide I-123,Affected organization distribution
+D0779,Hydroxychloroquine,D1822,Iodide I-123,Affected organization distribution
+D0781,Hydroxyzine,D1822,Iodide I-123,Affected organization distribution
+D0870,Ivermectin,D1822,Iodide I-123,Affected organization distribution
+D0904,Lepirudin,D1822,Iodide I-123,Affected organization distribution
+D0917,Levocetirizine,D1822,Iodide I-123,Affected organization distribution
+D0950,Loratadine,D1822,Iodide I-123,Affected organization distribution
+D0951,Lorazepam,D1822,Iodide I-123,Affected organization distribution
+D0982,Mebendazole,D1822,Iodide I-123,Affected organization distribution
+D0992,Mefloquine,D1822,Iodide I-123,Affected organization distribution
+D1006,Mepyramine,D1822,Iodide I-123,Affected organization distribution
+D1019,Methdilazine,D1822,Iodide I-123,Affected organization distribution
+D1021,Methimazole,D1822,Iodide I-123,Affected organization distribution
+D1041,Methylprednisolone,D1822,Iodide I-123,Affected organization distribution
+D1044,Meticillin,D1822,Iodide I-123,Affected organization distribution
+D1051,Metronidazole,D1822,Iodide I-123,Affected organization distribution
+D1055,Mezlocillin,D1822,Iodide I-123,Affected organization distribution
+D1060,Midazolam,D1822,Iodide I-123,Affected organization distribution
+D1099,Nafcillin,D1822,Iodide I-123,Affected organization distribution
+D1147,Nitroprusside,D1822,Iodide I-123,Affected organization distribution
+D1192,Oxacillin,D1822,Iodide I-123,Affected organization distribution
+D1194,Oxamniquine,D1822,Iodide I-123,Affected organization distribution
+D1197,Oxazepam,D1822,Iodide I-123,Affected organization distribution
+D1226,Paricalcitol,D1822,Iodide I-123,Affected organization distribution
+D1228,Paromomycin,D1822,Iodide I-123,Affected organization distribution
+D1246,Pentamidine,D1822,Iodide I-123,Affected organization distribution
+D1264,Phenindamine,D1822,Iodide I-123,Affected organization distribution
+D1268,Phenoxymethylpenicillin,D1822,Iodide I-123,Affected organization distribution
+D1296,Piperacillin,D1822,Iodide I-123,Affected organization distribution
+D1297,Piperazine,D1822,Iodide I-123,Affected organization distribution
+D1330,Praziquantel,D1822,Iodide I-123,Affected organization distribution
+D1334,Prednisone,D1822,Iodide I-123,Affected organization distribution
+D1339,Primaquine,D1822,Iodide I-123,Affected organization distribution
+D1350,Proguanil,D1822,Iodide I-123,Affected organization distribution
+D1352,Promethazine,D1822,Iodide I-123,Affected organization distribution
+D1359,Propylthiouracil,D1822,Iodide I-123,Affected organization distribution
+D1366,Pyrimethamine,D1822,Iodide I-123,Affected organization distribution
+D1367,Quazepam,D1822,Iodide I-123,Affected organization distribution
+D1372,Quinine,D1822,Iodide I-123,Affected organization distribution
+D1417,Rivaroxaban,D1822,Iodide I-123,Affected organization distribution
+D1439,Salicylic acid (sodium),D1822,Iodide I-123,Affected organization distribution
+D1442,Salsalate,D1822,Iodide I-123,Affected organization distribution
+D1513,Sulfadiazine,D1822,Iodide I-123,Affected organization distribution
+D1514,Sulfadoxine,D1822,Iodide I-123,Affected organization distribution
+D1515,Sulfamethizole,D1822,Iodide I-123,Affected organization distribution
+D1516,Sulfamethoxazole,D1822,Iodide I-123,Affected organization distribution
+D1517,Sulfasalazine,D1822,Iodide I-123,Affected organization distribution
+D1547,Temazepam,D1822,Iodide I-123,Affected organization distribution
+D1555,Terfenadine,D1822,Iodide I-123,Affected organization distribution
+D1571,Thiabendazole,D1822,Iodide I-123,Affected organization distribution
+D1573,Thiopental,D1822,Iodide I-123,Affected organization distribution
+D1580,Ticarcillin,D1822,Iodide I-123,Affected organization distribution
+D1587,Tinidazole,D1822,Iodide I-123,Affected organization distribution
+D1588,Tinzaparin,D1822,Iodide I-123,Affected organization distribution
+D1603,Tolbutamide,D1822,Iodide I-123,Affected organization distribution
+D1628,Triamcinolone,D1822,Iodide I-123,Affected organization distribution
+D1632,Triazolam,D1822,Iodide I-123,Affected organization distribution
+D1646,Trimetrexate,D1822,Iodide I-123,Affected organization distribution
+D1650,Triprolidine,D1822,Iodide I-123,Affected organization distribution
+D1711,Warfarin,D1822,Iodide I-123,Affected organization distribution
+D0472,Diatrizoate,D1822,Iodide I-123,Affected organization distribution
+D0496,Diiodohydroxyquinoline,D1822,Iodide I-123,Affected organization distribution
+D1783,Ethiodized oil,D1822,Iodide I-123,Affected organization distribution
+D1783,Ethiodized oil,D0830,Iodide I-131,Affected organization distribution
+D1823,Iodine,D1822,Iodide I-123,Affected organization distribution
+D1823,Iodine,D0830,Iodide I-131,Affected organization distribution
+D1824,Iodine (topical),D1822,Iodide I-123,Affected organization distribution
+D1824,Iodine (topical),D0830,Iodide I-131,Affected organization distribution
+D0831,Iodipamide,D1822,Iodide I-123,Affected organization distribution
+D0832,Iodixanol,D1822,Iodide I-123,Affected organization distribution
+D0833,Iohexol,D1822,Iodide I-123,Affected organization distribution
+D0834,Iopamidol,D1822,Iodide I-123,Affected organization distribution
+D0835,Iopodic acid,D1822,Iodide I-123,Affected organization distribution
+D0836,Iopromide,D1822,Iodide I-123,Affected organization distribution
+D0837,Iothalamic acid,D1822,Iodide I-123,Affected organization distribution
+D0838,Ioversol,D1822,Iodide I-123,Affected organization distribution
+D0839,Ioxilan,D1822,Iodide I-123,Affected organization distribution
+D1321,Potassium Iodide,D1822,Iodide I-123,Affected organization distribution
+D0891,Lanreotide,D1778,Dotatate,Affected organization distribution
+D1163,Octreotide,D1778,Dotatate,Affected organization distribution
+D1230,Pasireotide,D1778,Dotatate,Affected organization distribution
+D0035,Alfentanil,D1840,Mebrofenin,Affected organization distribution
+D0161,Benzhydrocodone,D1840,Mebrofenin,Affected organization distribution
+D0219,Buprenorphine,D1840,Mebrofenin,Affected organization distribution
+D0226,Butorphanol,D1840,Mebrofenin,Affected organization distribution
+D0379,Codeine,D1840,Mebrofenin,Affected organization distribution
+D0467,Dextropropoxyphene,D1840,Mebrofenin,Affected organization distribution
+D0470,Dezocine,D1840,Mebrofenin,Affected organization distribution
+D0493,Dihydrocodeine,D1840,Mebrofenin,Affected organization distribution
+D0646,Fentanyl,D1840,Mebrofenin,Affected organization distribution
+D0772,Hydrocodone,D1840,Mebrofenin,Affected organization distribution
+D0776,Hydromorphone,D1840,Mebrofenin,Affected organization distribution
+D0909,Levacetylmethadol,D1840,Mebrofenin,Affected organization distribution
+D0923,Levorphanol,D1840,Mebrofenin,Affected organization distribution
+D1001,Meperidine,D1840,Mebrofenin,Affected organization distribution
+D1017,Methadone,D1840,Mebrofenin,Affected organization distribution
+D1089,Morphine,D1840,Mebrofenin,Affected organization distribution
+D1090,Morphine (liposomal),D1840,Mebrofenin,Affected organization distribution
+D1100,Nalbuphine,D1840,Mebrofenin,Affected organization distribution
+D1169,Oliceridine,D1840,Mebrofenin,Affected organization distribution
+D1183,Opium,D1840,Mebrofenin,Affected organization distribution
+D1203,Oxycodone,D1840,Mebrofenin,Affected organization distribution
+D1208,Oxymorphone,D1840,Mebrofenin,Affected organization distribution
+D1247,Pentazocine,D1840,Mebrofenin,Affected organization distribution
+D1390,Remifentanil,D1840,Mebrofenin,Affected organization distribution
+D1512,Sufentanil,D1840,Mebrofenin,Affected organization distribution
+D1535,Tapentadol,D1840,Mebrofenin,Affected organization distribution
+D0037,Alimemazine,D1825,Ioflupane I-123,Affected organization distribution
+D0097,Apomorphine,D1825,Ioflupane I-123,Affected organization distribution
+D0105,Aripiprazole,D1825,Ioflupane I-123,Affected organization distribution
+D0112,Asenapine,D1825,Ioflupane I-123,Affected organization distribution
+D0212,Bromocriptine,D1825,Ioflupane I-123,Affected organization distribution
+D0228,Cabergoline,D1825,Ioflupane I-123,Affected organization distribution
+D0262,Cariprazine,D1825,Ioflupane I-123,Affected organization distribution
+D0324,Chlorpromazine,D1825,Ioflupane I-123,Affected organization distribution
+D0370,Clozapine,D1825,Ioflupane I-123,Affected organization distribution
+D0494,Dihydroergotamine,D1825,Ioflupane I-123,Affected organization distribution
+D0535,Droperidol,D1825,Ioflupane I-123,Affected organization distribution
+D1781,Ergoloid mesylate,D1825,Ioflupane I-123,Affected organization distribution
+D0592,Ergometrine,D1825,Ioflupane I-123,Affected organization distribution
+D0593,Ergotamine,D1825,Ioflupane I-123,Affected organization distribution
+D0644,Fenoldopam,D1825,Ioflupane I-123,Affected organization distribution
+D0678,Fluphenazine,D1825,Ioflupane I-123,Affected organization distribution
+D0750,Haloperidol,D1825,Ioflupane I-123,Affected organization distribution
+D0791,Iloperidone,D1825,Ioflupane I-123,Affected organization distribution
+D1825,Ioflupane I-123,D0202,Brexpiprazole,Affected organization distribution
+D1825,Ioflupane I-123,D0940,Lithium carbonate,Affected organization distribution
+D0957,Loxapine,D1825,Ioflupane I-123,Affected organization distribution
+D0959,Lumateperone,D1825,Ioflupane I-123,Affected organization distribution
+D0961,Lurasidone,D1825,Ioflupane I-123,Affected organization distribution
+D1010,Mesoridazine,D1825,Ioflupane I-123,Affected organization distribution
+D1019,Methdilazine,D1825,Ioflupane I-123,Affected organization distribution
+D1026,Methotrimeprazine,D1825,Ioflupane I-123,Affected organization distribution
+D1037,Methylergometrine,D1825,Ioflupane I-123,Affected organization distribution
+D1043,Methysergide,D1825,Ioflupane I-123,Affected organization distribution
+D1046,Metoclopramide,D1825,Ioflupane I-123,Affected organization distribution
+D1084,Molindone,D1825,Ioflupane I-123,Affected organization distribution
+D1166,Olanzapine,D1825,Ioflupane I-123,Affected organization distribution
+D1215,Paliperidone,D1825,Ioflupane I-123,Affected organization distribution
+D1255,Pergolide,D1825,Ioflupane I-123,Affected organization distribution
+D1257,Perphenazine,D1825,Ioflupane I-123,Affected organization distribution
+D1292,Pimozide,D1825,Ioflupane I-123,Affected organization distribution
+D1325,Pramipexole,D1825,Ioflupane I-123,Affected organization distribution
+D1346,Prochlorperazine,D1825,Ioflupane I-123,Affected organization distribution
+D1351,Promazine,D1825,Ioflupane I-123,Affected organization distribution
+D1352,Promethazine,D1825,Ioflupane I-123,Affected organization distribution
+D1355,Propiomazine,D1825,Ioflupane I-123,Affected organization distribution
+D1368,Quetiapine,D1825,Ioflupane I-123,Affected organization distribution
+D1413,Risperidone,D1825,Ioflupane I-123,Affected organization distribution
+D1427,Ropinirole,D1825,Ioflupane I-123,Affected organization distribution
+D1431,Rotigotine,D1825,Ioflupane I-123,Affected organization distribution
+D1572,Thiethylperazine,D1825,Ioflupane I-123,Affected organization distribution
+D1574,Thioridazine,D1825,Ioflupane I-123,Affected organization distribution
+D1576,Thiothixene,D1825,Ioflupane I-123,Affected organization distribution
+D1637,Trifluoperazine,D1825,Ioflupane I-123,Affected organization distribution
+D1638,Triflupromazine,D1825,Ioflupane I-123,Affected organization distribution
+D1726,Ziprasidone,D1825,Ioflupane I-123,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0935,Liotrix,Affected organization distribution
+D0388,Conjugated estrogens (topical),D1577,"Thyroid, porcine",Affected organization distribution
+D0387,Conjugated estrogens,D0925,Levothyroxine,Affected organization distribution
+D0387,Conjugated estrogens,D0935,Liotrix,Affected organization distribution
+D0387,Conjugated estrogens,D1577,"Thyroid, porcine",Affected organization distribution
+D0484,Dienestrol (topical),D0935,Liotrix,Affected organization distribution
+D0484,Dienestrol (topical),D1577,"Thyroid, porcine",Affected organization distribution
+D0487,Diethylstilbestrol,D0925,Levothyroxine,Affected organization distribution
+D0487,Diethylstilbestrol,D0934,Liothyronine,Affected organization distribution
+D0487,Diethylstilbestrol,D0935,Liotrix,Affected organization distribution
+D0487,Diethylstilbestrol,D1577,"Thyroid, porcine",Affected organization distribution
+D0607,Estradiol (topical),D0935,Liotrix,Affected organization distribution
+D0607,Estradiol (topical),D1577,"Thyroid, porcine",Affected organization distribution
+D0606,Estradiol,D0935,Liotrix,Affected organization distribution
+D0606,Estradiol,D1577,"Thyroid, porcine",Affected organization distribution
+D0608,Estramustine,D1577,"Thyroid, porcine",Affected organization distribution
+D0611,Estrone sulfate (topical),D1577,"Thyroid, porcine",Affected organization distribution
+D0610,Estrone sulfate,D1577,"Thyroid, porcine",Affected organization distribution
+D0609,Estrone,D0935,Liotrix,Affected organization distribution
+D0609,Estrone,D1577,"Thyroid, porcine",Affected organization distribution
+D0619,Ethinylestradiol,D0935,Liotrix,Affected organization distribution
+D0619,Ethinylestradiol,D1577,"Thyroid, porcine",Affected organization distribution
+D0925,Levothyroxine,D0484,Dienestrol (topical),Affected organization distribution
+D0925,Levothyroxine,D0605,Esterified estrogens,Affected organization distribution
+D0925,Levothyroxine,D0608,Estramustine,Affected organization distribution
+D0925,Levothyroxine,D0609,Estrone,Affected organization distribution
+D0925,Levothyroxine,D0610,Estrone sulfate,Affected organization distribution
+D0925,Levothyroxine,D0611,Estrone sulfate (topical),Affected organization distribution
+D0925,Levothyroxine,D0619,Ethinylestradiol,Affected organization distribution
+D0925,Levothyroxine,D1011,Mestranol,Affected organization distribution
+D0925,Levothyroxine,D1370,Quinestrol,Affected organization distribution
+D0934,Liothyronine,D0387,Conjugated estrogens,Affected organization distribution
+D0934,Liothyronine,D0388,Conjugated estrogens (topical),Affected organization distribution
+D0934,Liothyronine,D0484,Dienestrol (topical),Affected organization distribution
+D0934,Liothyronine,D0605,Esterified estrogens,Affected organization distribution
+D0934,Liothyronine,D0608,Estramustine,Affected organization distribution
+D0934,Liothyronine,D0610,Estrone sulfate,Affected organization distribution
+D0934,Liothyronine,D0611,Estrone sulfate (topical),Affected organization distribution
+D0934,Liothyronine,D0619,Ethinylestradiol,Affected organization distribution
+D0934,Liothyronine,D1011,Mestranol,Affected organization distribution
+D0934,Liothyronine,D1370,Quinestrol,Affected organization distribution
+D0935,Liotrix,D0605,Esterified estrogens,Affected organization distribution
+D0935,Liotrix,D0610,Estrone sulfate,Affected organization distribution
+D0935,Liotrix,D0611,Estrone sulfate (topical),Affected organization distribution
+D0935,Liotrix,D1370,Quinestrol,Affected organization distribution
+D1011,Mestranol,D0935,Liotrix,Affected organization distribution
+D1011,Mestranol,D1577,"Thyroid, porcine",Affected organization distribution
+D1370,Quinestrol,D1577,"Thyroid, porcine",Affected organization distribution
+D1577,"Thyroid, porcine",D0605,Esterified estrogens,Affected organization distribution
+D0934,Liothyronine,D0606,Estradiol,Affected organization distribution
+D0934,Liothyronine,D0607,Estradiol (topical),Affected organization distribution
+D0925,Levothyroxine,D0606,Estradiol,Affected organization distribution
+D0925,Levothyroxine,D0607,Estradiol (topical),Affected organization distribution
+D0172,Betamethasone,D0484,Dienestrol (topical),Affected organization distribution
+D0172,Betamethasone,D0605,Esterified estrogens,Affected organization distribution
+D0172,Betamethasone,D0607,Estradiol (topical),Affected organization distribution
+D0172,Betamethasone,D0608,Estramustine,Affected organization distribution
+D0172,Betamethasone,D0611,Estrone sulfate (topical),Affected organization distribution
+D0172,Betamethasone,D0619,Ethinylestradiol,Affected organization distribution
+D0172,Betamethasone,D1011,Mestranol,Affected organization distribution
+D0172,Betamethasone,D1370,Quinestrol,Affected organization distribution
+D0215,Budesonide,D0605,Esterified estrogens,Affected organization distribution
+D0215,Budesonide,D0610,Estrone sulfate,Affected organization distribution
+D0215,Budesonide,D0611,Estrone sulfate (topical),Affected organization distribution
+D0215,Budesonide,D1011,Mestranol,Affected organization distribution
+D0215,Budesonide,D1370,Quinestrol,Affected organization distribution
+D0392,Corticotropin,D0605,Esterified estrogens,Affected organization distribution
+D0392,Corticotropin,D0610,Estrone sulfate,Affected organization distribution
+D0392,Corticotropin,D0611,Estrone sulfate (topical),Affected organization distribution
+D0392,Corticotropin,D1011,Mestranol,Affected organization distribution
+D0392,Corticotropin,D1370,Quinestrol,Affected organization distribution
+D0453,Dexamethasone,D0611,Estrone sulfate (topical),Affected organization distribution
+D0453,Dexamethasone,D1011,Mestranol,Affected organization distribution
+D0453,Dexamethasone,D1370,Quinestrol,Affected organization distribution
+D0671,Fludrocortisone,D0484,Dienestrol (topical),Affected organization distribution
+D0671,Fludrocortisone,D0605,Esterified estrogens,Affected organization distribution
+D0671,Fludrocortisone,D0606,Estradiol,Affected organization distribution
+D0671,Fludrocortisone,D0607,Estradiol (topical),Affected organization distribution
+D0671,Fludrocortisone,D0608,Estramustine,Affected organization distribution
+D0671,Fludrocortisone,D0610,Estrone sulfate,Affected organization distribution
+D0671,Fludrocortisone,D0611,Estrone sulfate (topical),Affected organization distribution
+D0671,Fludrocortisone,D0619,Ethinylestradiol,Affected organization distribution
+D0671,Fludrocortisone,D1011,Mestranol,Affected organization distribution
+D0671,Fludrocortisone,D1370,Quinestrol,Affected organization distribution
+D0773,Hydrocortisone,D0484,Dienestrol (topical),Affected organization distribution
+D0773,Hydrocortisone,D0605,Esterified estrogens,Affected organization distribution
+D0773,Hydrocortisone,D0608,Estramustine,Affected organization distribution
+D0773,Hydrocortisone,D0610,Estrone sulfate,Affected organization distribution
+D0773,Hydrocortisone,D0611,Estrone sulfate (topical),Affected organization distribution
+D0773,Hydrocortisone,D0619,Ethinylestradiol,Affected organization distribution
+D0773,Hydrocortisone,D1011,Mestranol,Affected organization distribution
+D0773,Hydrocortisone,D1370,Quinestrol,Affected organization distribution
+D1041,Methylprednisolone,D0605,Esterified estrogens,Affected organization distribution
+D1041,Methylprednisolone,D0608,Estramustine,Affected organization distribution
+D1041,Methylprednisolone,D0610,Estrone sulfate,Affected organization distribution
+D1041,Methylprednisolone,D0611,Estrone sulfate (topical),Affected organization distribution
+D1041,Methylprednisolone,D0619,Ethinylestradiol,Affected organization distribution
+D1041,Methylprednisolone,D1011,Mestranol,Affected organization distribution
+D1041,Methylprednisolone,D1370,Quinestrol,Affected organization distribution
+D1332,Prednisolone,D0484,Dienestrol (topical),Affected organization distribution
+D1332,Prednisolone,D0605,Esterified estrogens,Affected organization distribution
+D1332,Prednisolone,D0608,Estramustine,Affected organization distribution
+D1332,Prednisolone,D0610,Estrone sulfate,Affected organization distribution
+D1332,Prednisolone,D0611,Estrone sulfate (topical),Affected organization distribution
+D1332,Prednisolone,D0619,Ethinylestradiol,Affected organization distribution
+D1332,Prednisolone,D1011,Mestranol,Affected organization distribution
+D1332,Prednisolone,D1370,Quinestrol,Affected organization distribution
+D1334,Prednisone,D0484,Dienestrol (topical),Affected organization distribution
+D1334,Prednisone,D0605,Esterified estrogens,Affected organization distribution
+D1334,Prednisone,D0608,Estramustine,Affected organization distribution
+D1334,Prednisone,D0609,Estrone,Affected organization distribution
+D1334,Prednisone,D0610,Estrone sulfate,Affected organization distribution
+D1334,Prednisone,D0611,Estrone sulfate (topical),Affected organization distribution
+D1334,Prednisone,D0619,Ethinylestradiol,Affected organization distribution
+D1334,Prednisone,D1011,Mestranol,Affected organization distribution
+D1334,Prednisone,D1370,Quinestrol,Affected organization distribution
+D1563,Tetracosactide,D0605,Esterified estrogens,Affected organization distribution
+D1563,Tetracosactide,D0610,Estrone sulfate,Affected organization distribution
+D1563,Tetracosactide,D0611,Estrone sulfate (topical),Affected organization distribution
+D1563,Tetracosactide,D1011,Mestranol,Affected organization distribution
+D1563,Tetracosactide,D1370,Quinestrol,Affected organization distribution
+D1628,Triamcinolone,D0484,Dienestrol (topical),Affected organization distribution
+D1628,Triamcinolone,D0605,Esterified estrogens,Affected organization distribution
+D1628,Triamcinolone,D0608,Estramustine,Affected organization distribution
+D1628,Triamcinolone,D0609,Estrone,Affected organization distribution
+D1628,Triamcinolone,D0610,Estrone sulfate,Affected organization distribution
+D1628,Triamcinolone,D0611,Estrone sulfate (topical),Affected organization distribution
+D1628,Triamcinolone,D0619,Ethinylestradiol,Affected organization distribution
+D1628,Triamcinolone,D1011,Mestranol,Affected organization distribution
+D1628,Triamcinolone,D1370,Quinestrol,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0484,Dienestrol (topical),Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0605,Esterified estrogens,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0608,Estramustine,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0609,Estrone,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0610,Estrone sulfate,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0611,Estrone sulfate (topical),Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0619,Ethinylestradiol,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D1011,Mestranol,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D1370,Quinestrol,Affected organization distribution
+D0387,Conjugated estrogens,D0172,Betamethasone,Affected organization distribution
+D0387,Conjugated estrogens,D0215,Budesonide,Affected organization distribution
+D0387,Conjugated estrogens,D0392,Corticotropin,Affected organization distribution
+D0387,Conjugated estrogens,D0436,Deflazacort,Affected organization distribution
+D0387,Conjugated estrogens,D0453,Dexamethasone,Affected organization distribution
+D0387,Conjugated estrogens,D0671,Fludrocortisone,Affected organization distribution
+D0387,Conjugated estrogens,D1041,Methylprednisolone,Affected organization distribution
+D0387,Conjugated estrogens,D1332,Prednisolone,Affected organization distribution
+D0387,Conjugated estrogens,D1334,Prednisone,Affected organization distribution
+D0387,Conjugated estrogens,D1563,Tetracosactide,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0172,Betamethasone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0215,Budesonide,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0392,Corticotropin,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0436,Deflazacort,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0453,Dexamethasone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0671,Fludrocortisone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D0773,Hydrocortisone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D1041,Methylprednisolone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D1332,Prednisolone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D1334,Prednisone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D1563,Tetracosactide,Affected organization distribution
+D0388,Conjugated estrogens (topical),D1628,Triamcinolone,Affected organization distribution
+D0388,Conjugated estrogens (topical),D1630,Triamcinolone (ophthalmic),Affected organization distribution
+D0484,Dienestrol (topical),D0215,Budesonide,Affected organization distribution
+D0484,Dienestrol (topical),D0392,Corticotropin,Affected organization distribution
+D0484,Dienestrol (topical),D0436,Deflazacort,Affected organization distribution
+D0484,Dienestrol (topical),D0453,Dexamethasone,Affected organization distribution
+D0484,Dienestrol (topical),D1041,Methylprednisolone,Affected organization distribution
+D0484,Dienestrol (topical),D1563,Tetracosactide,Affected organization distribution
+D0487,Diethylstilbestrol,D0172,Betamethasone,Affected organization distribution
+D0487,Diethylstilbestrol,D0215,Budesonide,Affected organization distribution
+D0487,Diethylstilbestrol,D0392,Corticotropin,Affected organization distribution
+D0487,Diethylstilbestrol,D0436,Deflazacort,Affected organization distribution
+D0487,Diethylstilbestrol,D0453,Dexamethasone,Affected organization distribution
+D0487,Diethylstilbestrol,D0671,Fludrocortisone,Affected organization distribution
+D0487,Diethylstilbestrol,D0773,Hydrocortisone,Affected organization distribution
+D0487,Diethylstilbestrol,D1041,Methylprednisolone,Affected organization distribution
+D0487,Diethylstilbestrol,D1332,Prednisolone,Affected organization distribution
+D0487,Diethylstilbestrol,D1334,Prednisone,Affected organization distribution
+D0487,Diethylstilbestrol,D1563,Tetracosactide,Affected organization distribution
+D0487,Diethylstilbestrol,D1628,Triamcinolone,Affected organization distribution
+D0487,Diethylstilbestrol,D1630,Triamcinolone (ophthalmic),Affected organization distribution
+D0605,Esterified estrogens,D0436,Deflazacort,Affected organization distribution
+D0606,Estradiol,D0392,Corticotropin,Affected organization distribution
+D0606,Estradiol,D0436,Deflazacort,Affected organization distribution
+D0606,Estradiol,D1563,Tetracosactide,Affected organization distribution
+D0607,Estradiol (topical),D0392,Corticotropin,Affected organization distribution
+D0607,Estradiol (topical),D0436,Deflazacort,Affected organization distribution
+D0607,Estradiol (topical),D1563,Tetracosactide,Affected organization distribution
+D0608,Estramustine,D0215,Budesonide,Affected organization distribution
+D0608,Estramustine,D0392,Corticotropin,Affected organization distribution
+D0608,Estramustine,D0436,Deflazacort,Affected organization distribution
+D0608,Estramustine,D0453,Dexamethasone,Affected organization distribution
+D0608,Estramustine,D1563,Tetracosactide,Affected organization distribution
+D0609,Estrone,D0215,Budesonide,Affected organization distribution
+D0609,Estrone,D0392,Corticotropin,Affected organization distribution
+D0609,Estrone,D0436,Deflazacort,Affected organization distribution
+D0609,Estrone,D0453,Dexamethasone,Affected organization distribution
+D0609,Estrone,D0671,Fludrocortisone,Affected organization distribution
+D0609,Estrone,D0773,Hydrocortisone,Affected organization distribution
+D0609,Estrone,D1041,Methylprednisolone,Affected organization distribution
+D0609,Estrone,D1332,Prednisolone,Affected organization distribution
+D0609,Estrone,D1563,Tetracosactide,Affected organization distribution
+D0610,Estrone sulfate,D0436,Deflazacort,Affected organization distribution
+D0611,Estrone sulfate (topical),D0436,Deflazacort,Affected organization distribution
+D0619,Ethinylestradiol,D0215,Budesonide,Affected organization distribution
+D0619,Ethinylestradiol,D0392,Corticotropin,Affected organization distribution
+D0619,Ethinylestradiol,D0436,Deflazacort,Affected organization distribution
+D0619,Ethinylestradiol,D0453,Dexamethasone,Affected organization distribution
+D0619,Ethinylestradiol,D1563,Tetracosactide,Affected organization distribution
+D1011,Mestranol,D0436,Deflazacort,Affected organization distribution
+D1370,Quinestrol,D0436,Deflazacort,Affected organization distribution
+D0606,Estradiol,D0453,Dexamethasone,Affected organization distribution
+D0607,Estradiol (topical),D0453,Dexamethasone,Affected organization distribution
+D0606,Estradiol,D0215,Budesonide,Affected organization distribution
+D0607,Estradiol (topical),D0215,Budesonide,Affected organization distribution
+D1334,Prednisone,D0606,Estradiol,Affected organization distribution
+D1334,Prednisone,D0607,Estradiol (topical),Affected organization distribution
+D0773,Hydrocortisone,D0606,Estradiol,Affected organization distribution
+D0773,Hydrocortisone,D0607,Estradiol (topical),Affected organization distribution
+D1628,Triamcinolone,D0606,Estradiol,Affected organization distribution
+D1628,Triamcinolone,D0607,Estradiol (topical),Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0606,Estradiol,Affected organization distribution
+D1630,Triamcinolone (ophthalmic),D0607,Estradiol (topical),Affected organization distribution
+D0606,Estradiol,D1332,Prednisolone,Affected organization distribution
+D0607,Estradiol (topical),D1332,Prednisolone,Affected organization distribution
+D0606,Estradiol,D1041,Methylprednisolone,Affected organization distribution
+D0607,Estradiol (topical),D1041,Methylprednisolone,Affected organization distribution
