@@ -7,6 +7,7 @@ const BASE_URL = 'http://192.168.1.6:8000/api';
 
 const api = axios.create({
     baseURL: BASE_URL,
+    timeout: 10000, // 10 seconds timeout
 });
 
 api.interceptors.request.use(
@@ -18,6 +19,21 @@ api.interceptors.request.use(
         return config;
     },
     (error) => {
+        return Promise.reject(error);
+    }
+);
+
+api.interceptors.response.use(
+    (response) => response,
+    async (error) => {
+        if (error.response && error.response.status === 401) {
+            // If we get a 401, the token is invalid (likely due to DB wipe or expiry)
+            console.log("[API] 401 Unauthorized detected. Clearing session.");
+            await AsyncStorage.removeItem('userToken');
+            await AsyncStorage.removeItem('userInfo');
+            // Note: In a real app, we'd trigger a logout/redirect here.
+            // For now, clearing storage ensures on next reload/action the app prompts for login.
+        }
         return Promise.reject(error);
     }
 );

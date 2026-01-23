@@ -32,7 +32,23 @@ const SignupScreen = ({ navigation }) => {
                 { text: 'Verify Now', onPress: () => navigation.navigate('EmailVerification', { email }) }
             ]);
         } catch (e) {
-            const msg = e.error || 'Registration failed. Try again.';
+            console.error('[SIGNUP] Error:', e);
+            let msg = 'Registration failed. Try again.';
+            const data = e.response?.data;
+
+            if (data) {
+                if (typeof data === 'string') {
+                    msg = data;
+                } else if (data.error) {
+                    msg = data.error;
+                } else {
+                    // Handle DRF field errors (e.g., {"email": ["..."], "username": ["..."]})
+                    const fieldErrors = Object.entries(data)
+                        .map(([field, errors]) => `${field}: ${Array.isArray(errors) ? errors.join(', ') : errors}`)
+                        .join('\n');
+                    if (fieldErrors) msg = fieldErrors;
+                }
+            }
             Alert.alert('Signup Failed', msg);
         } finally {
             setIsLoading(false);

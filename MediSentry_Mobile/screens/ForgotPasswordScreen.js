@@ -1,18 +1,47 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, StyleSheet, Alert, TouchableOpacity, StatusBar } from 'react-native';
+import { View, Text, TextInput, StyleSheet, Alert, TouchableOpacity, StatusBar, ActivityIndicator } from 'react-native';
+import api from '../services/api';
 
 const ForgotPasswordScreen = ({ navigation }) => {
     const [email, setEmail] = useState('');
+    const [otp, setOtp] = useState('');
+    const [newPassword, setNewPassword] = useState('');
+    const [step, setStep] = useState(1); // 1: Request OTP, 2: Reset Password
+    const [loading, setLoading] = useState(false);
 
-    const handleReset = () => {
+    const handleRequestOtp = async () => {
         if (!email) {
             Alert.alert('Error', 'Please enter your email address');
             return;
         }
-        // In real app, call API. For now, simulate success.
-        Alert.alert('Link Sent', `If an account exists for ${email}, a password reset link has been sent. Check your inbox.`);
-        // Optional: Navigate to verification just to simulate flow
-        // navigation.navigate('EmailVerification', { email });
+        setLoading(true);
+        try {
+            await api.post('/users/forgot-password/', { email });
+            Alert.alert('OTP Sent', 'Please check your email for the 6-digit reset code.');
+            setStep(2);
+        } catch (e) {
+            Alert.alert('Failed', e.response?.data?.error || 'Could not send OTP');
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const handleResetPassword = async () => {
+        if (!otp || !newPassword) {
+            Alert.alert('Error', 'Please enter the OTP and new password');
+            return;
+        }
+        setLoading(true);
+        try {
+            await api.post('/users/reset-password/', { email, otp, new_password: newPassword });
+            Alert.alert('Success', 'Password has been reset. You can now login.', [
+                { text: 'Login', onPress: () => navigation.navigate('Login') }
+            ]);
+        } catch (e) {
+            Alert.alert('Failed', e.response?.data?.error || 'Invalid OTP or request failed');
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -23,26 +52,70 @@ const ForgotPasswordScreen = ({ navigation }) => {
             </TouchableOpacity>
 
             <View style={styles.card}>
-                <Text style={styles.title}>Reset Password</Text>
+                <Text style={styles.title}>{step === 1 ? 'Reset Password' : 'Set New Password'}</Text>
                 <Text style={styles.instruction}>
-                    Enter the email associated with your account and we'll send you a link to reset your password.
+                    {step === 1
+                        ? "Enter the email associated with your account and we'll send you a code to reset your password."
+                        : "Enter the 6-digit code sent to your email and your new password."}
                 </Text>
 
-                <View style={styles.inputGroup}>
-                    <Text style={styles.label}>Email Address</Text>
-                    <TextInput
-                        style={styles.input}
-                        placeholder="doctor@hospital.com"
-                        value={email}
-                        onChangeText={setEmail}
-                        keyboardType="email-address"
-                        autoCapitalize="none"
-                    />
-                </View>
+                {step === 1 ? (
+                    <View style={styles.inputGroup}>
+                        <Text style={styles.label}>Email Address</Text>
+                        <TextInput
+                            style={styles.input}
+                            placeholder="doctor@hospital.com"
+                            value={email}
+                            onChangeText={setEmail}
+                            keyboardType="email-address"
+                            autoCapitalize="none"
+                        />
+                    </View>
+                ) : (
+                    <>
+                        <View style={styles.inputGroup}>
+                            <Text style={styles.label}>6-Digit OTP Code</Text>
+                            <TextInput
+                                style={styles.input}
+                                placeholder="123456"
+                                value={otp}
+                                onChangeText={setOtp}
+                                keyboardType="numeric"
+                                maxLength={6}
+                            />
+                        </View>
+                        <View style={styles.inputGroup}>
+                            <Text style={styles.label}>New Password</Text>
+                            <TextInput
+                                style={styles.input}
+                                placeholder="••••••••"
+                                value={newPassword}
+                                onChangeText={setNewPassword}
+                                secureTextEntry
+                            />
+                        </View>
+                    </>
+                )}
 
-                <TouchableOpacity style={styles.resetBtn} onPress={handleReset}>
-                    <Text style={styles.resetBtnText}>Send Reset Link</Text>
+                <TouchableOpacity
+                    style={[styles.resetBtn, loading && { opacity: 0.7 }]}
+                    onPress={step === 1 ? handleRequestOtp : handleResetPassword}
+                    disabled={loading}
+                >
+                    {loading ? (
+                        <ActivityIndicator color="#fff" />
+                    ) : (
+                        <Text style={styles.resetBtnText}>
+                            {step === 1 ? 'Send Reset Code' : 'Update Password'}
+                        </Text>
+                    )}
                 </TouchableOpacity>
+
+                {step === 2 && (
+                    <TouchableOpacity onPress={() => setStep(1)} style={{ marginTop: 15, alignItems: 'center' }}>
+                        <Text style={{ color: '#666', fontSize: 13 }}>Change Email</Text>
+                    </TouchableOpacity>
+                )}
             </View>
         </View>
     );

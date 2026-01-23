@@ -23,7 +23,7 @@ const MultiSelect = ({ label, options, selected, onToggle }) => (
     </View>
 );
 
-const PrescriptionEntryScreen = ({ navigation }) => {
+const PrescriptionEntryScreen = ({ navigation, route }) => {
     const [patientName, setPatientName] = useState('');
     const [age, setAge] = useState('');
     const [gender, setGender] = useState('Male');
@@ -33,8 +33,26 @@ const PrescriptionEntryScreen = ({ navigation }) => {
     const [conditions, setConditions] = useState([]);
 
     const [drugInput, setDrugInput] = useState('');
+    const [customAllergy, setCustomAllergy] = useState('');
+    const [customCondition, setCustomCondition] = useState('');
     const [drugs, setDrugs] = useState([]);
     const [loading, setLoading] = useState(false);
+
+    React.useEffect(() => {
+        if (route.params?.existingRx) {
+            const rx = route.params.existingRx;
+            setPatientName(rx.patient_details?.name || rx.patient_name || '');
+            setAge(String(rx.patient_details?.age || ''));
+            setGender(rx.patient_details?.gender || 'Male');
+            setConditions(rx.patient_details?.medical_conditions || []);
+            setAllergies(rx.patient_details?.allergies || []);
+            setDrugs(rx.drugs.map(d => ({
+                drug_name: d.drug_details?.name || d.drug_name,
+                dosage: d.dosage,
+                frequency: d.frequency
+            })));
+        }
+    }, [route.params?.existingRx]);
 
     const allergyOptions = ['Penicillin', 'Sulfa', 'Peanuts', 'Latex', 'Aspirin'];
     const conditionOptions = ['Diabetes', 'Hypertension', 'Pregnant', 'Asthma', 'Kidney Disease'];
@@ -150,18 +168,60 @@ const PrescriptionEntryScreen = ({ navigation }) => {
                 <View style={styles.divider} />
 
                 <MultiSelect
+                    label="Medical Conditions"
+                    options={conditionOptions}
+                    selected={conditions}
+                    onToggle={(item) => toggleSelection(conditions, setConditions, item)}
+                />
+
+                <View style={styles.addDrugRow}>
+                    <TextInput
+                        style={[styles.input, { flex: 1, marginBottom: 0 }]}
+                        placeholder="Type custom condition..."
+                        value={customCondition}
+                        onChangeText={setCustomCondition}
+                    />
+                    <TouchableOpacity
+                        style={[styles.addBtn, { backgroundColor: '#1a73e8' }]}
+                        onPress={() => {
+                            if (customCondition.trim()) {
+                                setConditions([...conditions, customCondition.trim()]);
+                                setCustomCondition('');
+                            }
+                        }}
+                    >
+                        <Text style={styles.addBtnText}>+ ADD</Text>
+                    </TouchableOpacity>
+                </View>
+
+                <View style={styles.divider} />
+
+                <MultiSelect
                     label="Allergies (Select if any)"
                     options={allergyOptions}
                     selected={allergies}
                     onToggle={(item) => toggleSelection(allergies, setAllergies, item)}
                 />
 
-                <MultiSelect
-                    label="Medical Conditions"
-                    options={conditionOptions}
-                    selected={conditions}
-                    onToggle={(item) => toggleSelection(conditions, setConditions, item)}
-                />
+                <View style={styles.addDrugRow}>
+                    <TextInput
+                        style={[styles.input, { flex: 1, marginBottom: 0 }]}
+                        placeholder="Type custom allergy..."
+                        value={customAllergy}
+                        onChangeText={setCustomAllergy}
+                    />
+                    <TouchableOpacity
+                        style={[styles.addBtn, { backgroundColor: '#1a73e8' }]}
+                        onPress={() => {
+                            if (customAllergy.trim()) {
+                                setAllergies([...allergies, customAllergy.trim()]);
+                                setCustomAllergy('');
+                            }
+                        }}
+                    >
+                        <Text style={styles.addBtnText}>+ ADD</Text>
+                    </TouchableOpacity>
+                </View>
 
                 <View style={styles.divider} />
 

@@ -1,10 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from MediSentry_AI.analyzer import DrugInteractionAnalyzer
-
-# Initialize Analyzer (Singleton-ish)
-analyzer = DrugInteractionAnalyzer()
+from MediSentry_AI.analyzer import get_analyzer
 
 class AnalyzeRiskView(APIView):
     def post(self, request):
@@ -12,6 +9,8 @@ class AnalyzeRiskView(APIView):
         if not drugs:
             return Response({'error': 'No drugs provided'}, status=status.HTTP_400_BAD_REQUEST)
             
+        analyzer = get_analyzer()
+        
         # 1. Detect Interactions
         interactions = analyzer.analyze(drugs)
         

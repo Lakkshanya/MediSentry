@@ -1,20 +1,44 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView, StatusBar, Image } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, ScrollView, StatusBar, Image, RefreshControl } from 'react-native';
 import { AuthContext } from '../context/AuthContext';
 import api from '../services/api';
 
 const DoctorHomeScreen = ({ navigation }) => {
     const { logout, userInfo } = useContext(AuthContext);
     const [stats, setStats] = useState({ highRisk: 0, pending: 0 });
+    const [refreshing, setRefreshing] = useState(false);
+    const [loading, setLoading] = useState(false);
+
+    const fetchStats = async (isRefresh = false) => {
+        try {
+            if (isRefresh) setRefreshing(true);
+            const res = await api.get('/prescriptions/summary/');
+            setStats({
+                highRisk: res.data.high_risk,
+                pending: res.data.pending
+            });
+        } catch (e) {
+            console.error("Stats Fetch Error:", e);
+        } finally {
+            setRefreshing(false);
+        }
+    };
+
+    const onRefresh = () => {
+        fetchStats(true);
+    };
 
     useEffect(() => {
-        // Mock stats or fetch real ones
-        // In real app: const res = await api.get('/analytics/stats');
-        setStats({ highRisk: 2, pending: 5 });
+        fetchStats();
     }, []);
 
     return (
-        <ScrollView style={styles.container}>
+        <ScrollView
+            style={styles.container}
+            refreshControl={
+                <RefreshControl refreshing={refreshing} onRefresh={onRefresh} colors={['#1a73e8']} />
+            }
+        >
             <StatusBar barStyle="light-content" backgroundColor="#1a73e8" />
 
             {/* Header Section */}
@@ -66,37 +90,20 @@ const DoctorHomeScreen = ({ navigation }) => {
                 </TouchableOpacity>
             </View>
 
-            {/* Recent Alerts */}
+            {/* Recent Activity (Connect to Real Data in Next Step) */}
             <View style={styles.section}>
-                <Text style={styles.sectionTitle}>Today's Alerts</Text>
-                <View style={[styles.alertCard, { borderLeftColor: '#d32f2f' }]}>
+                <Text style={styles.sectionTitle}>Today's Activity</Text>
+                <View style={[styles.alertCard, { borderLeftColor: '#1a73e8' }]}>
                     <View style={styles.alertHeader}>
-                        <Text style={[styles.alertBadge, { backgroundColor: '#ffebee', color: '#d32f2f' }]}>HIGH RISK</Text>
-                        <Text style={styles.alertTime}>10:45 AM</Text>
+                        <Text style={[styles.alertBadge, { backgroundColor: '#e3f2fd', color: '#1a73e8' }]}>SYSTEM</Text>
+                        <Text style={styles.alertTime}>Just Now</Text>
                     </View>
-                    <Text style={styles.alertMsg}>Patient: Ramesh Kumar</Text>
-                    <Text style={styles.alertDesc}>Interaction: Warfarin + Ibuprofen</Text>
-                </View>
-
-                <View style={[styles.alertCard, { borderLeftColor: '#fbc02d' }]}>
-                    <View style={styles.alertHeader}>
-                        <Text style={styles.alertBadge}>MODERATE</Text>
-                        <Text style={styles.alertTime}>09:30 AM</Text>
-                    </View>
-                    <Text style={styles.alertMsg}>Patient: Sarah Jones</Text>
-                    <Text style={styles.alertDesc}>Allergy Warning: Penicillin</Text>
+                    <Text style={styles.alertMsg}>Welcome to MediSentry AI</Text>
+                    <Text style={styles.alertDesc}>Your clinical assistant is ready for analysis.</Text>
                 </View>
             </View>
 
-            {/* Role Switcher (Hidden in Prod) */}
-            <View style={styles.footer}>
-                <Text style={styles.footerTitle}>Switch Role (Demo)</Text>
-                <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
-                    <TouchableOpacity onPress={() => navigation.navigate('PharmacistHome')} style={styles.roleLink}><Text style={styles.linkText}>Pharmacist</Text></TouchableOpacity>
-                    <Text> | </Text>
-                    <TouchableOpacity onPress={() => navigation.navigate('AdminSummary')} style={styles.roleLink}><Text style={styles.linkText}>Admin</Text></TouchableOpacity>
-                </View>
-            </View>
+
         </ScrollView>
     );
 };

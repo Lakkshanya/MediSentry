@@ -21,11 +21,12 @@ class PrescriptionSerializer(serializers.ModelSerializer):
     drugs = PrescriptionDrugSerializer(many=True)
     patient = serializers.PrimaryKeyRelatedField(queryset=Patient.objects.all(), write_only=True)
     patient_details = PatientSerializer(source='patient', read_only=True)
+    patient_name = serializers.CharField(source='patient.name', read_only=True)
     
     class Meta:
         model = Prescription
         fields = '__all__'
-        read_only_fields = ('doctor', 'status', 'risk_level', 'risk_analysis_result', 'created_at')
+        read_only_fields = ('doctor', 'risk_level', 'risk_analysis_result', 'created_at')
 
     def create(self, validated_data):
         drugs_data = validated_data.pop('drugs')

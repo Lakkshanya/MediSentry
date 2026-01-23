@@ -1,10 +1,41 @@
-import React, { useContext } from 'react';
-import { View, Text, FlatList, StyleSheet, TouchableOpacity, StatusBar } from 'react-native';
+import React, { useContext, useEffect, useState } from 'react';
+import { View, Text, FlatList, StyleSheet, TouchableOpacity, StatusBar, ActivityIndicator, RefreshControl } from 'react-native';
 import { AuthContext } from '../context/AuthContext';
-import { mockPendingPrescriptions } from '../services/mockData';
+import api from '../services/api';
 
 const PharmacistDashboard = ({ navigation }) => {
     const { logout, userInfo } = useContext(AuthContext);
+    const [prescriptions, setPrescriptions] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [refreshing, setRefreshing] = useState(false);
+
+    const fetchPrescriptions = async (isRefresh = false) => {
+        try {
+            if (!isRefresh) setLoading(true);
+            else setRefreshing(true);
+            const res = await api.get('/prescriptions/');
+            // Filter for PENDING or just show all for pharmacist review
+            const pending = res.data.filter(p => p.status === 'PENDING' || p.status === 'FLAGGED');
+            setPrescriptions(pending);
+        } catch (e) {
+            console.error(e);
+        } finally {
+            setLoading(false);
+            setRefreshing(false);
+        }
+    };
+
+    const onRefresh = () => {
+        fetchPrescriptions(true);
+    };
+
+    useEffect(() => {
+        fetchPrescriptions();
+        const unsubscribe = navigation.addListener('focus', () => {
+            fetchPrescriptions();
+        });
+        return unsubscribe;
+    }, [navigation]);
 
     const renderItem = ({ item }) => (
         <TouchableOpacity
@@ -14,24 +45,24 @@ const PharmacistDashboard = ({ navigation }) => {
         >
             <View style={styles.cardHeader}>
                 <View>
-                    <Text style={styles.patientName}>{item.patient}</Text>
-                    <Text style={styles.timestamp}>Prescribed Today, 10:30 AM</Text>
+                    <Text style={styles.patientName}>{item.patient_name || `Patient #${item.patient}`}</Text>
+                    <Text style={styles.timestamp}>{new Date(item.created_at).toLocaleDateString()} {new Date(item.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</Text>
                 </View>
-                <View style={styles.badge}>
-                    <Text style={styles.badgeText}>PENDING</Text>
+                <View style={[styles.badge, item.status === 'FLAGGED' && { backgroundColor: '#ffebee' }]}>
+                    <Text style={[styles.badgeText, item.status === 'FLAGGED' && { color: '#d32f2f' }]}>{item.status}</Text>
                 </View>
             </View>
 
             <View style={styles.divider} />
 
             <View style={styles.drugList}>
-                {item.drugs.map((d, i) => (
-                    <Text key={i} style={styles.drugText}>• {d}</Text>
+                {item.drugs && item.drugs.map((d, i) => (
+                    <Text key={i} style={styles.drugText}>• {d.drug_name || d.drug}</Text>
                 ))}
             </View>
 
             <View style={styles.footer}>
-                <Text style={styles.doctorName}>Dr. Smith (Cardiology)</Text>
+                <Text style={styles.doctorName}>Dr. {item.doctor_name || 'System'}</Text>
                 <Text style={styles.actionText}>Review &rarr;</Text>
             </View>
         </TouchableOpacity>
@@ -44,7 +75,7 @@ const PharmacistDashboard = ({ navigation }) => {
             <View style={styles.header}>
                 <View>
                     <Text style={styles.headerTitle}>Pharmacy Portal</Text>
-                    <Text style={styles.subTitle}>Ready for verification</Text>
+                    <Text style={styles.subTitle}>Welcome, {userInfo?.username || 'Pharmacist'}</Text>
                 </View>
                 <TouchableOpacity onPress={logout} style={styles.logoutBtn}>
                     <Text style={styles.logoutText}>Logout</Text>
@@ -54,27 +85,31 @@ const PharmacistDashboard = ({ navigation }) => {
             <View style={styles.content}>
                 <View style={styles.statsRow}>
                     <View style={styles.statItem}>
-                        <Text style={styles.statNum}>{mockPendingPrescriptions.length}</Text>
+                        <Text style={styles.statNum}>{prescriptions.length}</Text>
                         <Text style={styles.statLabel}>Pending</Text>
                     </View>
                     <View style={styles.statItem}>
-                        <Text style={styles.statNum}>12</Text>
+                        <Text style={styles.statNum}>-{/* Real stats would need a report endpoint */}</Text>
                         <Text style={styles.statLabel}>Verified</Text>
-                    </View>
-                    <View style={styles.statItem}>
-                        <Text style={styles.statNum}>0</Text>
-                        <Text style={styles.statLabel}>Flagged</Text>
                     </View>
                 </View>
 
                 <Text style={styles.sectionHeader}>Priority Queue</Text>
-                <FlatList
-                    data={mockPendingPrescriptions}
-                    keyExtractor={item => item.id.toString()}
-                    renderItem={renderItem}
-                    contentContainerStyle={{ paddingBottom: 20 }}
-                    showsVerticalScrollIndicator={false}
-                />
+                {loading ? (
+                    <ActivityIndicator size="large" color="#00695c" style={{ marginTop: 20 }} />
+                ) : (
+                    <FlatList
+                        data={prescriptions}
+                        keyExtractor={item => item.id.toString()}
+                        renderItem={renderItem}
+                        contentContainerStyle={{ paddingBottom: 20 }}
+                        showsVerticalScrollIndicator={false}
+                        ListEmptyComponent={<Text style={{ textAlign: 'center', color: '#999', marginTop: 20 }}>No pending prescriptions</Text>}
+                        refreshControl={
+                            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} colors={['#00695c']} />
+                        }
+                    />
+                )}
             </View>
         </View>
     );

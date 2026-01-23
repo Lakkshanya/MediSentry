@@ -18,23 +18,27 @@ import HistoryScreen from './screens/HistoryScreen';
 import PharmacistDashboard from './screens/PharmacistDashboard'; // Renamed
 import VerificationDetailScreen from './screens/VerificationDetailScreen';
 import AdminSummaryScreen from './screens/AdminSummaryScreen';
+import DoctorPrescriptionDetailScreen from './screens/DoctorPrescriptionDetailScreen';
+import AdminAuditTimelineScreen from './screens/AdminAuditTimelineScreen';
 
 const Stack = createStackNavigator();
 
 const AppNav = () => {
-    const { isLoading, userToken } = useContext(AuthContext);
+    const { isLoading, userToken, userInfo } = useContext(AuthContext);
 
     if (isLoading) {
         return (
-            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <ActivityIndicator size="large" />
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#f4f6f8' }}>
+                <ActivityIndicator size="large" color="#1a73e8" />
             </View>
         );
     }
 
+    const userRole = userInfo?.role;
+
     return (
         <NavigationContainer>
-            <Stack.Navigator>
+            <Stack.Navigator screenOptions={{ headerStyle: { backgroundColor: '#1a73e8' }, headerTintColor: '#fff', headerTitleStyle: { fontWeight: 'bold' } }}>
                 {userToken === null ? (
                     <>
                         <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
@@ -44,21 +48,35 @@ const AppNav = () => {
                     </>
                 ) : (
                     <>
-                        {/* Doctor Routes */}
-                        <Stack.Screen name="DoctorHome" component={DoctorHomeScreen} options={{ title: 'Doctor Dashboard' }} />
+                        {/* Role-Based Conditional Stacks */}
+                        {userRole === 'DOCTOR' && (
+                            <>
+                                <Stack.Screen name="DoctorHome" component={DoctorHomeScreen} options={{ title: 'Doctor Dashboard' }} />
+                                <Stack.Screen name="PrescriptionEntry" component={PrescriptionEntryScreen} options={{ title: 'New Prescription' }} />
+                                <Stack.Screen name="RiskResult" component={RiskResultScreen} options={{ title: 'Analysis Result' }} />
+                                <Stack.Screen name="Explanation" component={ExplanationScreen} options={{ title: 'Clinical Explanation' }} />
+                                <Stack.Screen name="AlternativeSuggestion" component={AlternativeSuggestionScreen} options={{ title: 'Safer Alternatives' }} />
+                                <Stack.Screen name="History" component={HistoryScreen} options={{ title: 'Patient History' }} />
+                                <Stack.Screen name="DoctorPrescriptionDetail" component={DoctorPrescriptionDetailScreen} options={{ title: 'Prescription Feedback' }} />
+                            </>
+                        )}
+
+                        {userRole === 'PHARMACIST' && (
+                            <>
+                                <Stack.Screen name="PharmacistHome" component={PharmacistDashboard} options={{ title: 'Pharmacist Dashboard' }} />
+                                <Stack.Screen name="VerificationDetail" component={VerificationDetailScreen} options={{ title: 'Verify Prescription' }} />
+                            </>
+                        )}
+
+                        {userRole === 'ADMIN' && (
+                            <>
+                                <Stack.Screen name="AdminSummary" component={AdminSummaryScreen} options={{ title: 'Hospital Analytics' }} />
+                                <Stack.Screen name="AdminAuditTimeline" component={AdminAuditTimelineScreen} options={{ title: 'Audit Logs' }} />
+                            </>
+                        )}
+
+                        {/* Universal Routes */}
                         <Stack.Screen name="Notifications" component={NotificationsScreen} options={{ title: 'Notifications' }} />
-                        <Stack.Screen name="PrescriptionEntry" component={PrescriptionEntryScreen} options={{ title: 'New Prescription' }} />
-                        <Stack.Screen name="RiskResult" component={RiskResultScreen} options={{ title: 'Analysis Result' }} />
-                        <Stack.Screen name="Explanation" component={ExplanationScreen} options={{ title: 'Clinical Explanation' }} />
-                        <Stack.Screen name="AlternativeSuggestion" component={AlternativeSuggestionScreen} options={{ title: 'Better Alternatives' }} />
-                        <Stack.Screen name="History" component={HistoryScreen} options={{ title: 'Patient History' }} />
-
-                        {/* Pharmacist Routes */}
-                        <Stack.Screen name="PharmacistHome" component={PharmacistDashboard} options={{ title: 'Pharmacist Dashboard' }} />
-                        <Stack.Screen name="VerificationDetail" component={VerificationDetailScreen} options={{ title: 'Verify Prescription' }} />
-
-                        {/* Admin Routes */}
-                        <Stack.Screen name="AdminSummary" component={AdminSummaryScreen} options={{ title: 'Hospital Analytics' }} />
                     </>
                 )}
             </Stack.Navigator>
