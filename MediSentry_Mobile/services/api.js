@@ -3,9 +3,18 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import Constants from 'expo-constants';
 
+// 1. SET YOUR TUNNEL URL HERE (e.g., 'https://something.trycloudflare.com' or 'https://itchy-aliens-bake.loca.lt')
+const TUNNEL_URL = 'https://wow-criticism-mandatory-pediatric.trycloudflare.com';
+
 // Determine the base URL dynamically based on the host's IP
 const getBaseUrl = () => {
-    // 1. Try to get IP from Expo Constants
+    // Priority 1: Use manual tunnel URL if provided
+    if (TUNNEL_URL) {
+        console.log(`[API] Using manual tunnel URL: ${TUNNEL_URL}`);
+        return TUNNEL_URL.endsWith('/api') ? TUNNEL_URL : `${TUNNEL_URL}/api`;
+    }
+
+    // Priority 2: Try to get IP from Expo Constants (works for LAN)
     const debuggerHost = Constants.expoConfig?.hostUri || Constants.manifest2?.extra?.expoGo?.debuggerHost || Constants.manifest?.debuggerHost;
 
     if (debuggerHost) {
@@ -18,15 +27,13 @@ const getBaseUrl = () => {
         }
     }
 
-    // 2. Fallback to host IP and Android Emulator address
+    // Priority 3: Fallback to host IP and Android Emulator address
     // Android Emulator uses 10.0.2.2 to access the host's localhost
-    const LAN_IP = '192.168.1.6'; // Detected host IP
+    const LAN_IP = '10.169.248.203'; // Your current local IP
     const fallbackUrl = `http://${LAN_IP}:8000/api`;
-    
+
     console.warn(`[API] WARNING: Could not detect LAN IP. Falling back to ${LAN_IP}.`);
-    console.warn(`[API] IMPORTANT: If using a real device, ensure it is on the same WiFi as ${LAN_IP}.`);
-    console.warn(`[API] NOTE: If using an Android emulator, you might need to use http://10.0.2.2:8000/api/`);
-    
+
     return fallbackUrl;
 };
 
@@ -35,6 +42,10 @@ const BASE_URL = getBaseUrl();
 const api = axios.create({
     baseURL: BASE_URL,
     timeout: 30000, // Increased to 30 seconds for AI analysis
+    headers: {
+        'Accept': 'application/json',
+        'Bypass-Tunnel-Reminder': 'true', // Still here for backward compatibility with localtunnel
+    }
 });
 
 api.interceptors.request.use(
@@ -60,10 +71,11 @@ api.interceptors.response.use(
             const status = error.response.status;
             const data = error.response.data;
 
+            console.error(`[API] Error Response (${status}):`, data);
+
             if (status === 401) {
                 // Check if this was a login attempt
                 if (error.config?.url?.includes('/token/')) {
-                    // First check if the backend gave a specific reason (e.g. email not verified)
                     const rawMsg = data?.detail || data?.error || data?.message || '';
                     const rawLower = rawMsg.toLowerCase();
                     if (
@@ -71,7 +83,6 @@ api.interceptors.response.use(
                         rawLower.includes('verify your email') ||
                         rawLower.includes('account not verified')
                     ) {
-                        // Pass the backend's message through so AuthContext can detect UNVERIFIED
                         errorMessage = rawMsg;
                     } else {
                         errorMessage = "Incorrect email or password.";
@@ -85,23 +96,21 @@ api.interceptors.response.use(
             } else if (status === 403) {
                 errorMessage = "You do not have permission to perform this action.";
             } else if (status === 404) {
-                errorMessage = "The requested resource was not found.";
+                errorMessage = "The requested resource was not found (404).";
             } else if (status >= 500) {
-                errorMessage = "Server error. Please try again later.";
+                errorMessage = `Server error (${status}). The tunnel might be timing out or the backend crashed.`;
             } else if (data) {
-                // Extract DRF validation errors
-                if (typeof data === 'string') {
+                // If the data is actually an HTML page (tunnel error), detect it
+                if (typeof data === 'string' && data.toLowerCase().includes('<!doctype html>')) {
+                    errorMessage = "Tunnel provider returned an HTML error page. Your tunnel might be blocked or inactive.";
+                } else if (typeof data === 'string') {
                     errorMessage = data;
                 } else if (data.detail) {
                     errorMessage = data.detail;
-                } else if (data.error) {
-                    errorMessage = data.error;
                 } else {
-                    // Combine multiple field errors if present
                     errorMessage = Object.entries(data)
                         .map(([key, val]) => {
                             const msg = Array.isArray(val) ? val.join(', ') : val;
-                            // For common fields, just show the message to be friendlier
                             if (['username', 'password', 'detail', 'non_field_errors', 'error', 'message'].includes(key.toLowerCase())) return msg;
                             return `${key}: ${msg}`;
                         })
@@ -112,10 +121,10 @@ api.interceptors.response.use(
             // The request was made but no response was received
             console.error("[API] Network Error or Timeout:", error.message);
             const attemptedUrl = error.config?.baseURL + (error.config?.url || "");
-            errorMessage = "Connection failed. Please check if your server is running and your laptop/phone are on the same WiFi.\n\nTarget: " + attemptedUrl;
+            errorMessage = `Connection failed to ${attemptedUrl}.\n\nEnsure your tunnel is running in the terminal and your phone has internet access.`;
 
             if (error.code === 'ECONNABORTED') {
-                errorMessage = "The request timed out. The server might be slow.";
+                errorMessage = "The request timed out. The server or tunnel is responding too slowly.";
             }
         } else {
             errorMessage = error.message;

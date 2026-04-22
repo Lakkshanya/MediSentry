@@ -40,7 +40,7 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
     return (
         <SafeAreaView style={styles.container}>
             <StatusBar barStyle="light-content" backgroundColor={Colors.primary} />
-            
+
             <HeaderGradient height={110}>
                 <View style={styles.header}>
                     <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backBtn}>
@@ -51,7 +51,7 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
                 </View>
             </HeaderGradient>
 
-            <ScrollView 
+            <ScrollView
                 style={styles.scrollView}
                 contentContainerStyle={styles.scrollContent}
                 showsVerticalScrollIndicator={false}
@@ -66,7 +66,7 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
                             <Text style={styles.patientName}>{prescription.patient_name || `Patient #${prescription.patient}`}</Text>
                         </View>
                     </View>
-                    
+
                     <View style={styles.badgeRow}>
                         <View style={[styles.badge, { backgroundColor: riskColor + '10', borderColor: riskColor, borderWidth: 1 }]}>
                             <Text style={[styles.badgeText, { color: riskColor }]}>{riskLevel} RISK</Text>
@@ -91,11 +91,11 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
                     <AppCard style={styles.justificationCard}>
                         <Text style={styles.justificationLabel}>PHYSICIAN JUSTIFICATION</Text>
                         <Text style={styles.justificationText}>"{prescription.clinical_justification || 'No clinical justification provided.'}"</Text>
-                        
+
                         {prescription.is_emergency_override && (
                             <View style={styles.emergencyAlert}>
                                 <Ionicons name="warning" size={18} color="#B91C1C" />
-                                <Text style={styles.emergencyText}><Text style={{fontWeight: '800'}}>EMERGENCY OVERRIDE:</Text> {prescription.emergency_reason}</Text>
+                                <Text style={styles.emergencyText}><Text style={{ fontWeight: '800' }}>EMERGENCY OVERRIDE:</Text> {prescription.emergency_reason}</Text>
                             </View>
                         )}
                     </AppCard>
@@ -128,7 +128,7 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
                                 {prescription.risk_analysis_result.interactions.map((int, idx) => (
                                     <View key={idx} style={styles.interactionRow}>
                                         <Text style={styles.interactionText}>
-                                            <Text style={{fontWeight:'700'}}>{int.drug_a}</Text> + <Text style={{fontWeight:'700'}}>{int.drug_b}</Text>
+                                            <Text style={{ fontWeight: '700' }}>{int.drug_a}</Text> + <Text style={{ fontWeight: '700' }}>{int.drug_b}</Text>
                                         </Text>
                                         <Text style={styles.riskDesc}>{int.description || 'Possible adverse interaction detected.'}</Text>
                                     </View>
@@ -174,7 +174,7 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
                         <Text style={styles.statusBlockTitle}>Clinical Status</Text>
                     </View>
                     <Text style={styles.statusBlockText}>
-                        This prescription is currently <Text style={{fontWeight: '800', color: Colors.text}}>{prescription.status}</Text>. 
+                        This prescription is currently <Text style={{ fontWeight: '800', color: Colors.text }}>{prescription.status}</Text>.
                         Review actions are restricted to pharmacy clinical staff to ensure medication safety compliance.
                     </Text>
                 </AppCard>
@@ -183,7 +183,7 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
                     <View style={styles.standaloneActions}>
                         <AppButton
                             variant="danger"
-                            title="Revoke RX"
+                            title="Exit"
                             style={styles.actionBtnFull}
                             onPress={() => handleAction('CANCEL')}
                             loading={loading}
@@ -191,13 +191,13 @@ const DoctorPrescriptionDetailScreen = ({ route, navigation }) => {
                     </View>
                 )}
 
-                    <AppButton
-                        variant="secondary"
-                        title="Modify Manually"
-                        icon={<Ionicons name="create-outline" size={18} color={Colors.primary} />}
-                        style={styles.modifyBtn}
-                        onPress={() => navigation.navigate('PrescriptionEntry', { existingRx: prescription })}
-                    />
+                <AppButton
+                    variant="secondary"
+                    title="Modify Manually"
+                    icon={<Ionicons name="create-outline" size={18} color={Colors.primary} />}
+                    style={styles.modifyBtn}
+                    onPress={() => navigation.navigate('PrescriptionEntry', { existingRx: prescription })}
+                />
             </ScrollView>
         </SafeAreaView>
     );

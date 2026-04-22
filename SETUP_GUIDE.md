@@ -101,6 +101,28 @@ This method bypasses WiFi isolation issues.
     const LAN_IP = 'YOUR_LAPTOP_IP'; // e.g., 192.168.1.5
     ```
 
+### Option 3: Remote / Hotspot Testing (Universal - Recommended)
+Use this if the phone and laptop are on different networks (e.g., Mobile Data).
+1.  **Start a Public Tunnel (Cloudflare):**
+    ```bash
+    npx cloudflared tunnel --url http://localhost:8000
+    ```
+2.  **Get the URL:** Copy the `https://...trycloudflare.com` address it provides.
+3.  **Configure App:** Paste the URL into `MediSentry_Mobile/services/api.js` at the top:
+    ```javascript
+    const TUNNEL_URL = 'https://your-url.trycloudflare.com';
+    ```
+4.  **Restart Expo:** Press `r` in the expo terminal.
+
+### Option 4: ngrok (Most Stable)
+If `localtunnel` is slow or failing:
+1.  **Install & Setup:** [ngrok.com](https://ngrok.com) (requires a free account and token).
+2.  **Run:**
+    ```bash
+    ngrok http 8000
+    ```
+3.  **Configure App:** Paste the `Forwarding` URL into `api.js`'s `TUNNEL_URL`.
+
 ---
 
 ## 4. Troubleshooting
